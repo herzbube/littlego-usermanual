@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1500"
+   height="900"
+   id="svg4152"
+   version="1.1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   viewBox="0 0 1500.0001 900"
+   sodipodi:docname="arrows-and-annotations.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4154">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4932"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4926"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4722"
+       is_visible="true"
+       lpeversion="0" />
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4932-1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4932-2"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4932-9"
+         style="fill:#ffffff;fill-opacity:0.310345;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter5477-6"
+       x="-0.18769753"
+       y="-0.26165061"
+       width="1.4569981"
+       height="1.6234213">
+      <feFlood
+         flood-opacity="0.341176"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5479-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5481-8" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur5483-3" />
+      <feOffset
+         dx="4"
+         dy="4"
+         result="offset"
+         id="feOffset5485-0" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5487-4" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow Fancy Arrow"
+       id="filter5477-6-9"
+       x="-0.08418408"
+       y="-0.037348944"
+       width="1.2049686"
+       height="1.0909378">
+      <feFlood
+         flood-opacity="0.341176"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5479-8-1" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5481-8-5" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur5483-3-3" />
+      <feOffset
+         dx="4"
+         dy="4"
+         result="offset"
+         id="feOffset5485-0-4" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5487-4-7" />
+    </filter>
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect1309"
+       is_visible="true"
+       lpeversion="1.2"
+       linejoin_type="miter"
+       unit="mm"
+       offset="3.8"
+       miter_limit="4"
+       attempt_force_join="true"
+       update_on_knot_move="true" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.80269077"
+     inkscape:cx="441.63956"
+     inkscape:cy="378.10326"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1568"
+     inkscape:window-height="786"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true">
+    <sodipodi:guide
+       position="100.75354,177.81251"
+       orientation="0,-1"
+       id="guide3"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4157">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,-480)">
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle36"
+       cx="1400.7535"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker N circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="1383.8688"
+       y="1316.7285"
+       id="text37"
+       inkscape:label="Marker N label"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         x="1383.8688"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">N</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle35"
+       cx="1300.7535"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker M circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="1281.6324"
+       y="1316.7285"
+       id="text36"
+       inkscape:label="Marker M label"><tspan
+         sodipodi:role="line"
+         id="tspan36"
+         x="1281.6324"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">M</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle33"
+       cx="1200.7535"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker L circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="1190.4313"
+       y="1316.7285"
+       id="text35"
+       inkscape:label="Marker L label"><tspan
+         sodipodi:role="line"
+         id="tspan35"
+         x="1190.4313"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">L</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle32"
+       cx="1100.7535"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker K circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="1085.9196"
+       y="1316.7285"
+       id="text32"
+       inkscape:label="Marker K label"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         x="1085.9196"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">K</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle24"
+       cx="1000.7535"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker J circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="994.72809"
+       y="1316.5234"
+       id="text31"
+       inkscape:label="Marker J label"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         x="994.72809"
+         y="1316.5234"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">J</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle19"
+       cx="900.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker I circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="894.86487"
+       y="1316.7285"
+       id="text19"
+       inkscape:label="Marker I label"><tspan
+         sodipodi:role="line"
+         id="tspan19"
+         x="894.86487"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">I</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle17"
+       cx="800.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker H circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="786.08557"
+       y="1316.7285"
+       id="text18"
+       inkscape:label="Marker H label"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         x="786.08557"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">H</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle1"
+       cx="700.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker G circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="683.90784"
+       y="1316.709"
+       id="text1"
+       inkscape:label="Marker G label"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="683.90784"
+         y="1316.709"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">G</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle30"
+       cx="600.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker F circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="589.61096"
+       y="1316.7285"
+       id="text30"
+       inkscape:label="Marker F label"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         x="589.61096"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">F</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle29"
+       cx="500.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker E circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="488.81995"
+       y="1316.7285"
+       id="text29"
+       inkscape:label="Marker E label"><tspan
+         sodipodi:role="line"
+         id="tspan29"
+         x="488.81995"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">E</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle28"
+       cx="400.75351"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker D circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="385.48007"
+       y="1316.7285"
+       id="text28"
+       inkscape:label="Marker D label"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         x="385.48007"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">D</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle27"
+       cx="300.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker C circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="286.74963"
+       y="1316.7285"
+       id="text27"
+       inkscape:label="Marker C label"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         x="286.74963"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">C</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle26"
+       cx="200.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker B circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="188.18518"
+       y="1316.7285"
+       id="text26"
+       inkscape:label="Marker B label"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         x="188.18518"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">B</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle25"
+       cx="100.75354"
+       cy="1302.1875"
+       r="34.511929"
+       inkscape:label="Marker A circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="85.939087"
+       y="1316.7285"
+       id="text25"
+       inkscape:label="Marker A label"><tspan
+         sodipodi:role="line"
+         id="tspan25"
+         x="85.939087"
+         y="1316.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">A</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle22"
+       cx="1400.7535"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 14 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9;stroke-width:0.999999"
+       x="1375.7146"
+       y="1216.7773"
+       id="text22"
+       inkscape:label="Marker 14 label"><tspan
+         sodipodi:role="line"
+         id="tspan22"
+         x="1375.7146"
+         y="1216.7773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999999">14</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle18"
+       cx="1300.7535"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 13 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9;stroke-width:0.999999"
+       x="1276.5739"
+       y="1216.7285"
+       id="text20"
+       inkscape:label="Marker 13 label"><tspan
+         sodipodi:role="line"
+         id="tspan20"
+         x="1276.5739"
+         y="1216.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999999">13</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle2"
+       cx="1200.7535"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 12 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9;stroke-width:0.999999"
+       x="1176.5543"
+       y="1217.0312"
+       id="text3"
+       inkscape:label="Marker 12 label"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="1176.5543"
+         y="1217.0312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999999">12</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle1-0"
+       cx="1100.7535"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 11 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9;stroke-width:0.999999"
+       x="1080.8219"
+       y="1216.7773"
+       id="text1-7"
+       inkscape:label="Marker 11 label"><tspan
+         sodipodi:role="line"
+         id="tspan1-9"
+         x="1080.8219"
+         y="1216.7773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999999">11</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle23"
+       cx="1000.7535"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 10 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9;stroke-width:0.999999"
+       x="975.30432"
+       y="1216.7188"
+       id="text23"
+       inkscape:label="Marker 10 label"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         x="975.30432"
+         y="1216.7188"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.9999px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999999">10</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle3"
+       cx="900.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 9 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="888.40979"
+       y="1216.7383"
+       id="text12"
+       inkscape:label="Marker 9 label"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="888.40979"
+         y="1216.7383"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">9</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle4"
+       cx="800.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 8 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="788.40979"
+       y="1216.7285"
+       id="text13"
+       inkscape:label="Marker 8 label"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="788.40979"
+         y="1216.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">8</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle5"
+       cx="700.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 7 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="687.52112"
+       y="1216.7285"
+       id="text14"
+       inkscape:label="Marker 7 label"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="687.52112"
+         y="1216.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">7</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle6"
+       cx="600.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 6 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="588.40979"
+       y="1216.6992"
+       id="text15"
+       inkscape:label="Marker 6 label"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         x="588.40979"
+         y="1216.6992"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">6</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle8"
+       cx="500.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 5 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="489.63049"
+       y="1216.4258"
+       id="text16"
+       inkscape:label="Marker 5 label"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="489.63049"
+         y="1216.4258"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">5</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle9"
+       cx="400.75351"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 4 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="389.10312"
+       y="1216.7285"
+       id="text17"
+       inkscape:label="Marker 4 label"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="389.10312"
+         y="1216.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">4</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle10"
+       cx="300.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 3 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="289.44495"
+       y="1216.7285"
+       id="text11"
+       inkscape:label="Marker 3 label"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="289.44495"
+         y="1216.7285"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">3</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle7"
+       cx="200.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 2 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="189.63049"
+       y="1217.0312"
+       id="text10"
+       inkscape:label="Marker 2 label"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="189.63049"
+         y="1217.0312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">2</tspan></text>
+    <circle
+       style="opacity:1;fill:#ffb3b3;fill-opacity:1;stroke:#ff0000;stroke-width:3.66181;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path2"
+       cx="100.75354"
+       cy="1202.1875"
+       r="34.511929"
+       inkscape:label="Marker 1 circle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f9f9f9"
+       x="90.245728"
+       y="1216.7773"
+       id="text2"
+       inkscape:label="Marker 1 label"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="90.245728"
+         y="1216.7773"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter5477-6)"
+       x="1028.9326"
+       y="1058.4507"
+       id="text33"
+       inkscape:label="Greenshot arrow label"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         x="1028.9326"
+         y="1058.4507"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#ffffff;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">Greenshot style</tspan><tspan
+         sodipodi:role="line"
+         x="1028.9326"
+         y="1108.4507"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#ffffff;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="tspan34">arrow</tspan></text>
+    <path
+       style="fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5477-6)"
+       d="m 752.09634,1068.5309 25.00002,-29.9999 v 18 l 225.00004,8 v 8 l -225.00004,8 v 18 z"
+       id="path33"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Greenshot arrow" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:2.52525;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter5477-6)"
+       x="947.08252"
+       y="1006.0854"
+       id="text7613-8-2"
+       transform="matrix(0.99,0,0,0.99,90.726826,-89.81107)"
+       inkscape:label="Fancy arrow label"><tspan
+         sodipodi:role="line"
+         id="tspan7615-5-4"
+         x="947.08252"
+         y="1006.0854"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.99999845px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke:#ffffff;stroke-width:2.52525;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">Fancy custom</tspan><tspan
+         sodipodi:role="line"
+         x="947.08252"
+         y="1056.0854"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.99999845px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;stroke:#ffffff;stroke-width:2.52525;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="tspan4465">arrow</tspan></text>
+    <path
+       style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5477-6-9)"
+       d="m 832.86011,907.92761 0.008,73.6095 16.51069,-13.0661 33.24547,185.77349 c 21.24393,-15.3989 46.76869,-18.1534 59.52016,-16.1285 l -81.30054,-174.01689 21.03125,-1.2491 z"
+       id="rect6871-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       transform="rotate(-52.549937,707.7163,943.71868)"
+       inkscape:label="Fancy arrow" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter5477-6)"
+       x="1028.9326"
+       y="788.45062"
+       id="text7613-8"
+       inkscape:label="Curved arrow label"><tspan
+         sodipodi:role="line"
+         id="tspan7615-5"
+         x="1028.9326"
+         y="788.45062"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#ffffff;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">Curved arrow</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-7);filter:url(#filter5477-6)"
+       d="M 1155.3997,743.11988 C 1144.97,724.2133 926.4579,614.25512 758.27015,727.34279"
+       id="path4899-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:label="Curved arrow" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter5477-6)"
+       x="878.25421"
+       y="602.87097"
+       id="text7613"
+       inkscape:label="Straight arrow label"><tspan
+         sodipodi:role="line"
+         id="tspan7615"
+         x="878.25421"
+         y="602.87097"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke:#ffffff;stroke-width:2.5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers">Straight arrow</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.310345;fill-rule:evenodd;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend);filter:url(#filter5477-6)"
+       d="M 860.6102,574.8958 758.10847,531.4237"
+       id="path4899"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:label="Straight arrow" />
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5477-6)"
+       d="m 519.4262,565.28963 0.008,73.60943 16.51069,-13.0661 14.28609,37.4655 11.46509,-4.3718 -14.28609,-37.4656 21.03125,-1.2491 z"
+       id="rect6871"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc"
+       inkscape:label="Mouse cursor" />
+    <rect
+       style="opacity:1;fill:#ff0000;fill-opacity:0.30000001;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7812"
+       width="568.54297"
+       height="143.51097"
+       x="66.910706"
+       y="736.03723"
+       rx="20"
+       ry="20"
+       inkscape:label="Rounded rectangle" />
+    <ellipse
+       style="opacity:1;fill:#ff0000;fill-opacity:0.30000001;stroke:#ff0000;stroke-width:5;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path1"
+       cx="233.31696"
+       cy="615.40588"
+       rx="166.40625"
+       ry="59.104279"
+       inkscape:label="Ellipse" />
+    <rect
+       style="fill:#bccaf7;fill-opacity:1;stroke:none;stroke-width:9.18;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.02079"
+       id="rect18"
+       width="648.21906"
+       height="173.37865"
+       x="64.410706"
+       y="931.38776" />
+    <rect
+       style="opacity:1;fill:#ffcccc;fill-opacity:1;stroke:#ff0000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="244.36652"
+       height="100.71176"
+       x="112.76935"
+       y="967.72119"
+       rx="61.091629"
+       ry="50.355881"
+       inkscape:label="Rounded rectangle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;fill:#f81418;fill-opacity:1"
+       x="174.55222"
+       y="1032.9794"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="174.55222"
+         y="1032.9794">Label</tspan></text>
+    <g
+       id="g18"
+       transform="translate(88.21905,190.28434)">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.93152;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="ellipse5"
+         cx="510.2262"
+         cy="827.79272"
+         rx="47.66814"
+         ry="47.659313"
+         inkscape:label="Ellipse" />
+      <ellipse
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:6.11991;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+         id="ellipse4"
+         cx="510.2262"
+         cy="827.79272"
+         rx="36.780972"
+         ry="36.774162"
+         inkscape:label="Ellipse" />
+    </g>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:8.19411;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="M 354.9994,1018.077 H 550.77711"
+       id="path23" />
+  </g>
+</svg>

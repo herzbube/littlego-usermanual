@@ -1,0 +1,25 @@
+# ------------------------------------------------------------
+# See HugoConfiguration.md for details why certain options are set.
+# ------------------------------------------------------------
+
+baseURL = 'https://littlego-usermanual.herzbube.ch/'
+languageCode = 'en-us'
+title = 'Little Go User Manual'
+theme = "hugo-geekdoc"
+
+relativeURLs = true
+uglyURLs = true
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+[security]
+  [security.exec]
+    allow = ['^asciidoctor$']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

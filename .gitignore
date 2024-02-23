@@ -1,0 +1,11 @@
+# Hugo theme
+littlego-usermanual/themes/hugo-geekdoc
+
+# Generated website
+littlego-usermanual/public
+
+# Cache files created during generation of website
+littlego-usermanual/resources
+
+# Archive for offline browsing
+littlego-usermanual*.zip
