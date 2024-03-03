@@ -31,6 +31,6 @@ Because the iPhone and iPad user interfaces are very similar, or even identical,
 1. A box with controls for annotating the currently selected node. [Read more]({{< relref "game-editing/annotations" >}}).
 1. The list of nodes of the currently selected game variation. Because no moves have been played yet there is only a single node: The root node which represents the start of the game. [Read more]({{< relref "game-organization/current-game-variation" >}}).
 1. A tree view that shows all nodes of all game variations of the currently loaded game. Because no moves have been played yet there is only the root node of the tree. [Read more]({{< relref "game-organization/game-variations" >}}).
-1. A tab bar which lets you switch between different areas of the app. The currently selected area where the Go board is located is the "Play" area. [Read more]({{< relref "ui-basics/tab-bar" >}}).
+1. A tab bar which lets you switch between different areas of the app. The currently selected area where the Go board is located is the Play {{< icon "gogrid2x2" >}} area. [Read more]({{< relref "ui-basics/tab-bar" >}}).
 
 {{< /columns >}}

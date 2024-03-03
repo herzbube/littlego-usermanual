@@ -1,0 +1,18 @@
+<svg width="0" height="0" class="hidden">
+  <symbol version="1.1" x="0px" y="0px" id="changelog" sodipodiDocname="changelog.svg" inkscapeVersion="1.3.2 (091e20e, 2023-11-25)" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsSketch="http://www.bohemiancoding.com/sketch/ns" viewBox="0 0 80 80">
+    <defs id="defs2"></defs>
+    <sodipodi:namedview id="namedview2" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapeShowpageshadow="2" inkscapePageopacity="0.0" inkscapePagecheckerboard="0" inkscapeDeskcolor="#d1d1d1" inkscapeZoom="2.95" inkscapeCx="35.932203" inkscapeCy="53.389831" inkscapeWindowWidth="728" inkscapeWindowHeight="480" inkscapeWindowX="0" inkscapeWindowY="25" inkscapeWindowMaximized="0" inkscapeCurrentLayer="svg2"></sodipodi:namedview>
+    <title id="title1">Slice 1</title>
+    <desc id="desc1">Created with Sketch.</desc>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketchType="MSPage" id="g1" transform="matrix(1.2692308,0,0,1.2692308,-0.6153856,0.0192298)">
+      <path d="M 19.446747,44 H 56 v 5 H 19.500904 C 20.093319,50.943071 21,53 21,53 L 6,46.5 21,40 c 0,0 -0.963771,1.989896 -1.553253,4 z M 44.51428,14 H 17 v 5 H 44.538543 C 43.947887,20.98952 43,23 43,23 L 58,16.5 43,10 c 0,0 0.922312,2.040449 1.51428,4 z M 17,29 h 39 v 5 H 17 Z m -7,0 h 5 v 5 h -5 z m 0,-15 h 5 v 5 h -5 z" fill="#000000" sketchType="MSShapeGroup" id="path1"></path>
+    </g>
+    <metadata id="metadata2">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:title>Slice 1</dc:title>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+  </symbol>
+</svg>

@@ -26,17 +26,17 @@ The following screenshot is from an iPhone SE, showing all UI areas of the app a
 
 <--->
 
-1. The "Play" area. This is the main focus area of the app where you see the Go board and play the game.
-1. The "Settings" area. Here you find many options for customizing the app's behaviour. [Read more]({{< relref "settings" >}}).
-1. The "Archive" area. In this area you manage your saved games, or games imported from external sources. [Read more]({{< relref "game-organization/game-archive" >}}).
-1. The "Help" area contains the in-app user manual, i.e. the content you are reading now.
+1. The Play {{< icon "gogrid2x2" >}} area. This is the main focus area of the app where you see the Go board and play the game.
+1. The Settings {{< icon "settings" >}} area. Here you find many options for customizing the app's behaviour. [Read more]({{< relref "settings" >}}).
+1. The Archive {{< icon "archive" >}} area. In this area you manage your saved games, or games imported from external sources. [Read more]({{< relref "game-organization/game-archive" >}}).
+1. The Help {{< icon "help" >}} area contains the in-app user manual, i.e. the content you are reading now.
 1. The "More" tab lists the user interface areas that did not fit on the tab bar. Tapping on a list entry calls up the user interface for that area in the same way as if it were a tab.
-1. The "Diagnostics" area. Here you find functionality that you will, hopefully, use only in rare cases: Submit bug reports, crash report settings, check on the communication with Fuego, etc. [Read more]({{< relref "diagnostics" >}}).
-1. The "About" area contains version and license information about the app and the software components and icons that were used to make the app.
-1. The "Source Code" area contains information where you can obtain the source of Little Go.
-1. In the "Licenses" area you can read the actual license texts of the software licenses that were mentioned in the "About" area.
-1. In the "Credits" area you find acknowledgments of all project contributions and inspirations.
-1. Finally, the "Changelog" area contains an overview of what changed in each new version of Little Go.
+1. The Diagnostics {{< icon "diagnostics" >}} area. Here you find functionality that you will, hopefully, use only in rare cases: Submit bug reports, crash report settings, check on the communication with Fuego, etc. [Read more]({{< relref "diagnostics" >}}).
+1. The About {{< icon "about" >}} area contains version and license information about the app and the software components and icons that were used to make the app.
+1. The Source Code {{< icon "source-code" >}} area contains information where you can obtain the source of Little Go.
+1. In the Licenses {{< icon "licenses" >}} area you can read the actual license texts of the software licenses that were mentioned in the "About" area.
+1. In the Credits {{< icon "credits" >}} area you find acknowledgments of all project contributions and inspirations.
+1. Finally, the Changelog {{< icon "changelog" >}} area contains an overview of what changed in each new version of Little Go.
 1. Tapping the "Edit" button lets you change which UI areas you want to see in the tab bar. Continue reading for more information.
 
 {{< /columns >}}

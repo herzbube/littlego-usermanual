@@ -10,19 +10,19 @@ resources:
     title: Toolbar "Play" area, landscape orientation
 ---
 
-The "Play" user interface area displays a toolbar with buttons that perform various actions. An overview of the general toolbar organization is given in the next section, while the section after that provides a reference of all the buttons that can appear in the toolbar, and what they do.
+The Play {{< icon "gogrid2x2" >}} user interface area displays a toolbar with buttons that perform various actions. An overview of the general toolbar organization is given in the next section, while the section after that provides a reference of all the buttons that can appear in the toolbar, and what they do.
 
 {{< toc >}}
 
 ## Toolbar organization
 
-This is how the "Play" area toolbar looks like on an iPhone when you hold the device in portrait orientation. On the iPad the toolbar is wider but in general has the same content.
+This is how the Play {{< icon "gogrid2x2" >}} area toolbar looks like on an iPhone when you hold the device in portrait orientation. On the iPad the toolbar is wider but in general has the same content.
 
 {{< img name="play-toolbar-portrait" size="origin" lazy=false >}}
 
 The toolbar has 3 areas:
 
-1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the mode that the "Play" area is in (e.g. Play mode, Scoring mode, etc.).
+1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the mode that is currently active in the Play {{< icon "gogrid2x2" >}} area is in (e.g. Play {{< icon "gogrid2x2" >}} mode, Scoring {{< icon "scoring" >}} mode, etc.).
 1. At the toolbar center there is the [Status Text area]({{< relref "../play-status-text" >}}) that shows context information about the activity that is going on at the moment. Some examples are: The current status of the ongoing game, the next action you can take, a summary score, etc.
 1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info screen]({{< relref "other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "ui-basics/play-menu" >}}).
 
@@ -57,7 +57,7 @@ The reason for the different landscape layout is that in landscape orientation t
 
 ### Play mode
 
-The following buttons can appear in the left toolbar area while [Play mode]({{< relref "../play-area-modes" >}}) is active in the "Play" area.
+The following buttons can appear in the left toolbar area while [Play {{< icon "gogrid2x2" >}} mode]({{< relref "../play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
@@ -68,37 +68,37 @@ The following buttons can appear in the left toolbar area while [Play mode]({{< 
 | <span class="littlego-icon">{{< icon "pause" >}}</span> | Pause | This button is only shown in a computer vs. computer game. Tapping the button lets the computer player whose turn it is finish the move, then pauses the game. |
 | <span class="littlego-icon">{{< icon "continue" >}}</span> | Continue | This button is only shown in a computer vs. computer game, when the game is paused. Tapping the button lets the computer players continue with the paused game. |
 | <span class="littlego-icon">{{< icon "interrupt" >}}</span> | Interrupt | This button is shown whenever the computer player is calculating something, e.g. when it is thinking about its own move or when it tries to come up with a move suggestion for you. Tapping the button cuts short the computer player's thinking, forcing it to play or suggest the best move it has calculated so far. |
-| <span class="littlego-icon">{{< icon "scoring" >}}</span> | Scoring Mode | Tapping this button activates Scoring mode. The button is shown only if the game has ended **and** the "Play" area is in Play mode. |
+| <span class="littlego-icon">{{< icon "scoring" >}}</span> | Scoring Mode | Tapping this button activates Scoring {{< icon "scoring" >}} mode. The button is shown only if the game has ended **and** the Play {{< icon "gogrid2x2" >}} area is in Play {{< icon "gogrid2x2" >}} mode. |
 
 ### Scoring mode
 
-The following buttons can appear in the left toolbar area while [Scoring mode]({{< relref "../play-area-modes" >}}) is active in the "Play" area.
+The following buttons can appear in the left toolbar area while [Scoring {{< icon "scoring" >}} mode]({{< relref "../play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
-| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Scoring mode and instead activates Play mode. |
+| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Scoring {{< icon "scoring" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode. |
 | <span class="littlego-icon">{{< icon "discard" >}}</span> | Discard Node | Discards the most recent node (typically a move) that led to the board position that you are currently viewing. |
 
 ### Board setup mode
 
-The following buttons can appear in the left toolbar area while [Board setup mode]({{< relref "../play-area-modes" >}}) is active in the "Play" area.
+The following buttons can appear in the left toolbar area while [Board setup {{< icon "board-setup" >}} mode]({{< relref "../play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
 | <span class="littlego-icon">{{< icon "stone-black-icon" >}}</span> | Switch Setup Stone Color to Black | This button is displayed when the default color for new setup stones is currently white. Tapping the button switches the default color for new setup stones from white to black. |
 | <span class="littlego-icon">{{< icon "stone-white-icon" >}}</span> | Switch Setup Stone Color to Black | This button is displayed when the default color for new setup stones is currently black. Tapping the button switches the default color for new setup stones from black to white. |
 | <span class="littlego-icon">{{< icon "trashcan" >}}</span> | Discard all Setup Information | This button is displayed only if there is at least one piece of setup information present (at least one setup stone is on the board, or a side to play first has been set up). Tapping the button discards all setup information. |
-| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Board setup mode and instead activates Play mode. |
+| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Board setup {{< icon "board-setup" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode. |
 
 ### Markup editing mode
 
-The following buttons can appear in the left toolbar area while [Markup editing mode]({{< relref "../play-area-modes" >}}) is active in the "Play" area.
+The following buttons can appear in the left toolbar area while [Markup editing {{< icon "markup" >}} mode]({{< relref "../play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
-| Variable | Select Markup Type | Tapping this button pops up a menu that lets you choose what kind of markup you want to place from now on when you interact with the board. The icon used for the button is variable and reflects which markup type is currently selected. |
+| Variable | Select Markup Type | Tapping this button pops up a menu that lets you choose what kind of markup you want to place from now on when you interact with the board. The icon used for the button is variable and reflects which markup type is currently selected. See the table below for details. |
 | <span class="littlego-icon">{{< icon "trashcan" >}}</span> | Discard all Markup | This button is displayed only if there is at least one piece of markup present in the current node. Tapping the button discards all markup. |
-| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Markup editing mode and instead activates Play mode. |
+| <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Markup editing {{< icon "markup" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode. |
 
 These are the markup types that you can choose from when you tap the Select Markup Type button:
 

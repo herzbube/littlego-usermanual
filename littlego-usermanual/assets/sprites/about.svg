@@ -1,0 +1,13 @@
+<svg class="svg-sprite" width="0" height="0" class="hidden">
+  <symbol version="1.1" id="about" x="0px" y="0px" enable-background="new 0 0 100 100" xml:space="preserve" sodipodiDocname="about.svg" inkscapeVersion="1.3.2 (091e20e, 2023-11-25)" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg" viewBox="5 -10 80 108">
+    <defs id="defs3"></defs>
+    <sodipodi:namedview id="namedview3" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapeShowpageshadow="2" inkscapePageopacity="0.0" inkscapePagecheckerboard="0" inkscapeDeskcolor="#d1d1d1" inkscapeZoom="2.36" inkscapeCx="41.101695" inkscapeCy="39.194915" inkscapeWindowWidth="1056" inkscapeWindowHeight="654" inkscapeWindowX="0" inkscapeWindowY="25" inkscapeWindowMaximized="0" inkscapeCurrentLayer="Layer_1"></sodipodi:namedview>
+    <g id="g3" transform="translate(-1.433332,0.9)">
+      <g id="g1" transform="translate(-3.566666,-6.9)">
+        <path d="m 49.898,34.052 c 1.785,0 3.231,-0.472 4.297,-1.402 1.109,-0.966 1.672,-2.273 1.672,-3.886 0,-1.611 -0.562,-2.919 -1.671,-3.885 -1.068,-0.932 -2.515,-1.403 -4.298,-1.403 -1.685,0 -3.102,0.467 -4.212,1.388 -1.166,0.967 -1.756,2.278 -1.756,3.9 0,1.623 0.591,2.936 1.756,3.9 1.108,0.921 2.526,1.388 4.212,1.388 z" id="path1"></path>
+        <polygon points="54.573,38.79 40.39,38.79 40.39,44.193 45.426,44.193 45.426,71.121 40.39,71.121 40.39,76.524 59.61,76.524 59.61,71.121 54.573,71.121 " id="polygon1"></polygon>
+      </g>
+      <path d="m 46.433333,3.1 c 22.056,0 39.999997,17.944 39.999997,40 0,22.056 -17.943997,40 -39.999997,40 -22.056,0 -39.999999,-17.944 -39.999999,-40 0,-22.056 17.943999,-40 39.999999,-40 m 0,-5 c -24.853,0 -44.999999,20.147 -44.999999,45 0,24.853 20.146999,45 44.999999,45 24.853,0 44.999997,-20.147 44.999997,-45 0,-24.853 -20.146997,-45 -44.999997,-45 z" id="path2"></path>
+    </g>
+  </symbol>
+</svg>
