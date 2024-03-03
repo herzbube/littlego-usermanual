@@ -1,13 +1,13 @@
 ---
-title: Toolbar in the "Play" area
+title: Toolbar in the Play area
 weight: 200
 resources:
   - name: play-toolbar-portrait
     src: "play-toolbar-portrait.svg"
-    title: Toolbar "Play" area, portrait orientation
+    title: Toolbar Play area, portrait orientation
   - name: play-toolbar-landscape
     src: "play-toolbar-landscape.svg"
-    title: Toolbar "Play" area, landscape orientation
+    title: Toolbar Play area, landscape orientation
 ---
 
 The Play {{< icon "gogrid2x2" >}} user interface area displays a toolbar with buttons that perform various actions. An overview of the general toolbar organization is given in the next section, while the section after that provides a reference of all the buttons that can appear in the toolbar, and what they do.

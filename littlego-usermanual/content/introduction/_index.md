@@ -5,7 +5,7 @@ weight: 0
 
 Little Go lets you play the game of Go on the iPhone or iPad. If you don't know the rules of Go you can find a very short introduction in the [Go rules]({{< relref "appendix/go-rules" >}}) appendix. For a more thorough approach I recommend visiting one of the many websites dedicated to the game; my personal favourite is [Sensei's Library](https://senseis.xmp.net/).
 
-When you launch the app it displays the same area of the user interface that was last active in your previous session. Usually this is the "Play" area, i.e. the area that shows the Go board. The app also restores the game as it was when you played the last time, so there is no need to manually save the game unless you want to archive it for reviewing it at a later time.
+When you launch the app it displays the same area of the user interface that was last active in your previous session. Usually this is the Play {{< icon "gogrid2x2" >}} area, i.e. the area that shows the Go board. The app also restores the game as it was when you played the last time, so there is no need to manually save the game unless you want to archive it for reviewing it at a later time.
 
 If this is the very first time that you run Little Go, it will start a completely new game with these default settings:
 
