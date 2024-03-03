@@ -14,7 +14,7 @@ Recommended on macOS is to install Hugo via Homebrew:
 
 On other platforms use the package manager of your choice to install Hugo.
 
-### Geekdoc theme
+### Hugo theme
 
 The Hugo site configuration of this project uses the [Geekdoc](https://geekdocs.de/) theme.
 
@@ -27,6 +27,14 @@ curl -L https://github.com/thegeeklab/hugo-geekdoc/releases/latest/download/hugo
 ```
 
 On other platforms use your familiar tools to download and extract the tarball. You know that you got it right if you see the file `theme.toml` in the folder `littlego-usermanual/themes/hugo-geekdoc`.
+
+### Customize Hugo theme
+
+This project requires a bit of customization to the Hugo theme. After the theme is installed run the following script:
+
+    ./script/customize-hugo-theme.sh
+
+At the moment the customization consists only of copying a custom CSS file into the appropriate location within the theme folder structure. The custom CSS file can be found in `assets/css/custom.css`. **Important:** After you change something in that file you need to run the script again.
 
 ### AsciiDoctor
 

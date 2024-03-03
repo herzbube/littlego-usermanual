@@ -1,0 +1,18 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://creativecommons.org/ns#" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="stone-black-icon" inkscapeVersion="0.92.2 5c3e80d, 2017-08-06" sodipodiDocname="black-stone.svg" viewBox="0 0 30.000001 30.000001">
+    <defs id="defs885"></defs>
+    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapePageopacity="0.0" inkscapePageshadow="2" inkscapeZoom="5.6" inkscapeCx="25.516133" inkscapeCy="56.248807" inkscapeDocumentUnits="mm" inkscapeCurrentLayer="layer1" showgrid="false" fitMarginTop="0" fitMarginLeft="0" fitMarginRight="0" fitMarginBottom="0" inkscapeWindowWidth="1627" inkscapeWindowHeight="1005" inkscapeWindowX="0" inkscapeWindowY="1" inkscapeWindowMaximized="1"></sodipodi:namedview>
+    <metadata id="metadata888">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <g inkscapeLabel="Layer 1" inkscapeGroupmode="layer" id="layer1" transform="translate(-96.04388,-29.290775)">
+      <path inkscapeConnectorCurvature="0" id="path16" d="m 111.65433,52.015012 c 4.60386,0 8.33466,-3.731366 8.33466,-8.334658 0,-4.602723 -3.7308,-8.33466 -8.33466,-8.33466 -4.60273,0 -8.33468,3.732508 -8.33468,8.33466 -5.8e-4,4.603292 3.73195,8.334658 8.33468,8.334658 z M 109.9236,37.597981 c -2.45429,2.863434 -2.73504,7.668161 -0.9153,11.255726 0,0 -2.87885,-1.621732 -2.76757,-5.685782 0.10499,-3.770169 3.68287,-5.569944 3.68287,-5.569944 z" inkscapeExportFilename="/Users/patrick/dev/littlego/resource/icon/go-motifs/black-stone@3x.png" inkscapeExportXdpi="96" inkscapeExportYdpi="96"></path>
+    </g>
+  </symbol>
+</svg>

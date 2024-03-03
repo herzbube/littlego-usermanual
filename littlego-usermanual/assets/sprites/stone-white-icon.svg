@@ -1,0 +1,19 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://creativecommons.org/ns#" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="stone-white-icon" inkscapeVersion="0.92.2 5c3e80d, 2017-08-06" sodipodiDocname="white-stone.svg" viewBox="0 0 30.000001 30.000001">
+    <defs id="defs885"></defs>
+    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapePageopacity="0.0" inkscapePageshadow="2" inkscapeZoom="3.959798" inkscapeCx="19.195574" inkscapeCy="45.429388" inkscapeDocumentUnits="mm" inkscapeCurrentLayer="layer1" showgrid="false" fitMarginTop="0" fitMarginLeft="0" fitMarginRight="0" fitMarginBottom="0" inkscapeWindowWidth="1627" inkscapeWindowHeight="1005" inkscapeWindowX="0" inkscapeWindowY="1" inkscapeWindowMaximized="1"></sodipodi:namedview>
+    <metadata id="metadata888">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+          <dc:title></dc:title>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <g inkscapeLabel="Layer 1" inkscapeGroupmode="layer" id="layer1" transform="translate(-96.04388,-29.290775)">
+      <path d="m 110.64165,34.918619 c -4.59497,0 -8.33424,3.738074 -8.33424,8.333633 0,4.595559 3.73927,8.333633 8.33424,8.333633 4.59497,0 8.33423,-3.738667 8.33423,-8.333633 0,-4.595559 -3.73869,-8.333633 -8.33423,-8.333633 z m 0,16.036748 c -4.24772,0 -7.70372,-3.456001 -7.70372,-7.703708 0,-4.247114 3.456,-7.703115 7.70372,-7.703115 4.24771,0 7.70371,3.456001 7.70371,7.703115 0,4.247707 -3.456,7.703708 -7.70371,7.703708 z" id="path67" inkscapeConnectorCurvature="0" inkscapeExportFilename="/Users/patrick/dev/littlego/resource/icon/go-motifs/white-stone.png" inkscapeExportXdpi="96" inkscapeExportYdpi="96"></path>
+      <path d="m 105.11868,42.749735 c -0.1114,4.053333 2.70341,5.685334 2.82312,5.752891 l 0.90606,0.510224 -0.47051,-0.927411 c -1.72681,-3.402666 -1.36593,-7.908744 0.83912,-10.4806 l 1.02222,-1.191701 -1.40268,0.705184 c -0.14814,0.07465 -3.61304,1.859557 -3.71733,5.631413 z m 2.17245,4.400596 c -0.73126,-0.786966 -1.60237,-2.192004 -1.54194,-4.383412 0.0521,-1.882667 1.07615,-3.237928 1.98164,-4.073485 -1.2717,2.43852 -1.44949,5.636745 -0.4397,8.456897 z" id="path69" inkscapeConnectorCurvature="0" inkscapeExportFilename="/Users/patrick/dev/littlego/resource/icon/go-motifs/white-stone.png" inkscapeExportXdpi="96" inkscapeExportYdpi="96"></path>
+    </g>
+  </symbol>
+</svg>
