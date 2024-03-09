@@ -24,7 +24,7 @@ The toolbar has 3 areas:
 
 1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the mode that is currently active in the Play {{< icon "gogrid2x2" >}} area is in (e.g. Play {{< icon "gogrid2x2" >}} mode, Scoring {{< icon "scoring" >}} mode, etc.).
 1. At the toolbar center there is the [Status Text area]({{< relref "../play-status-text" >}}) that shows context information about the activity that is going on at the moment. Some examples are: The current status of the ongoing game, the next action you can take, a summary score, etc.
-1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info screen]({{< relref "other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "ui-basics/play-menu" >}}).
+1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info screen]({{< relref "../../other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "../play-menu" >}}).
 
 ---
 
@@ -52,8 +52,8 @@ The reason for the different landscape layout is that in landscape orientation t
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
-| <span class="littlego-icon">{{< icon "game-info" >}}</span> | Game Info | The button calls up the [Game Info screen]({{< relref "other-features/game-info-screen" >}}). |
-| <span class="littlego-icon">{{< icon "menu-hamburger" >}}</span> | Menu | The button calls up the [Play menu]({{< relref "ui-basics/play-menu" >}}). |
+| <span class="littlego-icon">{{< icon "game-info" >}}</span> | Game Info | The button calls up the [Game Info screen]({{< relref "../../other-features/game-info-screen" >}}). |
+| <span class="littlego-icon">{{< icon "menu-hamburger" >}}</span> | Menu | The button calls up the [Play menu]({{< relref "../play-menu" >}}). |
 
 ### Play mode
 
