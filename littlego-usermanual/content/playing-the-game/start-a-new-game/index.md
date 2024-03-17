@@ -160,7 +160,9 @@ Komi is hidden away on the "Advanced settings" screen because it is usually auto
 - Selecting a handicap sets komi to ½. Selecting no handicap sets komi back to the current scoring system's default. While a handicap is selected, changing the scoring system has no effect on komi.
 
 {{< hint type=note >}}
-It is recommended to leave the komi setting alone and let the app manage it automatically. When the two players are not of equal strength it is recommended that the stronger player give the weaker player [a handicap](#handicap) instead of adjusting komi.
+It is **strongly** recommended to leave the komi setting alone and let the app manage it automatically. When the two players are not of equal strength it is recommended that the stronger player give the weaker player [a handicap](#handicap) instead of adjusting komi.
+
+Also note that when handicap is given and area scoring is used the app will automatically add 1 compensation point per handicap stone to white's score, so using any komi other than 0 or 0.5 points in a handicap game is likely to gravely skew the final score.
 {{< /hint >}}
 
 If you *do* decide to adjust komi, then the app offers you the following choices:
@@ -192,26 +194,14 @@ If you want to know more about simple ko, superko, or repeating cycles in genera
 
 The app lets you choose between two scoring systems to determine the final score after the game ends:
 
-- Area scoring. In this scoring system a player's score is calculated as follows:
-  - The number of empty points which only the player's stones surround.
-  - Plus the number of the player's stones on the board.
-- Territory scoring. In this scoring system a player's score is calculated as follows:
-  - The number of empty points which only the player's stones surround.
-  - Minus the number of empty points surrounded in seki (depending on the rule set) .
-  - Minus the number of the player's stones that have been killed (whether captured during the game, or removed from the board as dead stones at the end of the game).
+- Area scoring
+- Territory scoring
 
-Komi is added to white's score in both scoring systems.
+A summary of how the two scoring system work can be found on the [Scoring]({{< relref "../scoring#area-scoring-and-territory-scoring-revisited" >}}) page of this manual.
 
 {{< hint type=important >}}
 It is strongly recommended that you play with area scoring, because the computer player (Fuego) does not properly support territory scoring. [Read more]({{< relref "../scoring#why-area-scoring-is-the-default" >}}).
 {{< /hint >}}
-
-It is beyond the scope of this manual to explain the finer details that arise from the differences between the two scoring systems. Here are just two key points:
-
-- When area scoring is in effect a player can place a stone in their own territory without negatively impacting their own score, whereas when territory scoring is in effect a stone placed within a player's territory reduces that player's score by 1.
-- When area scoring is in effect, placing a stone in neutral territory adds 1 point to the player's score, whereas when territory scoring is in effect a stone placed into neutral territory has no effect on the player's score.
-
-The best way to find out more about the two scoring systems is to practice and play a few games. Also recommended is [Sensei's Library](https://senseis.xmp.net/?Scoring).
 
 ### Life & Death Settling rule 
 
