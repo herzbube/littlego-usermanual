@@ -85,7 +85,7 @@ The following buttons can appear in the left toolbar area while [Board setup {{<
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
-| <span class="littlego-icon">{{< icon "stone-black-icon" >}}</span> | Switch Setup Stone Color to Black | This button is displayed when the default color for new setup stones is currently white. Tapping the button switches the default color for new setup stones from white to black. |
+| <span class="littlego-icon">{{< icon "stone-black-icon" >}}</span> | Switch Setup Stone Color to White | This button is displayed when the default color for new setup stones is currently black. Tapping the button switches the default color for new setup stones from black to white. |
 | <span class="littlego-icon">{{< icon "stone-white-icon" >}}</span> | Switch Setup Stone Color to Black | This button is displayed when the default color for new setup stones is currently black. Tapping the button switches the default color for new setup stones from black to white. |
 | <span class="littlego-icon">{{< icon "trashcan" >}}</span> | Discard all Setup Information | This button is displayed only if there is at least one piece of setup information present (at least one setup stone is on the board, or a side to play first has been set up). Tapping the button discards all setup information. |
 | <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Board setup {{< icon "board-setup" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode. |
