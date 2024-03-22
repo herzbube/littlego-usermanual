@@ -1,0 +1,20 @@
+<svg width="0" height="0" class="hidden">
+  <symbol version="1.1" id="stones-overlapping-black-icon" inkscapeVersion="1.1.2 (b8e25be8, 2022-02-05)" sodipodiDocname="stones-overlapping-black-icon.svg" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlnsSvg="http://www.w3.org/2000/svg" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsCc="http://creativecommons.org/ns#" xmlnsDc="http://purl.org/dc/elements/1.1/" viewBox="0 0 23.284205 17.463069">
+    <defs id="defs885"></defs>
+    <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscapePageopacity="0.0" inkscapePageshadow="2" inkscapeZoom="14.758321" inkscapeCx="37.639783" inkscapeCy="34.522897" inkscapeDocumentUnits="px" inkscapeCurrentLayer="layer1" showgrid="false" fitMarginTop="0" fitMarginLeft="0" fitMarginRight="0" fitMarginBottom="0" inkscapeWindowWidth="1612" inkscapeWindowHeight="997" inkscapeWindowX="0" inkscapeWindowY="25" inkscapeWindowMaximized="1" inkscapePagecheckerboard="0"></sodipodi:namedview>
+    <metadata id="metadata888">
+      <rdf:RDF>
+        <cc:Work rdfAbout="">
+          <dc:format>image/svg+xml</dc:format>
+          <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        </cc:Work>
+      </rdf:RDF>
+    </metadata>
+    <g inkscapeLabel="Layer 1" inkscapeGroupmode="layer" id="layer1" transform="translate(-102.92253,-34.948819)">
+      <g id="g5706">
+        <path id="path16" d="m 111.6543,35.345703 c -4.60273,0 -8.3349,3.732739 -8.3349,8.334891 -5.8e-4,4.603292 3.73217,8.334375 8.3349,8.334375 1.02388,0 2.00433,-0.18531 2.91041,-0.522966 -3.16777,-1.180724 -5.42441,-4.232045 -5.42396,-7.811409 0,-3.578477 2.25632,-6.630938 5.42396,-7.811926 -0.90608,-0.337694 -1.88653,-0.522965 -2.91041,-0.522965 z m -1.73065,2.252058 c -2.45429,2.863434 -2.73493,7.668596 -0.91519,11.256161 0,0 -2.87907,-1.621908 -2.76779,-5.685958 0.10499,-3.770169 3.68298,-5.570203 3.68298,-5.570203 z"></path>
+        <path inkscapeConnectorCurvature="0" id="path2991" d="m 117.21046,52.015012 c 4.60386,0 8.33466,-3.731366 8.33466,-8.334658 0,-4.602723 -3.7308,-8.33466 -8.33466,-8.33466 -4.60273,0 -8.33468,3.732508 -8.33468,8.33466 -5.8e-4,4.603292 3.73195,8.334658 8.33468,8.334658 z m -1.73073,-14.417031 c -2.45429,2.863434 -2.73504,7.668161 -0.9153,11.255726 0,0 -2.87885,-1.621732 -2.76757,-5.685782 0.10499,-3.770169 3.68287,-5.569944 3.68287,-5.569944 z" inkscapeExportFilename="/Users/patrick/dev/littlego/resource/icon/go-motifs/black-stone@3x.png" inkscapeExportXdpi="96" inkscapeExportYdpi="96"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>
