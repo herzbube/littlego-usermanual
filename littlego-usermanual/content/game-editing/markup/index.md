@@ -299,3 +299,24 @@ When no symbols are on the board, the Square {{< icon "square" >}} markup type i
 {{< /hint >}}
 
 Having the "Markup > Unique symbols" setting enabled can be convenient to save a couple of taps if you frequently mark up multiple intersections on the same board position, but want to use a different symbol on each intersection.
+
+## Mapping to SGF properties
+
+For the technically inclined, here is how each markup type maps to properties defined by the SGF standard.
+
+| Markup type | SGF property | SGF property value | Remark |
+| ---  | --- | --- | --- |
+| [Symbols](#symbols) |
+| Circle | CR | List of intersections | |
+| Square | SQ | List of intersections | |
+| Triangle | TR | List of intersections | |
+| "X" mark | MA | List of intersections | |
+| "Selected" symbol | SL | List of intersections | |
+| [Markers](#markers) |
+| Number marker | LB | List of intersection/text pairs | Number markers are labels that consist of only a single digit character. |
+| Letter marker | LB | List of intersection/text pairs | Letter markers are labels that consist of only a single letter character. |
+| [Labels](#labels) |
+| Label | LB | List of intersection/text pairs | |
+| [Connections](#connections) |
+| Line | LN | List of intersection/intersection pairs | |
+| Arrow | AR | List of intersection/intersection pairs | |
