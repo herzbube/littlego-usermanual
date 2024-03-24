@@ -44,7 +44,7 @@ Once the initial player influence is visible, it will be updated every time that
 You can <em>force</em> player influence to be re-calculated by selecting the "Update player influence" item from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button. The calculation will take a while to complete, during that time you will not be able to play.
 
 {{< hint type=note >}}
-The menu item is not shown when player influence cannot be re-calculated (e.g. during scoring mode) or, obviously, if the "Display player influence" setting is disabled.
+The menu item is not shown when player influence cannot be re-calculated (e.g. during Scoring {{< icon "scoring" >}} mode) or, obviously, if the "Display player influence" setting is disabled.
 {{< /hint >}}
 
 
