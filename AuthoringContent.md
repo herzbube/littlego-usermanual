@@ -63,3 +63,34 @@ A few steps are needed to make a new Little Go icon available for use in this us
 1. The website shows the result of the SVG-to-sprite conversion. Make sure that the `<svg>` element has this attribute: `class="hidden"`
 1. Download the sprite.
 1. Move the downloaded SVG file to `assets/sprites` and name the file to match the `id` attribute of the `symbol` element found inside the SVG file.
+
+## Videos
+
+### Animated GIFs
+
+When you finish recording a video from the simulator you can right-click on the preview video which shows for a moment, then choose whether you want to save the video as an `MP4` file or as an animated `GIF`.
+
+If you want to further edit the video you need to save it as `MP4`. After you finished editing you can still convert it to an animated `GIF` using any number of tools. Make sure to allow the animation to auto-play and loop.
+
+If you have `ffmpeg` installed, the following command will create an endlessly looping animation with a 5 second delay between loops:
+
+    ffmpeg -i input.mp4 -loop 0 -final_delay 500 output.gif
+
+`WEBP` is a more modern format than `GIF`, which also promises a lower file size. The problem with `WEBP` is that it does not seem to be possible to add a delay at the end of a loop - at least I have not found a working option with `ffmpeg`. So if a looping and a delay is needed, at the moment `GIF` is required. If no loop or delay is required, though, then you should consider using `WEBP` instead of `GIF`.
+
+### Reducing frame rate
+
+If an animated `GIF` has a larger file size than the original `MP4` it may be more efficient to keep the `MP4` format and instead reduce the frame rate.
+
+The following example uses `ffmpeg` to reduce the frame rate to 10 frames per second.
+
+    ffmpeg -i input.mp4 -vf "fps=10" 500 output.mp4
+
+The result can then be embedded into a markdown document as follows. Leave out the "autoplay" and "loop" attributes and adjust the folder as needed.
+
+ ```
+ <video width=100% controls autoplay loop>
+  <source src="folder/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.  
+</video>
+```

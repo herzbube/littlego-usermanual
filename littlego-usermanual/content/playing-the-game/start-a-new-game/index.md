@@ -97,7 +97,6 @@ The following table shows how each ruleset maps to the individual rules.
 | [Dispute resolution rule](#dispute-resolution-rule) | Alternating play | Alternating play | Non-alternating play | Non-alternating play | Alternating play |
 | [Four passes rule](#four-passes-rule) | End game | No special meaning | No special meaning | No special meaning | No special meaning |
 
-
 ## Handicap
 
 By tapping the "Even game" switch you toggle between
