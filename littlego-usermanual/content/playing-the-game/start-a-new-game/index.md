@@ -179,7 +179,7 @@ Ko is a Japanese go term that, in its most general usage, refers to all sorts of
 
 The app supports and lets you choose between the following ko rules:
 
-- Simple ko, also known as "basic ko". This rule prohibits capturing moves that restore the same board position that existed **immediately** before the previous capturing move was played. An example diagram for this can be found on the [Go rules]({{< relref "../../appendix/go-rules.html#no-repetition-ko-rule" >}}) page.
+- Simple ko, also known as "basic ko". This rule prohibits capturing moves that restore the same board position that existed **immediately** before the previous capturing move was played. An example diagram for this can be found on the [Go rules]({{< relref "../../appendix/go-rules#no-repetition-ko-rule" >}}) page.
 - Positional superko. When this rule is in effect a player may not place a stone that recreates **any** board position that existed earlier in the game.
 - Situational superko. Similar to positional superko, with the difference that only plays are forbidden that recreate an earlier board position **with the same player to move**.
 
