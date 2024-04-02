@@ -55,6 +55,14 @@ handicap, as these parameters are part of the saved game.
 
 {{< /columns >}}
 
+## Failure to load SGF data
+
+The app may not be able to load the SGF data in an SGF file if the file content does not conform to the SGF standard in some way. When this happens the app displays an item "No games available" instead of one or more sections titled "Game &lt;n&gt;".
+
+If the problem is not too severe the app in addition displays a "Force loading" button that you can tap to load the SGF data in the SGF file despite the formatting issues.
+
+See the [Smart Game Format (SGF)]({{< relref "../../technical-pages/sgf#syntax-checking-settings" >}}) page for an in-depth discussion of how syntax checking works. If the failure to load the SGF data is related to the SGF file's text encoding then changing the app's [text encoding settings]({{< relref "../../technical-pages/sgf#text-encoding-settings" >}}) may help overcome the problem.
+
 ## Saving a game
 
 In the Play {{< icon "gogrid2x2" >}} area of the app you can save the game that is currently in progress by selecting the "Save game" item from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button.
