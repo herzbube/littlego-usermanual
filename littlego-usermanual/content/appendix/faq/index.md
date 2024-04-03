@@ -3,6 +3,8 @@ title: FAQ
 weight: 100
 ---
 
+{{< toc >}}
+
 ## How do I change the board size?
 
 You need to start a new game. See the next question.
