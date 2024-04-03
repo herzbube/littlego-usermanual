@@ -39,7 +39,6 @@ To still see coordinate labels you have to zoom the board sufficiently.
 
 {{< /columns >}}
 
-
 ## Move numbers
 
 {{< columns size=regular >}}
@@ -65,3 +64,13 @@ If as a result of these calculations the font becomes too small, you will no lon
 
 To still see move number labels you have to zoom the board sufficiently.
 {{< /hint >}}
+
+## Notification when computer makes a move
+
+In the Settings {{< icon "settings" >}} area of the app under "Sound & Vibration" you can enable audio and/or vibration notifications when the computer has finished making a move.
+
+{{< hint type=note >}}
+Enabling the "Vibrate" setting has no effect if your device does not support vibration (e.g. an iPad).
+{{< /hint >}}
+
+Enabling the notification settings can be useful if you are playing against a strong computer player which takes a long time to calculate its moves. When the settings are enabled you can do something else while waiting for the computer. Your attention will then be called back to the game when it is again your turn to play.

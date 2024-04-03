@@ -267,7 +267,7 @@ While one of the Connection markup types is selected you cannot move any kind of
 When you tap the start or end intersection of an existing connection, the app deletes that connection. If you tap an intersection that is the start or end intersection of multiple connections, the app deletes the connection that it finds first in the background model data. To delete all connections that start or end on an intersection, repeatedly tap the intersection.
 
 {{< hint type=note >}}
-You can turn off deletion of connections by tapping in the Settings {{< icon "settings" >}} area of the app under "Markup > Connecton tool allows delete". Turning the setting off can be useful if you find yourself accidentally deleting connections instead of placing new ones.
+You can turn off deletion of connections by tapping in the Settings {{< icon "settings" >}} area of the app under "Markup > Connection tool allows delete". Turning the setting off can be useful if you find yourself accidentally deleting connections instead of placing new ones.
 {{< /hint >}}
 
 ### Removing markup

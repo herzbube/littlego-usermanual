@@ -45,7 +45,6 @@ The reason for the different landscape layout is that in landscape orientation t
 
 {{< /columns >}}
 
-
 ## Button reference
 
 ### Right toolbar area
