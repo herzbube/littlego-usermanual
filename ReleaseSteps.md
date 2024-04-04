@@ -69,10 +69,11 @@ Remove the `public` directory to make sure that there's no mix of old and new bu
 
     rm -rf littlego-usermanual/public
 
-Then just run Hugo to generate the website:
+Then run Hugo twice to generate the website both for online and offline use:
 
     cd littlego-usermanual
-    hugo
+    hugo --config=config/online/hugo.toml --destination public/online
+    hugo --config=config/offline/hugo.toml --destination public/offline
 
 ## Verify website content
 
@@ -80,12 +81,12 @@ The next step is to verify that content changes appear as intended and that new 
 
 Verification needs to be done twice: once when the website is browsed offline and once when it is browsed online.
 
-**Offline browsing**: Open `littlego-usermanual/public/index.html` in your web browser so that the content is accessed via `file://` URLs.
+**Offline browsing**: Open `littlego-usermanual/public/offline/index.html` in your web browser so that the content is accessed via `file://` URLs.
 
 **Online browsing**: Hugo provides a small web server that can be run locally. Run the web server with the following commands, then point your browser to the URL that Hugo prints out (should be [http://localhost:1313/](http://localhost:1313/)):
 
     cd littlego-usermanual
-    hugo server
+    hugo server --config=config/online/hugo.toml
 
 ## Publish to GitHub Pages
 
@@ -100,7 +101,7 @@ Remove the user manual from the previous release:
 
 Add the user manual from the new release:
 
-    cp -Rp public ../public
+    cp -Rp public/online ../public
 
 Publish the new user manual:
 
@@ -119,7 +120,7 @@ Remove any previously generated ZIP archives to avoid confusion:
 
 Create the new ZIP archive:
 
-    zip -r littlego-usermanual-<version>.zip littlego-usermanual/public/*
+    zip -r littlego-usermanual-<version>.zip littlego-usermanual/public/offline/*
 
 ## Finalise steps
 

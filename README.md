@@ -20,9 +20,9 @@ See [AuthoringContent.md](AuthoringContent.md) for notes on authoring content.
 
 The publishing process consists of the following steps:
 
-1. Generate a browseable website from the Markdown and AsciiDoc source files. The static website generator [Hugo](https://gohugo.io/) is used for this. See [HugoConfiguration.md](HugoConfiguration.md) for configuration notes.
-2. Publish the website files to a web hosting platform. The current platform is GitHub Pages.
-3. Package the website files into a ZIP archive.
+1. Generate two browseable websites from the Markdown and AsciiDoc source files: One for online browsing and another for offline browsing. The static website generator [Hugo](https://gohugo.io/) is used for this. See [HugoConfiguration.md](HugoConfiguration.md) for configuration notes.
+2. Publish the website files for online browsing to a web hosting platform. The current platform is GitHub Pages.
+3. Package the website files for offline browsing into a ZIP archive.
 4. Publish a release on GitHub with the ZIP archive attached to the release.
 
 See [ReleaseSteps.md](ReleaseSteps.md) for step-by-step instructions how to perform a release (including which prerequisites you need to install on your machine).

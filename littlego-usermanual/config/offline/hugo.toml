@@ -2,7 +2,7 @@
 # See HugoConfiguration.md for details why certain options are set.
 # ------------------------------------------------------------
 
-baseURL = 'https://littlego-usermanual.herzbube.ch/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Little Go User Manual'
 theme = "hugo-geekdoc"

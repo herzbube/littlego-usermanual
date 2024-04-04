@@ -9,6 +9,13 @@ For historic reference, the Hugo site of this project was created with these com
     cd /path/to/repo
     hugo new site littlego-usermanual
 
+## Online vs. offline configuration
+
+There are two configuration files located in the `config` folder, intended to publish the site for two different use cases:
+
+- `config/online/hugo.toml`: Publish the site for online browsing under the domain https://littlego-usermanual.herzbube.ch/.
+- `config/offline/hugo.toml`: Publish the site for offline browsing, i.e. for serverless access with `file://` URLs.
+
 ## Theme
 
 The Hugo theme used in this project is the [Geekdoc](https://geekdocs.de/) theme. After the project repository is cloned the theme needs to be installed into Hugo's `themes` folder located within the repository. Installation instructions can be found in [ReleaseSteps.md](ReleaseSteps.md).
@@ -56,7 +63,7 @@ By default Hugo generates URLs that use absolute paths, i.e. paths that start wi
 
 This does not work when the generated content is browsed serverless via filesystem URLs (`file://`), because the generated content will practically always be located somewhere far away from the filesystem root `/`.
 
-The solution is to set the following option in `hugo.toml`:
+The solution is to set the following option in `config/offline/hugo.toml`:
 
     relativeURLs = true
 
@@ -74,7 +81,7 @@ By default Hugo generates files named `index.html`, and URLs that point to the p
 
 This does not work when the generated content is browsed serverless via filesystem URLs (`file://`), because there is no server that can do the mapping. Instead of `index.html` the user will see a list of the folder contents.
 
-The solution is to set the following option in `hugo.toml`:
+The solution is to set the following option in `config/offline/hugo.toml`:
 
     uglyURLs = true
 
