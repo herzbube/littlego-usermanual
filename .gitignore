@@ -7,5 +7,9 @@ littlego-usermanual/public
 # Cache files created during generation of website
 littlego-usermanual/resources
 
+# Lock file created during generation of website. A stale file
+# may be present if something goes wrong during generation.
+littlego-usermanual/.hugo_build.lock
+
 # Archive for offline browsing
 littlego-usermanual*.zip
