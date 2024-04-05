@@ -106,6 +106,12 @@ Instead of `index.html` Hugo now generates HTML files whose name matches their s
 
 See the [Hugo docs](https://gohugo.io/content-management/urls/#appearance) for details.
 
+## URLs pointing to base URL
+
+Even when the `uglyURLs ` option is set to `true`, Hugo does not rewrite URLs that point to the base URL to instead point to the base URLs `index.html` file.
+
+Currently there is no solution for this problem.
+
 ## Disable search
 
 The Geekdoc search field does not work when the site is browsed serverless, therefore it is disabled in `config/offline/hugo.toml`:
