@@ -15,7 +15,7 @@ In the Play {{< icon "gogrid2x2" >}} area when you tap the Menu {{< icon "menu-h
 
 <--->
 
-Menu items are actions for which there is no toolbar button. The mode that is currently active in the Play {{< icon "gogrid2x2" >}} area affects which items the menu shows. See [this page]({{< relref "../play-area-modes" >}}) for more information on Play {{< icon "gogrid2x2" >}} area modes.
+Menu items are actions for which there is no toolbar button. The mode that is currently active in the Play {{< icon "gogrid2x2" >}} area affects which items the menu shows. See [this page]({{< relref "play-area-modes" >}}) for more information on Play {{< icon "gogrid2x2" >}} area modes.
 
 In the next section you find a reference of all the items that can appear in the menu, when they appear, and what they do.
 

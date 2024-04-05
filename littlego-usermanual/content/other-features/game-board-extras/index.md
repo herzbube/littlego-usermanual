@@ -49,7 +49,7 @@ Move numbers are drawn on top of stones, to indicate in which move a stone was p
 
 The setting is a slider with which you can adjust whether you want fewer or more move numbers to be shown. In the left-most slider position no move numbers are shown, in the right-most slider position all move numbers are shown.
 
-When at least one move number is displayed the [Last move marker]({{< relref "../../game-organization/current-game-variation.html#last-move-marker-and-next-move-marker" >}}) is not shown because it would conflict with the move number label. Instead of the marker the move number that replaces the marker is rendered in red color (move number 43 in the illustration).
+When at least one move number is displayed the [Last move marker]({{< relref "../game-organization/current-game-variation#last-move-marker-and-next-move-marker" >}}) is not shown because it would conflict with the move number label. Instead of the marker the move number that replaces the marker is rendered in red color (move number 43 in the illustration).
 
 <--->
 

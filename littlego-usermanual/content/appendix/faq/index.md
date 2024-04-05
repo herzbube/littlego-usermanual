@@ -11,9 +11,9 @@ You need to start a new game. See the next question.
 
 ## How do I start a new game?
 
-1. Go to the Play {{< icon "gogrid2x2" >}} area of the app. [Read more]({{< relref "../../ui-basics/tab-bar#list-of-ui-areas" >}}) about user interface areas.
-1. Tap the Menu {{< icon "menu-hamburger" >}} button. [Read more]({{< relref "../../ui-basics/play-menu" >}}) about the menu.
-1. Select "New game" from the menu that appears. [Read more]({{< relref "../../playing-the-game/start-a-new-game" >}}) about the "New game" screen.
+1. Go to the Play {{< icon "gogrid2x2" >}} area of the app. [Read more]({{< relref "../ui-basics/tab-bar#list-of-ui-areas" >}}) about user interface areas.
+1. Tap the Menu {{< icon "menu-hamburger" >}} button. [Read more]({{< relref "../ui-basics/play-menu" >}}) about the menu.
+1. Select "New game" from the menu that appears. [Read more]({{< relref "../playing-the-game/start-a-new-game" >}}) about the "New game" screen.
 
 ## How can I pass / play a pass move?
 
@@ -21,13 +21,13 @@ Tap the button with the "three dots" icon: <span class="littlego-icon">{{< icon 
 
 ## What are the functions of all those buttons?
 
-[This page]({{< relref "../../ui-basics/play-toolbar" >}}) provides an overview of how buttons are organized, as well as a full reference of all buttons that exist in the Play {{< icon "gogrid2x2" >}} area of the app.
+[This page]({{< relref "../ui-basics/play-toolbar" >}}) provides an overview of how buttons are organized, as well as a full reference of all buttons that exist in the Play {{< icon "gogrid2x2" >}} area of the app.
 
-In addition the [How to play]({{< relref "../../playing-the-game/how-to-play" >}}) page provides a useful overview of how some buttons work from a functional point of view.
+In addition the [How to play]({{< relref "../playing-the-game/how-to-play" >}}) page provides a useful overview of how some buttons work from a functional point of view.
 
 ## The computer is too strong / too weak, what can I do?
 
-When you [start a new game]({{< relref "../../playing-the-game/start-a-new-game" >}}) you can select which computer player to play against. The first thing you can do is to select a weaker computer player from the list.
+When you [start a new game]({{< relref "../playing-the-game/start-a-new-game" >}}) you can select which computer player to play against. The first thing you can do is to select a weaker computer player from the list.
 
 The second thing you can do is, you can edit the settings of a computer player
 to make it weaker.
@@ -37,7 +37,7 @@ to make it weaker.
 1. Tap on "Playing strength", select a new value, then tap "Done".
 1. Tap "Done" again to dismiss the "Edit player" screen. The new playing strength will immediately take effect.
 
-In step 3, you can instead tap "Advanced configuration" if you want to tweak individual computer player settings. Consult [The computer player]({{< relref "../../settings/computer-player" >}}) page to learn about the meaning of each setting, especially the section [Limiting the computer’s playing strength]({{< relref "../../settings/computer-player#limiting-the-computers-playing-strength" >}}).
+In step 3, you can instead tap "Advanced configuration" if you want to tweak individual computer player settings. Consult [The computer player]({{< relref "../settings/computer-player" >}}) page to learn about the meaning of each setting, especially the section [Limiting the computer’s playing strength]({{< relref "../settings/computer-player#limiting-the-computers-playing-strength" >}}).
 
 ## Player influence is not displayed, or is completely wrong, what can I do?
 
@@ -47,7 +47,7 @@ If you don't see this menu entry, you need to enable "Display player influence" 
 
 If this setting is already enabled, then you are not in Play {{< icon "gogrid2x2" >}} mode - player influence can be seen only when this mode is active. Tap the Play {{< icon "gogrid2x2" >}} button to activate Play {{< icon "gogrid2x2" >}} mode. If you still don't see player influence, select the "Update player influence" menu entry mentioned above.
 
-Also read the [Player influence]({{< relref "../../other-features/player-influence" >}}) page to learn about important background information.
+Also read the [Player influence]({{< relref "../other-features/player-influence" >}}) page to learn about important background information.
 
 ## Move numbers / coordinate labels are not displayed even though they are enabled in the user preferences
 

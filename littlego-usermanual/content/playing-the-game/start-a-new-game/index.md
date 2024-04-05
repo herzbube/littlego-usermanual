@@ -24,8 +24,8 @@ resources:
 To start a new game, tap the Menu {{< icon "menu-hamburger" >}} toolbar button, then select the "New game" menu item. This calls up the "New game" screen.
 
 {{< expand "References" >}}
-- [Button reference]({{< relref "../../ui-basics/play-toolbar" >}})
-- [Menu reference]({{< relref "../../ui-basics/play-menu" >}})
+- [Button reference]({{< relref "../ui-basics/play-toolbar" >}})
+- [Menu reference]({{< relref "../ui-basics/play-menu" >}})
 {{< /expand >}}
 
 The "New game" screen is one of the most important screens of the app, because
@@ -69,7 +69,7 @@ Tap/click to see how the screen looks like for starting a human vs. human game, 
 1. The "Cancel" button. Tapping this button leaves the screen without starting a new game.
 1. The "Done" button. Tapping this button confirms your choices and starts the new game.
 1. Tapping one of the segments selects which type of game you want to start: <br/><span class="littlego-icon">{{< icon "human-vs-computer" >}}</span> : Human vs. computer game. <br/><span class="littlego-icon">{{< icon "human-vs-human" >}}</span> : Human vs. human game. <br/><span class="littlego-icon">{{< icon "computer-vs-computer" >}}</span> : Computer vs. computer game.
-1. In this area you select who is playing and whether they play black or white. Because the image shows the screen for a Human vs. computer {{< icon "human-vs-computer" >}} game you have to select a human player and a computer player. The players that are available for selection here are managed in the Settings {{< icon "settings" >}} user interface area. [Read more]({{< relref "../../settings/players" >}}).
+1. In this area you select who is playing and whether they play black or white. Because the image shows the screen for a Human vs. computer {{< icon "human-vs-computer" >}} game you have to select a human player and a computer player. The players that are available for selection here are managed in the Settings {{< icon "settings" >}} user interface area. [Read more]({{< relref "../settings/players" >}}).
 1. Here you can select the board size. Available sizes are 7x7, 9x9, 11x11, 13x13, 15x15, 17x17 and 19x19.
 1. This item lets you select the ruleset with which you want to play. Read the [Ruleset section](#ruleset) further down on this page for details.
 1. With this toggle option you choose whether or not you want to play with handicap. Read the [Handicap section](#handicap) further down on this page for details.
@@ -82,7 +82,7 @@ Tap/click to see how the screen looks like for starting a human vs. human game, 
 A ruleset represents a collection of rules that apply to the new game. By selecting a ruleset you are effectively changing many rules with a single tap. This is merely a convenience - if you prefer you can also change each individual rule by calling up the [Advanced Settings](#advanced-settings) screen.
 
 {{< hint type=important >}}
-It is strongly recommended that you play with a ruleset that uses area scoring, because the computer player (Fuego) does not properly support territory scoring. [Read more]({{< relref "../scoring#why-area-scoring-is-the-default" >}}).
+It is strongly recommended that you play with a ruleset that uses area scoring, because the computer player (Fuego) does not properly support territory scoring. [Read more]({{< relref "scoring#why-area-scoring-is-the-default" >}}).
 {{< /hint >}}
 
 The app comes with its own ruleset, labeled "Little Go", which is the default ruleset after you launch the app for the first time. If you tweak the rules in the [Advanced Settings](#advanced-settings) screen so that they are no longer recognized as one of the predefined rulesets, the app will show "Custom" as the ruleset name.
@@ -179,7 +179,7 @@ Ko is a Japanese go term that, in its most general usage, refers to all sorts of
 
 The app supports and lets you choose between the following ko rules:
 
-- Simple ko, also known as "basic ko". This rule prohibits capturing moves that restore the same board position that existed **immediately** before the previous capturing move was played. An example diagram for this can be found on the [Go rules]({{< relref "../../appendix/go-rules#no-repetition-ko-rule" >}}) page.
+- Simple ko, also known as "basic ko". This rule prohibits capturing moves that restore the same board position that existed **immediately** before the previous capturing move was played. An example diagram for this can be found on the [Go rules]({{< relref "../appendix/go-rules#no-repetition-ko-rule" >}}) page.
 - Positional superko. When this rule is in effect a player may not place a stone that recreates **any** board position that existed earlier in the game.
 - Situational superko. Similar to positional superko, with the difference that only plays are forbidden that recreate an earlier board position **with the same player to move**.
 
@@ -196,10 +196,10 @@ The app lets you choose between two scoring systems to determine the final score
 - Area scoring
 - Territory scoring
 
-A summary of how the two scoring system work can be found on the [Scoring]({{< relref "../scoring#area-scoring-and-territory-scoring-revisited" >}}) page of this manual.
+A summary of how the two scoring system work can be found on the [Scoring]({{< relref "scoring#area-scoring-and-territory-scoring-revisited" >}}) page of this manual.
 
 {{< hint type=important >}}
-It is strongly recommended that you play with area scoring, because the computer player (Fuego) does not properly support territory scoring. [Read more]({{< relref "../scoring#why-area-scoring-is-the-default" >}}).
+It is strongly recommended that you play with area scoring, because the computer player (Fuego) does not properly support territory scoring. [Read more]({{< relref "scoring#why-area-scoring-is-the-default" >}}).
 {{< /hint >}}
 
 ### Life & Death Settling rule 

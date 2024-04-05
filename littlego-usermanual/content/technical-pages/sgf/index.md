@@ -25,7 +25,7 @@ resources:
     title: Force loading an SGF file
 ---
 
-Items listed in the Archive {{< icon "archive" >}} area of the app (see [The game archive]({{< relref "../../game-organization/game-archive" >}})) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. [External link to SGF specification](https://www.red-bean.com/sgf/index.html).
+Items listed in the Archive {{< icon "archive" >}} area of the app (see [The game archive]({{< relref "../game-organization/game-archive" >}})) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. [External link to SGF specification](https://www.red-bean.com/sgf/index.html).
 
 The app internally uses a software package named SGFC (the SGF Syntax Checker & Converter) to load and save SGF data. [External link to SGFC website]((https://www.red-bean.com/sgf/sgfc/)).
 
@@ -37,7 +37,7 @@ This page describes the technical details how the app uses SGFC to process SGF d
 
 ### SGFC messages
 
-Behind every item that is listed in the Archive {{< icon "archive" >}} area of the app (see [The game archive]({{< relref "../../game-organization/game-archive" >}})) there is one SGF file. Tapping the archive item loads the SGF file's content and puts it through SGFC to parse the SGF data. Whenever SGFC finds something suspicious or wrong in the data it generates a message. It does this separately for each issue it finds, so that in the end parsing the data of a single SGF file can result in many different messages.
+Behind every item that is listed in the Archive {{< icon "archive" >}} area of the app (see [The game archive]({{< relref "../game-organization/game-archive" >}})) there is one SGF file. Tapping the archive item loads the SGF file's content and puts it through SGFC to parse the SGF data. Whenever SGFC finds something suspicious or wrong in the data it generates a message. It does this separately for each issue it finds, so that in the end parsing the data of a single SGF file can result in many different messages.
 
 Messages are classified with two criteria: Message type and message criticality.
 
@@ -61,7 +61,7 @@ A critical warning is more severe than a non-critical error.
 
 ### Load result
 
-You see SGFC messages when you tap an archive item and the app displays the "View archive content" screen. See the [Game archive]({{< relref "../../game-organization/game-archive#content-of-an-sgf-file" >}}) page for details how the screen looks like.
+You see SGFC messages when you tap an archive item and the app displays the "View archive content" screen. See the [Game archive]({{< relref "../game-organization/game-archive#content-of-an-sgf-file" >}}) page for details how the screen looks like.
 
 {{< columns size=regular >}}
 

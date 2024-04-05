@@ -21,7 +21,7 @@ resources:
 
 When you start a new game you can choose whether you want to play according to area or territory scoring rules (sometimes also known as Chinese or Japanese rules). Because the scoring rules may affect decisions how to play, you are not allowed to change the scoring rules in the middle of the game.
 
-Typically you select the scoring system in the "New Game" screen by [selecting a ruleset]({{< relref "../start-a-new-game#ruleset" >}}). The IGS (Pandanet) and the Japanese rulesets use territory scoring, all the other rulesets use area scoring. You can also [manually choose]({{< relref "../start-a-new-game#scoring-system" >}}) the scoring system in the "New Game" screen, under "Advanced Settings".
+Typically you select the scoring system in the "New Game" screen by [selecting a ruleset]({{< relref "start-a-new-game#ruleset" >}}). The IGS (Pandanet) and the Japanese rulesets use territory scoring, all the other rulesets use area scoring. You can also [manually choose]({{< relref "start-a-new-game#scoring-system" >}}) the scoring system in the "New Game" screen, under "Advanced Settings".
 
 The default ruleset "Little Go" uses area scoring. Read on why this is important.
 

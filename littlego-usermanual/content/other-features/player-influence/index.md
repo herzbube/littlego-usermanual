@@ -56,7 +56,7 @@ By summing up the results of all playouts, it is therefore possible to say for a
 
 The accuracy of these playout statistics is governed by how many playout games the computer is allowed to calculate. Few playout games means low accuracy because a particularly strong move and all the playout games descending from it may easily be overlooked. At the same, few playout games also means a weak computer player. In effect, there is a direct relationship between computer player strength and the accuracy of playout statistics / player influence.
 
-Read the [Computer Player]({{< relref "../../settings/computer-player" >}}) section of this manual for more details about how to adjust the computer player's playing strength.
+Read the [Computer Player]({{< relref "../settings/computer-player" >}}) section of this manual for more details about how to adjust the computer player's playing strength.
 
 ## Influence on computer player strength
 

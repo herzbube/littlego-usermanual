@@ -11,20 +11,20 @@ weight: 400
 
 You can resign when it is your turn to play by selecting "Resign" from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button.
 
-When a player resigns, Scoring {{< icon "scoring" >}} mode is not activated automatically because it is clear that the resigning player has lost the game. If you like you can tap the Scoring {{< icon "scoring" >}} button to manually activate Scoring {{< icon "scoring" >}} mode. See the [Scoring]({{< relref "../../settings/players" >}}) section of this manual for more information on how scoring works.
+When a player resigns, Scoring {{< icon "scoring" >}} mode is not activated automatically because it is clear that the resigning player has lost the game. If you like you can tap the Scoring {{< icon "scoring" >}} button to manually activate Scoring {{< icon "scoring" >}} mode. See the [Scoring]({{< relref "../settings/players" >}}) section of this manual for more information on how scoring works.
 
 You can undo the decision to resign by selecting "Undo resign" from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button. The decision to resign is also undone automatically when you discard the last move.
 
 ### Ending the game by passing
 
-One of the game rules that you select when you start a new game determines whether the game will end after two or after three consecutive pass moves. Typically you choose the number by [selecting a ruleset]({{< relref "../start-a-new-game#ruleset" >}}) in the "New Game" screen.
+One of the game rules that you select when you start a new game determines whether the game will end after two or after three consecutive pass moves. Typically you choose the number by [selecting a ruleset]({{< relref "start-a-new-game#ruleset" >}}) in the "New Game" screen.
 
 - IGS (Pandanet) ruleset: The game ends after three consecutive pass moves.
 - All other rulesets: The game ends after two consecutive pass moves.
 
-You can also [manually choose]({{< relref "../start-a-new-game#life--death-settling-rule" >}}) the number in the "New Game" screen, under "Advanced Settings > Life & death settling after ...".
+You can also [manually choose]({{< relref "start-a-new-game#life--death-settling-rule" >}}) the number in the "New Game" screen, under "Advanced Settings > Life & death settling after ...".
 
-When the game ends after two or three consecutive pass moves, the app automatically activates Scoring {{< icon "scoring" >}} mode. See the [Scoring]({{< relref "../../settings/players" >}}) section of this manual for more information on how scoring works.
+When the game ends after two or three consecutive pass moves, the app automatically activates Scoring {{< icon "scoring" >}} mode. See the [Scoring]({{< relref "../settings/players" >}}) section of this manual for more information on how scoring works.
 
 You can disable the automatic activation of Scoring {{< icon "scoring" >}} mode in the Settings {{< icon "settings" >}} area of the app under "Scoring > Auto scoring / resuming play". When automatic activation is disabled you have to manually activate Scoring {{< icon "scoring" >}} mode by tapping the Scoring {{< icon "scoring" >}} button.
 
@@ -47,12 +47,12 @@ When the game has ended with two consecutive pass moves, you can resume play by 
 - Automatically resume play: Tap the Play {{< icon "gogrid2x2" >}} button. The main purpose of this button is to deactivate Scoring {{< icon "scoring" >}} mode and return you to play mode. A convenient and natural side effect of the button, however, is that it also automatically resumes play. You can disable this automatism in the Settings {{< icon "settings" >}} area of the app under "Scoring > Auto scoring / resuming play". In that case, tapping the Play {{< icon "gogrid2x2" >}} button merely switches from Scoring {{< icon "scoring" >}} mode back to Play {{< icon "gogrid2x2" >}} mode and you have to manually resume play.
 - Manually resume play: Select the "Resume play" item from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button. If Scoring {{< icon "scoring" >}} mode is active, selecting "Resume play" will deactivate it and return you to Play {{< icon "gogrid2x2" >}} mode.
 
-The player to play first depends on the "Dispute Resolution" game rule that you selected when you started the game. Typically you choose the rule's setting by [selecting a ruleset]({{< relref "../start-a-new-game#ruleset" >}}) in the "New Game" screen.
+The player to play first depends on the "Dispute Resolution" game rule that you selected when you started the game. Typically you choose the rule's setting by [selecting a ruleset]({{< relref "start-a-new-game#ruleset" >}}) in the "New Game" screen.
 
 - The Chinese and Japanese rulesets allow non-alternating play.
 - All other rulesets enforce alternating play (i.e. the player to play first is the opponent of the last player to pass).
 
-You can also [manually choose]({{< relref "../start-a-new-game#dispute-resolution-rule" >}}) the rule's setting in the "New Game" screen, under "Advanced Settings > Dispute resolution".
+You can also [manually choose]({{< relref "start-a-new-game#dispute-resolution-rule" >}}) the rule's setting in the "New Game" screen, under "Advanced Settings > Dispute resolution".
 
 **Only if the game rules allow non-alternating play:** Immediately after you resume play, the app presents you with a choice which side (black or white) is to play first. If you make the wrong choice, you can tap the Menu {{< icon "menu-hamburger" >}} button and select the menu item "Set &lt;side&gt; to move" to revert your decision. This menu item disappears once the first move has been made.
 

@@ -16,7 +16,7 @@ resources:
     title: Selected symbol, dot style
 ---
 
-You can place various types of graphical elements on the board to point out noteworthy stones or figures. These graphical elements are summarily called "markup". One typical usage is to combine markup elements with a short and/or long description annotation text (see the [Annotations]({{< relref "../annotations" >}}) section of this manual) that further explains the meaning of the markup elements.
+You can place various types of graphical elements on the board to point out noteworthy stones or figures. These graphical elements are summarily called "markup". One typical usage is to combine markup elements with a short and/or long description annotation text (see the [Annotations]({{< relref "annotations" >}}) section of this manual) that further explains the meaning of the markup elements.
 
 {{< hint type=note >}}
 Every game tree node contains its own set of markup elements, independently from any markup that might be present in other nodes.

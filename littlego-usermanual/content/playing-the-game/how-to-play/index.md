@@ -20,15 +20,15 @@ resources:
 
 <--->
 
-Once you have [started a new game]({{< relref "../start-a-new-game" >}}) you are ready to begin playing.
+Once you have [started a new game]({{< relref "start-a-new-game" >}}) you are ready to begin playing.
 
 Start placing a stone by touching the screen near the intersection where you want the stone to end up. The stone appears after a small delay but is not yet placed. Move your finger around the screen until you are satisfied with the stone's location, then place the stone by taking away your finger from the screen. Voilà.
 
-While a gesture to place a stone is ongoing, a blue cross-hair is following the touch location for a better visual indication where the stone would currently be placed. In addition the [Status Text]({{< relref "../../ui-basics/play-status-text" >}}) area updates continuously with the coordinates where the stone would currently be placed.
+While a gesture to place a stone is ongoing, a blue cross-hair is following the touch location for a better visual indication where the stone would currently be placed. In addition the [Status Text]({{< relref "../ui-basics/play-status-text" >}}) area updates continuously with the coordinates where the stone would currently be placed.
 
 When the new stone hovers over an already existing stone, it is rendered in blue to indicate that the intersection is already occupied.
 
-Finally, when the new stone hovers over an intersection where it is illegal to play, the [Status Text]({{< relref "../../ui-basics/play-status-text" >}}) area indicates the reason (e.g. suicide, ko).
+Finally, when the new stone hovers over an intersection where it is illegal to play, the [Status Text]({{< relref "../ui-basics/play-status-text" >}}) area indicates the reason (e.g. suicide, ko).
 
 {{< /columns >}}
 
@@ -52,9 +52,9 @@ You can change various aspects of the magnifying glass' behaviour in the Setting
 
 If your opponent is a computer player, it will take over immediately after you have made your move. While the computer player is thinking, an Interrupt {{< icon "interrupt" >}} button is displayed in the toolbar. Usually you will want to wait until the computer has finished thinking and made its move, but if you want you can tap the button to interrupt the computer and force it to play its best move *right now*.
 
-If you want to do something else while the computer is thinking, you can always use the [tab bar]({{< relref "../../ui-basics/tab-bar" >}}) at the bottom of the screen to switch to one of the other areas of the user interface. If you would like to get a notification when the computer has made its move you can turn on audio/vibration feedback options in the Settings {{< icon "settings" >}} area of the app under "Sound & Vibration".
+If you want to do something else while the computer is thinking, you can always use the [tab bar]({{< relref "../ui-basics/tab-bar" >}}) at the bottom of the screen to switch to one of the other areas of the user interface. If you would like to get a notification when the computer has made its move you can turn on audio/vibration feedback options in the Settings {{< icon "settings" >}} area of the app under "Sound & Vibration".
 
-You may have noticed that the app has several pre-configured computer players (e.g. "Fuego (weak)", "Fuego (strong)", etc.). [Follow this link]({{< relref "../../settings/computer-player" >}}) to learn more about the different playing strengths of computer players.
+You may have noticed that the app has several pre-configured computer players (e.g. "Fuego (weak)", "Fuego (strong)", etc.). [Follow this link]({{< relref "../settings/computer-player" >}}) to learn more about the different playing strengths of computer players.
 
 ## Computer vs. computer game
 
@@ -86,4 +86,4 @@ When you discard a computer player's move and it is now the computer's turn to p
 
 ## Game information
 
-Tapping the Game Info {{< icon "game-info" >}} button calls up a screen that shows all sorts of interesting things about the game that is currently in progress. For instance you can see which player's turn it is (on the "Game" segment), but probably the most interesting part is the "Score" segment which has a table that tells you who would win if the game would end right now. Note that you need to activate Scoring {{< icon "scoring" >}} mode if you want the table to display area or territory scores. See the [Scoring]({{< relref "../scoring" >}}) manual section for more information.
+Tapping the Game Info {{< icon "game-info" >}} button calls up a screen that shows all sorts of interesting things about the game that is currently in progress. For instance you can see which player's turn it is (on the "Game" segment), but probably the most interesting part is the "Score" segment which has a table that tells you who would win if the game would end right now. Note that you need to activate Scoring {{< icon "scoring" >}} mode if you want the table to display area or territory scores. See the [Scoring]({{< relref "scoring" >}}) manual section for more information.

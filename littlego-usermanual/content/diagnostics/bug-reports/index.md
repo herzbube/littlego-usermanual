@@ -21,7 +21,7 @@ The file attached to the bug report email contains diagnostics information about
 You should also enable the [collecting of logging data](#collecting-logging-data) before you send the bug report.
 {{< /hint >}}
 
-The Diagnostics {{< icon "diagnostics" >}} area of the app also has a button, labeled "Generate diagnostics information", that lets you just generate the diagnostics information file without sending an email. This can be useful if your device is not capable of sending email, or if you just want to snapshot the application behaving badly <em>now</em>, but send the bug report later. Once you have generated the diagnostics information file, you can use file sharing to transfer the file to your computer, and send the bug report from there. [The archive]({{< relref "../../game-organization/game-archive.html#file-sharing" >}}) page has more information about how file sharing works.
+The Diagnostics {{< icon "diagnostics" >}} area of the app also has a button, labeled "Generate diagnostics information", that lets you just generate the diagnostics information file without sending an email. This can be useful if your device is not capable of sending email, or if you just want to snapshot the application behaving badly <em>now</em>, but send the bug report later. Once you have generated the diagnostics information file, you can use file sharing to transfer the file to your computer, and send the bug report from there. [The archive]({{< relref "../game-organization/game-archive#file-sharing" >}}) page has more information about how file sharing works.
 
 ## Collecting logging data
 
@@ -52,7 +52,7 @@ The file is a ZIP archive that contains the following pieces of information:
 
 The file does **not** contain any information that identifies you or your device, nor any other information that comes from outside the app.
 
-If you are concerned, please feel free to inspect the content of the file by forwarding the email to your Mac or PC before you send the bug report to me. As already mentioned [further up](#diagnostics-information-file), you can also transfer the file to your computer via [file sharing]({{< relref "../../game-organization/game-archive.html#file-sharing" >}}) and inspect the file there.
+If you are concerned, please feel free to inspect the content of the file by forwarding the email to your Mac or PC before you send the bug report to me. As already mentioned [further up](#diagnostics-information-file), you can also transfer the file to your computer via [file sharing]({{< relref "../game-organization/game-archive#file-sharing" >}}) and inspect the file there.
 
 Finally, since the app is open source you can also study the program code that produces the file. Let me know and I will point you in the right direction.
 
@@ -62,4 +62,4 @@ The diagnostics information file's size varies with the current game's board siz
 
 Without including the log file, the smallest diagnostics information file sizes can be below 1 MB, while the largest files should not take up more than a couple of MB.
 
-For technical reasons, a copy of the file remains on your device after the bug report email has been generated. The copy is located in the documents folder within the the app app bundle where it is not accessible to any other apps - even the app will not use the copy after the bug report has been sent. If you generate another bug report, the lingering file from the previous bug report is overwritten. If you want to get rid of the file you can delete it via [file sharing]({{< relref "../../game-organization/game-archive.html#file-sharing" >}}).
+For technical reasons, a copy of the file remains on your device after the bug report email has been generated. The copy is located in the documents folder within the the app app bundle where it is not accessible to any other apps - even the app will not use the copy after the bug report has been sent. If you generate another bug report, the lingering file from the previous bug report is overwritten. If you want to get rid of the file you can delete it via [file sharing]({{< relref "../game-organization/game-archive#file-sharing" >}}).

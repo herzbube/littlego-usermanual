@@ -34,7 +34,7 @@ resources:
 The tree view indicates the currently selected game variation with a red path going through all the lines that connect the variation's nodes.
 
 {{< hint type=note >}}
-Read the [Game variations]({{< relref "../game-variations" >}}) page to learn more about the tree view and game variations in general.
+Read the [Game variations]({{< relref "game-variations" >}}) page to learn more about the tree view and game variations in general.
 {{< /hint >}}
 
 Besides the tree view, the app's user interface provides additiional elements to view the content of and interact with the current game variation. These UI elements are the topic of this page.
@@ -46,7 +46,7 @@ Besides the tree view, the app's user interface provides additiional elements to
 {{< hint type=tip title="Definition" >}}
 Game variation: A sequence of nodes, starting at the root node and ending at a leaf node.
 
-(definition from the [Glossary]({{< relref "../game-variations#glossary" >}}) section of the [Game variations]({{< relref "../game-variations" >}}) page).
+(definition from the [Glossary]({{< relref "game-variations#glossary" >}}) section of the [Game variations]({{< relref "game-variations" >}}) page).
 {{< /hint >}}
 
 {{< columns size=regular >}}
@@ -113,7 +113,7 @@ The following table explains the meaning of each element that can appear in a no
 
 | Element | Descripton |
 | ---  | --- |
-| Symbol | A symbol on the left of the entry shows at a glance the main content of the node. Node list view entries use the same symbols as the tree view. [Follow this link]({{< relref "../game-variations#node-symbol-and-content" >}}) to see the list of all possible node symbols. |
+| Symbol | A symbol on the left of the entry shows at a glance the main content of the node. Node list view entries use the same symbols as the tree view. [Follow this link]({{< relref "game-variations#node-symbol-and-content" >}}) to see the list of all possible node symbols. |
 | Main content description | A text that describes the main content of the node is shown in a large font next to the symbol. For move nodes this shows the intersection where a stone was placed ("A1" in the example illustration), or "Pass" if the move was a pass move. For non-move nodes this shows a static text: "Game start" for the root node, "Setup" for nodes containing setup, and "Empty" for nodes that contain neither a move nor setup. |
 | Detail content description | A text that describes the content of the node in more detail is shown in a smaller font below the main content description. For the root node this shows the handicap and komi values ("H: 3, K:½" in the example illustration, indicating handicap 3 and komi ½). For move nodes this shows the move number ("Move 68" in the example illustration). For setup and empty nodes no detail text is displayed. |
 | Number of captured stones | For move nodes the number of stones captured by that move is shown in red color next to the main content description ("16" in the example illustration). Nothing is shown if the move did not capture any stones, or if the node does not contain a move. |
@@ -175,7 +175,7 @@ Certain features of the app behave differently depending on whether the currentl
 
 ### Discarding nodes
 
-The general behaviour of the Discard {{< icon "discard" >}} button is described on the [How to play]({{< relref "../../playing-the-game/how-to-play#discarding-moves" >}}) page.
+The general behaviour of the Discard {{< icon "discard" >}} button is described on the [How to play]({{< relref "../playing-the-game/how-to-play#discarding-moves" >}}) page.
 
 A new behaviour is that when the currently selected node is **not** the last node of the current game variation, the app also has to discard future nodes that come **after** the currently selected node.
 
@@ -185,11 +185,11 @@ Although it is not recommended, you can disable the alert in the Settings {{< ic
 
 ### Playing a move
 
-The general behaviour of playing moves is described in detail on the [How to play]({{< relref "../../playing-the-game/how-to-play" >}}) page.
+The general behaviour of playing moves is described in detail on the [How to play]({{< relref "../playing-the-game/how-to-play" >}}) page.
 
 A new behaviour is that when the currently selected node is **not** the last node of the current game variation, the app has to decide whether or not to discard future nodes that come **after** the currently selected node.
 
-By default the app will not discard future nodes, instead it will create a new game variation as described on the [Game variations]({{< relref "../game-variations#how-to-create-a-game-variation" >}}) page.
+By default the app will not discard future nodes, instead it will create a new game variation as described on the [Game variations]({{< relref "game-variations#how-to-create-a-game-variation" >}}) page.
 
 However, if you have disabled the corresponding setting in the Settings {{< icon "settings" >}} user interface area under "Game variations > Move creates new game variation when future nodes exist", then the app will discard future nodes.
 
@@ -201,9 +201,9 @@ The behaviour of playing a move is identical regardless of whether you play the 
 
 ### Scoring
 
-When you look at the score in the [Game Info]({{< relref "../../other-features/game-info-screen" >}}) screen, it is always based on the currently selected node.
+When you look at the score in the [Game Info]({{< relref "../other-features/game-info-screen" >}}) screen, it is always based on the currently selected node.
 
-When you are in Scoring {{< icon "scoring" >}} mode and you navigate to a different node, the scoring information shown in the [Status Text]({{< relref "../../ui-basics/play-status-text" >}}) area is updated automatically to reflect the board position represented by the newly selected node. At the same time, any decisions that you made on which stones are dead or in seki are forgotten.
+When you are in Scoring {{< icon "scoring" >}} mode and you navigate to a different node, the scoring information shown in the [Status Text]({{< relref "../ui-basics/play-status-text" >}}) area is updated automatically to reflect the board position represented by the newly selected node. At the same time, any decisions that you made on which stones are dead or in seki are forgotten.
 
-See the [Scoring]({{< relref "../../playing-the-game/scoring" >}}) page if you need more information about scoring.
+See the [Scoring]({{< relref "../playing-the-game/scoring" >}}) page if you need more information about scoring.
 

@@ -27,7 +27,7 @@ There are two types of players: Human players and computer players. The app come
 1. Tapping the "Edit" button shows helpful icons that indicate how to create new players and delete existing players, although you can also perform these actions without the icons.
 1. This section lists all human players that currently exist, in the order in which they were created.
 1. This section lists all computer players that currently exist, in the order in which they were created.
-1. This section shows a special computer player that operates in the background during human vs. human games whenever the computer's assistance is needed (e.g. to calculate a move upon request). [Read more]({{< relref "../computer-player#the-background-computer-player" >}}).
+1. This section shows a special computer player that operates in the background during human vs. human games whenever the computer's assistance is needed (e.g. to calculate a move upon request). [Read more]({{< relref "computer-player#the-background-computer-player" >}}).
 1. The "Reset to defaults" button discards **all** currently existing player definitions and resets everything to the pre-defined players with which the app is installed. When you tap the button the app will ask for confirmaton.
 
 {{< /columns >}}
@@ -68,4 +68,4 @@ The app comes with several pre-defined computer players which differ in their pl
 
 When you launch the app for the first time it starts a human vs. computer game where the computer player with the weakest playing strength is used ("Fuego (weak)").
 
-A computer player has *many* settings with which you can tune its playing behaviour. They are explained in detail in the [Computer Player]({{< relref "../computer-player" >}}) section of this manual.
+A computer player has *many* settings with which you can tune its playing behaviour. They are explained in detail in the [Computer Player]({{< relref "computer-player" >}}) section of this manual.

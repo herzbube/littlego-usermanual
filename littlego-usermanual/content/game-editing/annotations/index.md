@@ -108,7 +108,7 @@ In the list of nodes of the currently selected game variation, a node content vi
 
 ### Short and long descriptions
 
-You can write a short and/or a long description text to describe a game tree node. You can use these texts in any way you like, for instance to describe in detail what motivated the move that was played to create the board position, or why the move was particularly good or bad. Description texts might also, for instance, refer to markup that is visible in that board position. To learn more, read the [Markup]({{< relref "../markup" >}}) section of this manual.
+You can write a short and/or a long description text to describe a game tree node. You can use these texts in any way you like, for instance to describe in detail what motivated the move that was played to create the board position, or why the move was particularly good or bad. Description texts might also, for instance, refer to markup that is visible in that board position. To learn more, read the [Markup]({{< relref "markup" >}}) section of this manual.
 
 The text you write for the long description has no limits - it can even contain newlines. The short description text on the other hand may **not** contain any newlines - if you attempt to enter a newline the app will convert it to a space character. By definition the short description text should be succinct so that it can be displayed by a program even if there is not much screen space available.
 

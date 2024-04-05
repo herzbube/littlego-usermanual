@@ -145,9 +145,9 @@ The "Example(s)" column in the table refers to the annotations from the followin
 | Leaf node | A → node after which there are no further nodes. A leaf node has no → child nodes. | Nodes J, M, N, Q, R and T are leaf nodes. |
 | Main line | Synonym for → main variation. | The main line consists of nodes A-J. |
 | Main variation | The → game variation that consists of the main line of play, i.e. the game as it was actually played. The main variation is **always** rendered at the top of the → game tree. | The main variation consists of nodes A-J. |
-| Node | The basic unit of the → game tree. A node is a container for information such as the move that was played, [annotations]({{< relref "../../game-editing/annotations" >}}) explaining the node content, or [markup]({{< relref "../../game-editing/annotations" >}}) to be drawn on the board to highlight a stone or group of stones. | |
+| Node | The basic unit of the → game tree. A node is a container for information such as the move that was played, [annotations]({{< relref "../game-editing/annotations" >}}) explaining the node content, or [markup]({{< relref "../game-editing/annotations" >}}) to be drawn on the board to highlight a stone or group of stones. | |
 | Parent node | The predecessor → node of another node. The only node that does not have a parent node is the → root node. All nodes except → leaf nodes are parent nodes. | All nodes except the leaf nodes J, M, N, Q, R and T are parent nodes. |
-| Root node | The → node located at the root of the → game tree. The root node represents the start of the game. Instead of a move it contains information such as komi, handicap or [board setup]({{< relref "../../game-editing/board-setup" >}}). | Node A is the root node. |
+| Root node | The → node located at the root of the → game tree. The root node represents the start of the game. Instead of a move it contains information such as komi, handicap or [board setup]({{< relref "../game-editing/board-setup" >}}). | Node A is the root node. |
 | Sibling node | A → child node that shares a common → parent node with another child node. | Nodes C, O, R are siblings. Nodes E and K are siblings. Nodes Q and S are siblings. Nodes I and N are siblings. |
 
 ## The tree view
@@ -426,7 +426,7 @@ In addition, the node number of a condensed move node takes up more space than t
 
 ### Focus on selected node
 
-One way to change the selected node is to tap on that node in the tree view. However, there are also other triggers outside the tree view that can change the selected node. Examples are when you or the computer play a new move, or when you go to the start or end of the current game variation via one of the navigation buttons (see page [The current game variation]({{< relref "../current-game-variation" >}})).
+One way to change the selected node is to tap on that node in the tree view. However, there are also other triggers outside the tree view that can change the selected node. Examples are when you or the computer play a new move, or when you go to the start or end of the current game variation via one of the navigation buttons (see page [The current game variation]({{< relref "current-game-variation" >}})).
 
 By default when the selected node changes the tree view scrolls to make the newly selected node visible. This behaviour can be changed in the Settings {{< icon "settings" >}} user interface area under "Tree view > Focus on selected node".
 

@@ -27,13 +27,13 @@ The screen uses tabs to organize the content it displays. When you call up the s
 
 ## The "Score" tab
 
-The "Score" tab displays scoring information in a tabular fashion. The amount of information that is available depends on whether or not Scoring {{< icon "scoring" >}} mode is currently activated. See the [Scoring]({{< relref "../../playing-the-game/scoring" >}}) page for Scoring {{< icon "scoring" >}} mode details.
+The "Score" tab displays scoring information in a tabular fashion. The amount of information that is available depends on whether or not Scoring {{< icon "scoring" >}} mode is currently activated. See the [Scoring]({{< relref "../playing-the-game/scoring" >}}) page for Scoring {{< icon "scoring" >}} mode details.
 
 {{< hint type=note >}}
 If Scoring {{< icon "scoring" >}} mode is not activated then the stone count (area scoring) or dead stone count (territory scoring) as well as the territory score are not available. Consequently the final score that results from tabulating the available data is of no great value and should not be used for any decisions.
 {{< /hint >}}
 
-The scoring information shown refers to the board state in the currently selected node. See the [Game variations]({{< relref "../../game-organization/game-variations" >}}) page and/or the [Current game variation]({{< relref "../../game-organization/current-game-variation" >}}) page to learn more about nodes.
+The scoring information shown refers to the board state in the currently selected node. See the [Game variations]({{< relref "../game-organization/game-variations" >}}) page and/or the [Current game variation]({{< relref "../game-organization/current-game-variation" >}}) page to learn more about nodes.
 
 {{< columns size=regular >}}
 
@@ -53,7 +53,7 @@ The "Game" tab contains a great deal of information about the game that is curre
 | ---  | --- |
 | Game state | Shows whether or not the game is in progress and what the current and next moves are. |
 | Game information | Shows the rules that were chosen when the game was started. |
-| Players | Shows the names of the two players. Tapping the item for a player calls up a screen with the player data, just as if the player had been selected in the Settings {{< icon "settings" >}} area of the app under "Players" (see the [Players]({{< relref "../../settings/players" >}}) page for details). In a human vs. human player game a third item labeled "Computer settings" is displayed which when tapped leads to the [background computer player's]({{< relref "../../settings/computer-player#the-background-computer-player" >}}) settings. |
+| Players | Shows the names of the two players. Tapping the item for a player calls up a screen with the player data, just as if the player had been selected in the Settings {{< icon "settings" >}} area of the app under "Players" (see the [Players]({{< relref "../settings/players" >}}) page for details). In a human vs. human player game a third item labeled "Computer settings" is displayed which when tapped leads to the [background computer player's]({{< relref "../settings/computer-player#the-background-computer-player" >}}) settings. |
 | Move statistics | Displays some mildly amusing statistics about the moves played during the current game. |
 
 {{< columns size=regular >}}
@@ -72,7 +72,7 @@ The "Game" tab contains a great deal of information about the game that is curre
 
 The "Board" tab display a few bits of information related to the board state in the currently selected node.
 
-See the [Game variations]({{< relref "../../game-organization/game-variations" >}}) page and/or the [Current game variation]({{< relref "../../game-organization/current-game-variation" >}}) page to learn more about nodes.
+See the [Game variations]({{< relref "../game-organization/game-variations" >}}) page and/or the [Current game variation]({{< relref "../game-organization/current-game-variation" >}}) page to learn more about nodes.
 
 <--->
 

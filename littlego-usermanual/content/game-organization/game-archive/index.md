@@ -10,10 +10,10 @@ resources:
     title: Detail screen showing the content of an SGF file
 ---
 
-The Archive {{< icon "archive" >}} area of the app is where you manage your saved games, or games imported from external sources. You activate the Archive {{< icon "archive" >}} area of the app via the [tab bar]({{< relref "../../ui-basics/tab-bar" >}}) at the bottom of the screen.
+The Archive {{< icon "archive" >}} area of the app is where you manage your saved games, or games imported from external sources. You activate the Archive {{< icon "archive" >}} area of the app via the [tab bar]({{< relref "../ui-basics/tab-bar" >}}) at the bottom of the screen.
 
 {{< hint type=info >}}
-The app uses the SGF format to read and write Go games. SGF files are text files. For the app to recognize an SGF file it must have the `.sgf` file extension. Read the [Smart Game Format (SGF)]({{< relref "../../technical-pages/sgf" >}}) page for more technical information.
+The app uses the SGF format to read and write Go games. SGF files are text files. For the app to recognize an SGF file it must have the `.sgf` file extension. Read the [Smart Game Format (SGF)]({{< relref "../technical-pages/sgf" >}}) page for more technical information.
 {{< /hint >}}
 
 {{< toc >}}
@@ -46,7 +46,7 @@ When you tap an item in the game archive a screen is displayed that shows detail
 
 1. The "Share" button. Tap this to export the SGF file to an external application (e.g. Mail, DropBox, or another Go application that can import SGF files).
 1. The SGF file name (excluding the `.sgf` file extension) and a timestamp indicating when the SGF file was saved last time. Tapping on the name pops up a screen where you can rename the SGF file.
-1. Information indicating whether the SGF file contains irregularities or outright errors. See the [Smart Game Format (SGF)]({{< relref "../../technical-pages/sgf#sgf-processing" >}}) page for an in-depth discussion of what the "Load result" item means and how an SGF file's data is processed when you tap an item in the game archive.
+1. Information indicating whether the SGF file contains irregularities or outright errors. See the [Smart Game Format (SGF)]({{< relref "../technical-pages/sgf#sgf-processing" >}}) page for an in-depth discussion of what the "Load result" item means and how an SGF file's data is processed when you tap an item in the game archive.
 1. A section with a summary of the first game found in the SGF file. An SGF file can contain multiple games, so this section can appear multiple times. Each game will have its own summary section titled "Game &lt;n&gt;", where &lt;n&gt; indicates the number of the game within the SGF file. The summary is intended to contain enough information to distinguish the games within an SGF file from each other. **Note:** Most SGF files contain only a single game.
 1. If the summary is not enough and you want to know more about the game you can tap the "Show details" item to call up a screen with all information about the game that is available in the SGF file.
 1. Tap the "Load game" item at the bottom of a game's summary section to load that game and inspect its content on the game board in the Play {{< icon "gogrid2x2" >}} area of the app. The procedure to load the game is very similar to starting a new
@@ -61,7 +61,7 @@ The app may not be able to load the SGF data in an SGF file if the file content 
 
 If the problem is not too severe the app in addition displays a "Force loading" button that you can tap to load the SGF data in the SGF file despite the formatting issues.
 
-See the [Smart Game Format (SGF)]({{< relref "../../technical-pages/sgf#syntax-checking-settings" >}}) page for an in-depth discussion of how syntax checking works. If the failure to load the SGF data is related to the SGF file's text encoding then changing the app's [text encoding settings]({{< relref "../../technical-pages/sgf#text-encoding-settings" >}}) may help overcome the problem.
+See the [Smart Game Format (SGF)]({{< relref "../technical-pages/sgf#syntax-checking-settings" >}}) page for an in-depth discussion of how syntax checking works. If the failure to load the SGF data is related to the SGF file's text encoding then changing the app's [text encoding settings]({{< relref "../technical-pages/sgf#text-encoding-settings" >}}) may help overcome the problem.
 
 ## Saving a game
 

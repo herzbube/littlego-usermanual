@@ -15,7 +15,7 @@ To make optimal use of the available space the areas of the user interface are s
 On iPad devices the basic layout is the same as on iPhone devices. The only difference is the amount of space that is available to each user interface element.
 {{< /hint >}}
 
-The [main page]({{< relref "../.." >}}) of this user manual has more information on the meaning of each of the numbered UI areas.
+The [main page]({{< relref ".." >}}) of this user manual has more information on the meaning of each of the numbered UI areas.
 
 {{< img name="iphone-portrait-landscape-mapping" size="origin" lazy=false >}}
 
