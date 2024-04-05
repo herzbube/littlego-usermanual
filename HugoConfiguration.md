@@ -88,3 +88,10 @@ The solution is to set the following option in `config/offline/hugo.toml`:
 Instead of `index.html` Hugo now generates HTML files whose name matches their source file (e.g. `foo.md` will generate `foo.html`), and URLs that point to the explicitly named HTML files.
 
 See the [Hugo docs](https://gohugo.io/content-management/urls/#appearance) for details.
+
+## Disable search
+
+The Geekdoc search field does not work when the site is browsed serverless, therefore it is disabled in `config/offline/hugo.toml`:
+
+    [params]
+      geekdocSearch = false
