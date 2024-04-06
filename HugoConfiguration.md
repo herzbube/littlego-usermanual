@@ -16,6 +16,12 @@ There are two configuration files located in the `config` folder, intended to pu
 - `config/online/hugo.toml`: Publish the site for online browsing under the domain https://littlego-usermanual.herzbube.ch/.
 - `config/offline/hugo.toml`: Publish the site for offline browsing, i.e. for serverless access with `file://` URLs.
 
+## Resource directory
+
+To distinguish the resource directory for the two configurations, the option `resourceDir` must be added to `hugo.toml`:
+
+    resourceDir = 'resources/[offline|online]'
+
 ## Theme
 
 The Hugo theme used in this project is the [Geekdoc](https://geekdocs.de/) theme. After the project repository is cloned the theme needs to be installed into Hugo's `themes` folder located within the repository. Installation instructions can be found in [ReleaseSteps.md](ReleaseSteps.md).

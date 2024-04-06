@@ -65,9 +65,10 @@ Before a release of the user manual is made, the following preparation steps sho
 
 ## Generate website
 
-Remove the `public` directory to make sure that there's no mix of old and new build files:
+Remove the `public` and `resources` directory to make sure that there's no mix of old and new build files:
 
-    rm -rf littlego-usermanual/public
+    cd littlego-usermanual
+    rm -rf public resources
 
 Then run Hugo twice to generate the website both for online and offline use:
 
