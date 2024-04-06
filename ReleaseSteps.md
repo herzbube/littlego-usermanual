@@ -30,11 +30,11 @@ On other platforms use your familiar tools to download and extract the tarball. 
 
 ### Customize Hugo theme
 
-This project requires a bit of customization to the Hugo theme. After the theme is installed run the following script:
+This project requires a bit of customization to the Hugo theme. At the moment the customization consists only of a custom CSS file which must be present in the following location:
 
-    ./script/customize-hugo-theme.sh
+    ./littlego-usermanual/static/custom.css
 
-At the moment the customization consists only of copying a custom CSS file into the appropriate location within the theme folder structure. The custom CSS file can be found in `assets/css/custom.css`. **Important:** After you change something in that file you need to run the script again.
+**Important:** When you make changes to this file some browsers require you to empty their cache & perform a manual page reload to pick up the updates (e.g. Safari) while others reload the updated file immediately (e.g. Firefox).
 
 ### AsciiDoctor
 
