@@ -31,6 +31,14 @@ pygmentsCodeFences = true
 disablePathToLower = true
 ```
 
+## Increased timeout
+
+For unknown reasons the Geekdoc theme requires a lot of time to generate the site. By default Hugo requires processing to finish within 30 seconds, but this is not enough for Geekdoc. Because of this the following line must be added to `hugo.toml` to increase the processing timeout.
+
+    timeout = '120s'
+
+If 120 seconds is still not enough for your system, then you can increase the timeout locally.
+
 ## AsciiDoc support
 
 Hugo requires the external command `asciidoctor` to process AsciiDoc files. To allow the command to be executed, the following snippet must be added to `hugo.toml`:

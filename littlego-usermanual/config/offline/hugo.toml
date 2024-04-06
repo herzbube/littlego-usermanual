@@ -6,6 +6,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Little Go User Manual'
 theme = "hugo-geekdoc"
+timeout = '120s'
 
 relativeURLs = true
 uglyURLs = true
