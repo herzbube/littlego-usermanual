@@ -87,7 +87,9 @@ Verification needs to be done twice: once when the website is browsed offline an
 **Online browsing**: Hugo provides a small web server that can be run locally. Run the web server with the following commands, then point your browser to the URL that Hugo prints out (should be [http://localhost:1313/](http://localhost:1313/)):
 
     cd littlego-usermanual
-    hugo server --config=config/online/hugo.toml
+    hugo server --config=config/online/hugo.toml --destination public/online-test
+
+Note: If `--destination` is not specified the content to be served by `hugo server` is generated in the default folder, which is `public`.
 
 ## Publish to GitHub Pages
 
