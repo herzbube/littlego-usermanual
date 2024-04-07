@@ -88,7 +88,7 @@ The following example uses `ffmpeg` to reduce the frame rate to 10 frames per se
 
 The result can then be embedded into a markdown document as follows. Leave out the "autoplay" and "loop" attributes and adjust the folder as needed.
 
- ```
+```
  <video width=100% controls autoplay loop>
   <source src="folder/video.mp4" type="video/mp4">
   Your browser does not support the video tag.  
