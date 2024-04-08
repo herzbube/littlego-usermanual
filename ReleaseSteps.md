@@ -60,7 +60,6 @@ Before a release of the user manual is made, the following preparation steps sho
 
 - Make sure that the issues in the bugtracker are up to date.
 - If prerequisites were updated, note down the new versions in this README.
-- Update the following files with the version of Little Go that the user manual is targetting: TODO
 - Make sure that no unfinished documentation has been forgotten in the source files (e.g. search for "xxx" or "TODO").
 
 ## Generate website
