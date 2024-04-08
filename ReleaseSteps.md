@@ -66,12 +66,12 @@ Before a release of the user manual is made, the following preparation steps sho
 
 Remove the `public` and `resources` directory to make sure that there's no mix of old and new build files:
 
+    cd /path/to/repo
     cd littlego-usermanual
     rm -rf public resources
 
 Then run Hugo twice to generate the website both for online and offline use:
 
-    cd littlego-usermanual
     hugo --config=config/online/hugo.toml --destination public/online
     hugo --config=config/offline/hugo.toml --destination public/offline
 
@@ -85,6 +85,7 @@ Verification needs to be done twice: once when the website is browsed offline an
 
 **Online browsing**: Hugo provides a small web server that can be run locally. Run the web server with the following commands, then point your browser to the URL that Hugo prints out (should be [http://localhost:1313/](http://localhost:1313/)):
 
+    cd /path/to/repo
     cd littlego-usermanual
     hugo server --config=config/online/hugo.toml --destination public/online-test
 
@@ -94,20 +95,23 @@ Note: If `--destination` is not specified the content to be served by `hugo serv
 
 Switch the Git branch:
 
+    cd /path/to/repo
     git checkout gh-pages
 
 Remove the user manual from the previous release:
 
-    cd littlego-usermanual
-    rm -rf ../public
+    rm -r /tmp/littlego-usermanual /tmp/CNAME
+    mv littlego-usermanual CNAME /tmp
+    rm -r *
+    mv /tmp/littlego-usermanual /tmp/CNAME .
 
 Add the user manual from the new release:
 
-    cp -Rp public/online ../public
+    cp -Rp littlego-usermanual/public/online/* .
 
 Publish the new user manual:
 
-    git add ../public
+    git add .
     git commit -m "add user manual for version <version>"
 
 Switch back to the main Git branch:
@@ -118,6 +122,7 @@ Switch back to the main Git branch:
 
 Remove a previously generated ZIP archive:
 
+    cd /path/to/repo
     rm littlego-usermanual.zip
 
 Create the new ZIP archive:
@@ -128,6 +133,7 @@ Create the new ZIP archive:
 
 Commit any outstanding changes to version control, then tag and sign the release in Git:
 
+    cd /path/to/repo
     git tag -s -m "tagging release <version>" <version> <commit hash>
 
 Update the GitHub repository
