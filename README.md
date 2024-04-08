@@ -53,7 +53,7 @@ The Little Go project is a single person effort and does not have the resources 
 
 **Online**: No. Only the latest version of the user manual is published.
 
-**Offline**: Yes. Check out the [list of releases on GitHub](https://github.com/herzbube/littlego-usermanual/releases). Every release has a file attachment named `littlego-usermanual-<version>.zip`.
+**Offline**: Yes. Check out the [list of releases on GitHub](https://github.com/herzbube/littlego-usermanual/releases). Every release has a file attachment named `littlego-usermanual.zip`.
 
 # Attributions
 
