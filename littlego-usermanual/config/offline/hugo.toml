@@ -6,7 +6,6 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'Little Go User Manual'
 theme = "hugo-geekdoc"
-timeout = '120s'
 resourceDir = 'resources/offline'
 
 relativeURLs = true

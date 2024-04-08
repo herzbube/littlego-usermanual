@@ -6,7 +6,6 @@ baseURL = 'https://littlego-usermanual.herzbube.ch/'
 languageCode = 'en-us'
 title = 'Little Go User Manual'
 theme = "hugo-geekdoc"
-timeout = '120s'
 resourceDir = 'resources/online'
 
 # Geekdoc required configuration

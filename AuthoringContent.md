@@ -16,6 +16,12 @@ To support serverless browsing via filesystem URLs (`file://`), content must use
 
 See the [Hugo docs](https://gohugo.io/methods/shortcode/relref/) for details.
 
+## Using the "img" shortcode
+
+When the Geekdoc theme's "img" shortcode is used the shortcode's "size" property should be set to "origin", if possible, to prevent Hugo from resizing the image.
+
+Especially in the case of `GIF` files the resized image file can be **a lot** larger than the original.
+
 ## Screenshot files
 
 Taking a screenshot from the simulator results in a `PNG` file. To reduce the size of the Git repo, convert the screenshot to `JPG` format. Even with a high quality setting the resulting `JPG` file will take only about 25-30% of the original `PNG` file's size.
