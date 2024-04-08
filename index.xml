@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/</link>
+    <description>Recent content on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Board setup</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/board-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/board-setup/</guid>
+      <description>When you start a new game, instead of beginning to play you can switch to Board Setup mode. In this mode you can place black or white stones in any order and combination to set up the initial board before you begin to play moves. The only restriction is that the board position you thus create is legal. In practice this means that the app will not allow you to place stones that create a stone group that has no liberties.</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>https://littlego-usermanual.herzbube.ch/appendix/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/appendix/faq/</guid>
+      <description>How do I change the board size? How do I start a new game? How can I pass / play a pass move? What are the functions of all those buttons? The computer is too strong / too weak, what can I do? Player influence is not displayed, or is completely wrong, what can I do? Move numbers / coordinate labels are not displayed even though they are enabled in the user preferences Markup labels are not displayed What is an &amp;ldquo;Auto-created player&amp;rdquo;?</description>
+    </item>
+    <item>
+      <title>Game info screen</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</guid>
+      <description>The Play area of the app always displays the Game Info button. Tapping the button calls up the &amp;ldquo;Game Info&amp;rdquo; screen which shows all sorts of useful information about the game that is currently in progress.&#xA;The screen uses tabs to organize the content it displays. When you call up the screen the app automatically activates the tab that was selected when the screen was open the last time.&#xA;The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Game&amp;rdquo; tab The &amp;ldquo;Board&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab displays scoring information in a tabular fashion.</description>
+    </item>
+    <item>
+      <title>Game variations</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/game-variations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/game-variations/</guid>
+      <description>A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.&#xA;This manual page introduces the concept of a &amp;ldquo;game tree&amp;rdquo; to organize game variations, presents a glossary with term definitions that are important to understand the game tree concept, and then shows with numerous illustrations how the app&amp;rsquo;s tree view feature works in detail.</description>
+    </item>
+    <item>
+      <title>Players</title>
+      <link>https://littlego-usermanual.herzbube.ch/settings/players/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/settings/players/</guid>
+      <description>Go is a game for two players. Whenever you start a new game the game requires you to choose two players from the list of existing players. Players are managed in the Settings area of the app under &amp;ldquo;Players&amp;rdquo;.&#xA;The &amp;ldquo;Players&amp;rdquo; settings screen Human players Computer players The &amp;ldquo;Players&amp;rdquo; settings screen There are two types of players: Human players and computer players. The app comes with a set of pre-defined players, which you can see in the following illustration.</description>
+    </item>
+    <item>
+      <title>Smart Game Format (SGF)</title>
+      <link>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</guid>
+      <description>Items listed in the Archive area of the app (see The game archive) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. External link to SGF specification.&#xA;The app internally uses a software package named SGFC (the SGF Syntax Checker &amp;amp; Converter) to load and save SGF data. External link to SGFC website.</description>
+    </item>
+    <item>
+      <title>Start a new game</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/start-a-new-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/start-a-new-game/</guid>
+      <description>User interface elements Ruleset Handicap Advanced settings Komi Ko rule Scoring system Life &amp;amp; Death Settling rule Dispute Resolution rule Four Passes rule To start a new game, tap the Menu toolbar button, then select the &amp;ldquo;New game&amp;rdquo; menu item. This calls up the &amp;ldquo;New game&amp;rdquo; screen.&#xA;References ↕ Button reference Menu reference The &amp;ldquo;New game&amp;rdquo; screen is one of the most important screens of the app, because here you can define the characteristics of the games you want to play.</description>
+    </item>
+    <item>
+      <title>Tab bar at the bottom</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/tab-bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/tab-bar/</guid>
+      <description>List of UI areas How to edit the tab bar Little Go&amp;rsquo;s user interface consists of several distinct areas. A tab bar at the bottom of the screen lets you navigate between those areas. Only one area can be visible at any given time.&#xA;The number of areas exceeds the available space in the tab bar even on the largest devices. The right-most tab therefore is always the &amp;ldquo;More&amp;rdquo; tab, which when activated shows a list of those areas that didn&amp;rsquo;t fit on the tab bar.</description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/troubleshooting/</guid>
+      <description>Computer player making illegal moves I can/cannot play X - isn&amp;rsquo;t this against the game rules? Crash after zooming the board I cannot load a game, the game is reported to contain errors File sharing changes do not update the archive The computer player plays stupid moves during the end game Computer player making illegal moves It is possible that the app and the computer player (i.e. Fuego) disagree on when a move is legal.</description>
+    </item>
+    <item>
+      <title>Annotations</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/annotations/</guid>
+      <description>You can annotate every node in the game tree in several ways so that when you pass a saved game to someone else they can view the game and get useful information about the moves that were played and the positions that resulted from those moves.&#xA;Annotation user interface Page 1 Page 2 Node content view Annotaton types Short and long descriptions Position valuation Move valuation Hotspot designation Score estimate Mapping to SGF properties Annotation user interface The user interface makes the controls for viewing and editing annotations available to you in the Annotation view.</description>
+    </item>
+    <item>
+      <title>Go rules</title>
+      <link>https://littlego-usermanual.herzbube.ch/appendix/go-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/appendix/go-rules/</guid>
+      <description>Overview Players Board Intersections Moves Liberties Stone groups Suicide rule Exception to Suicide rule No Repetition (ko) rule Life Overview This help section contains only a barebones introduction to the rules of Go. For a more thorough treatment please visit one of the many websites dedicated to the game. For instance, an excellent resource is Sensei&amp;rsquo;s Library while another more hands-on interactive tutorial is available on online-go.com.&#xA;Players The game is played by two players.</description>
+    </item>
+    <item>
+      <title>GTP Engine</title>
+      <link>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</guid>
+      <description>The computer player in this app is powered by the open source software library Fuego (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.&#xA;In the Diagnostics area of the app there are a few items at the top of the screen that let you peek into what&amp;rsquo;s going on between GTP client (the app) and the GTP engine (Fuego).</description>
+    </item>
+    <item>
+      <title>How to play</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/how-to-play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/how-to-play/</guid>
+      <description>Placing a stone The magnifying glass The computer player Computer vs. computer game Let the computer play for you Making a move for the computer Discarding moves Game information Placing a stone Placing a stone Once you have started a new game you are ready to begin playing.&#xA;Start placing a stone by touching the screen near the intersection where you want the stone to end up. The stone appears after a small delay but is not yet placed.</description>
+    </item>
+    <item>
+      <title>Player influence</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</guid>
+      <description>The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&amp;rsquo;s influence and displays an indication of that estimate.</description>
+    </item>
+    <item>
+      <title>Sending crash reports</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/crash-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/crash-reports/</guid>
+      <description>When the app crashes, data which can help the developer to correct the problem will be collected automatically. All collected data is stored on your device, nothing is sent without your permission. Next time you launch the app an alert will be displayed, offering you the choice to send the collected data in the form of a crash report to the developer. If you decline, no data is sent.&#xA;In the Diagnostics area of the app, you can change the settings that are related to the crash reporting service.</description>
+    </item>
+    <item>
+      <title>The computer player</title>
+      <link>https://littlego-usermanual.herzbube.ch/settings/computer-player/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/settings/computer-player/</guid>
+      <description>A computer player has many settings, each of which defines a certain technical aspect of how that particular computer player calculates its moves. The settings can be placed into 2 main categories:&#xA;Settings that affect the computer player&amp;rsquo;s playing strength. Settings that define the computer player&amp;rsquo;s resign behaviour. Read on to learn more.&#xA;The &amp;ldquo;Edit player&amp;rdquo; screen for computer players The background computer player Playing strength Playing strength settings Maximum memory Number of threads Pondering Pondering time Reuse subtree Thinking time Maximum games Limiting the computer&amp;rsquo;s playing strength Predefined playing strength settings Resign behaviour Resign behaviour settings Resign threshold Resign minimum number of games Predefined resign behaviour settings Mapping to Fuego parameters The &amp;ldquo;Edit player&amp;rdquo; screen for computer players Edit player screen, editing a computer player Tap the &amp;ldquo;Done&amp;rdquo; button when you have finished editing the player&amp;rsquo;s settings.</description>
+    </item>
+    <item>
+      <title>The current game variation</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/current-game-variation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/current-game-variation/</guid>
+      <description>The tree view indicates the currently selected game variation with a red path going through all the lines that connect the variation&amp;rsquo;s nodes.&#xA;Read the Game variations page to learn more about the tree view and game variations in general. Besides the tree view, the app&amp;rsquo;s user interface provides additiional elements to view the content of and interact with the current game variation. These UI elements are the topic of this page.</description>
+    </item>
+    <item>
+      <title>Toolbar in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-toolbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-toolbar/</guid>
+      <description>The Play user interface area displays a toolbar with buttons that perform various actions. An overview of the general toolbar organization is given in the next section, while the section after that provides a reference of all the buttons that can appear in the toolbar, and what they do.&#xA;Toolbar organization Button reference Right toolbar area Play mode Scoring mode Board setup mode Markup editing mode Toolbar organization This is how the Play area toolbar looks like on an iPhone when you hold the device in portrait orientation.</description>
+    </item>
+    <item>
+      <title>Game board extras</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</guid>
+      <description>Coordinates Move numbers Notification when computer makes a move Coordinates By default the app does not display any game board coordinates, because these consume precious screen estate that could otherwise be used for drawing a slightly larger game board. This becomes especially important when you play on a large board on a device with a smaller screen.&#xA;You can enable coordinate labels in the Settings area of the app under &amp;ldquo;Display &amp;gt; Display coordinates&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Markup</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/markup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/markup/</guid>
+      <description>You can place various types of graphical elements on the board to point out noteworthy stones or figures. These graphical elements are summarily called &amp;ldquo;markup&amp;rdquo;. One typical usage is to combine markup elements with a short and/or long description annotation text (see the Annotations section of this manual) that further explains the meaning of the markup elements.&#xA;Every game tree node contains its own set of markup elements, independently from any markup that might be present in other nodes.</description>
+    </item>
+    <item>
+      <title>Menu in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-menu/</guid>
+      <description>In the Play area when you tap the Menu button a menu will pop up that looks similar to the following screenshot:&#xA;Menu Play area (iPhone) Menu items are actions for which there is no toolbar button. The mode that is currently active in the Play area affects which items the menu shows. See this page for more information on Play area modes.&#xA;In the next section you find a reference of all the items that can appear in the menu, when they appear, and what they do.</description>
+    </item>
+    <item>
+      <title>Reporting bugs</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/bug-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/bug-reports/</guid>
+      <description>To report a bug, please send an email to herzbube@herzbube.ch that contains a description of the problem and, if possible, step-by-step instructions on how to reproduce it.&#xA;Bug reports without a minimal problem description are likely to be ignored. For your convenience, in the Diagnostics area of the app you will find a button labelled &amp;ldquo;Send a bug report&amp;rdquo;. Tapping the button displays a pre-filled email view that you only need to supplement with your problem description before you can send off the report.</description>
+    </item>
+    <item>
+      <title>Scoring</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/scoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/scoring/</guid>
+      <description>Scoring systems Area scoring and territory scoring Why area scoring is the default Area scoring and territory scoring, revisited How to view the score Activating and leaving scoring mode How to activate scoring mode How to leave scoring mode Life &amp;amp; death settling Territory markup Marking dead stones Assistance with marking dead stones Marking stones in seki Inconsistent territory Scoring systems Area scoring and territory scoring When you start a new game you can choose whether you want to play according to area or territory scoring rules (sometimes also known as Chinese or Japanese rules).</description>
+    </item>
+    <item>
+      <title>The game archive</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/game-archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/game-archive/</guid>
+      <description>The Archive area of the app is where you manage your saved games, or games imported from external sources. You activate the Archive area of the app via the tab bar at the bottom of the screen.&#xA;The app uses the SGF format to read and write Go games. SGF files are text files. For the app to recognize an SGF file it must have the .sgf file extension. Read the Smart Game Format (SGF) page for more technical information.</description>
+    </item>
+    <item>
+      <title>End of the game</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/end-of-the-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/end-of-the-game/</guid>
+      <description>Ways to end the game Resigning Ending the game by passing Resuming play Resuming play after a game has ended by passing Resuming play after three pass moves Resuming play after two pass moves Other game-ending scenarios Ways to end the game Resigning You can resign when it is your turn to play by selecting &amp;ldquo;Resign&amp;rdquo; from the menu that pops up when you tap the Menu button.&#xA;When a player resigns, Scoring mode is not activated automatically because it is clear that the resigning player has lost the game.</description>
+    </item>
+    <item>
+      <title>Status Text in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-status-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-status-text/</guid>
+      <description>On the Play area there is always a small area that shows context-related textual information about what is currently going on in the game. This textual information is called the Status Text.&#xA;Locaton on the screen Play mode Scoring mode Board setup mode Markup editing mode When computer is calculating Locaton on the screen The user interface shows the Status Text in different places depending on the device orientaton:&#xA;Portrait orientation When you hold the device in portrait orientation, the Status Text is located in the center of the toolbar at the top of the screen.</description>
+    </item>
+    <item>
+      <title>Modes in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-area-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-area-modes/</guid>
+      <description>At any given time the Play area of the user interface is in a specific state, or mode. The mode that is currently active affects all aspects of the Play area user interface:&#xA;The gestures that are available to interact with the board. The symbols that are shown on the board. The buttons that are shown in the toolbar. The entries that appear in the menu. The information that the status text area displays.</description>
+    </item>
+    <item>
+      <title>Landscape orientation</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/landscape/</guid>
+      <description>Below you can see how the user interface looks like on an iPhone device, both in portrait and in landscape orientation.&#xA;To make optimal use of the available space the areas of the user interface are shifted around when the orientation changes. The annotation numbers in the illustration show where each area goes when the user interface orientation changes from portrait to landscape, and vice versa.&#xA;On iPad devices the basic layout is the same as on iPhone devices.</description>
+    </item>
+  </channel>
+</rss>

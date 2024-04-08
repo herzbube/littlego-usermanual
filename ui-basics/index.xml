@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User interface basics on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/ui-basics/</link>
+    <description>Recent content in User interface basics on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/ui-basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tab bar at the bottom</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/tab-bar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/tab-bar/</guid>
+      <description>List of UI areas How to edit the tab bar Little Go&amp;rsquo;s user interface consists of several distinct areas. A tab bar at the bottom of the screen lets you navigate between those areas. Only one area can be visible at any given time.&#xA;The number of areas exceeds the available space in the tab bar even on the largest devices. The right-most tab therefore is always the &amp;ldquo;More&amp;rdquo; tab, which when activated shows a list of those areas that didn&amp;rsquo;t fit on the tab bar.</description>
+    </item>
+    <item>
+      <title>Toolbar in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-toolbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-toolbar/</guid>
+      <description>The Play user interface area displays a toolbar with buttons that perform various actions. An overview of the general toolbar organization is given in the next section, while the section after that provides a reference of all the buttons that can appear in the toolbar, and what they do.&#xA;Toolbar organization Button reference Right toolbar area Play mode Scoring mode Board setup mode Markup editing mode Toolbar organization This is how the Play area toolbar looks like on an iPhone when you hold the device in portrait orientation.</description>
+    </item>
+    <item>
+      <title>Menu in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-menu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-menu/</guid>
+      <description>In the Play area when you tap the Menu button a menu will pop up that looks similar to the following screenshot:&#xA;Menu Play area (iPhone) Menu items are actions for which there is no toolbar button. The mode that is currently active in the Play area affects which items the menu shows. See this page for more information on Play area modes.&#xA;In the next section you find a reference of all the items that can appear in the menu, when they appear, and what they do.</description>
+    </item>
+    <item>
+      <title>Status Text in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-status-text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-status-text/</guid>
+      <description>On the Play area there is always a small area that shows context-related textual information about what is currently going on in the game. This textual information is called the Status Text.&#xA;Locaton on the screen Play mode Scoring mode Board setup mode Markup editing mode When computer is calculating Locaton on the screen The user interface shows the Status Text in different places depending on the device orientaton:&#xA;Portrait orientation When you hold the device in portrait orientation, the Status Text is located in the center of the toolbar at the top of the screen.</description>
+    </item>
+    <item>
+      <title>Modes in the Play area</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/play-area-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/play-area-modes/</guid>
+      <description>At any given time the Play area of the user interface is in a specific state, or mode. The mode that is currently active affects all aspects of the Play area user interface:&#xA;The gestures that are available to interact with the board. The symbols that are shown on the board. The buttons that are shown in the toolbar. The entries that appear in the menu. The information that the status text area displays.</description>
+    </item>
+    <item>
+      <title>Landscape orientation</title>
+      <link>https://littlego-usermanual.herzbube.ch/ui-basics/landscape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/ui-basics/landscape/</guid>
+      <description>Below you can see how the user interface looks like on an iPhone device, both in portrait and in landscape orientation.&#xA;To make optimal use of the available space the areas of the user interface are shifted around when the orientation changes. The annotation numbers in the illustration show where each area goes when the user interface orientation changes from portrait to landscape, and vice versa.&#xA;On iPad devices the basic layout is the same as on iPhone devices.</description>
+    </item>
+  </channel>
+</rss>

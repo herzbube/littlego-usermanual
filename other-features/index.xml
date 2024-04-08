@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other features on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/other-features/</link>
+    <description>Recent content in Other features on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/other-features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game info screen</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</guid>
+      <description>The Play area of the app always displays the Game Info button. Tapping the button calls up the &amp;ldquo;Game Info&amp;rdquo; screen which shows all sorts of useful information about the game that is currently in progress.&#xA;The screen uses tabs to organize the content it displays. When you call up the screen the app automatically activates the tab that was selected when the screen was open the last time.&#xA;The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Game&amp;rdquo; tab The &amp;ldquo;Board&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab displays scoring information in a tabular fashion.</description>
+    </item>
+    <item>
+      <title>Player influence</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</guid>
+      <description>The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&amp;rsquo;s influence and displays an indication of that estimate.</description>
+    </item>
+    <item>
+      <title>Game board extras</title>
+      <link>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</guid>
+      <description>Coordinates Move numbers Notification when computer makes a move Coordinates By default the app does not display any game board coordinates, because these consume precious screen estate that could otherwise be used for drawing a slightly larger game board. This becomes especially important when you play on a large board on a device with a smaller screen.&#xA;You can enable coordinate labels in the Settings area of the app under &amp;ldquo;Display &amp;gt; Display coordinates&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

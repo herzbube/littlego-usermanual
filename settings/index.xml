@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Settings on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/settings/</link>
+    <description>Recent content in Settings on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/settings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Players</title>
+      <link>https://littlego-usermanual.herzbube.ch/settings/players/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/settings/players/</guid>
+      <description>Go is a game for two players. Whenever you start a new game the game requires you to choose two players from the list of existing players. Players are managed in the Settings area of the app under &amp;ldquo;Players&amp;rdquo;.&#xA;The &amp;ldquo;Players&amp;rdquo; settings screen Human players Computer players The &amp;ldquo;Players&amp;rdquo; settings screen There are two types of players: Human players and computer players. The app comes with a set of pre-defined players, which you can see in the following illustration.</description>
+    </item>
+    <item>
+      <title>The computer player</title>
+      <link>https://littlego-usermanual.herzbube.ch/settings/computer-player/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/settings/computer-player/</guid>
+      <description>A computer player has many settings, each of which defines a certain technical aspect of how that particular computer player calculates its moves. The settings can be placed into 2 main categories:&#xA;Settings that affect the computer player&amp;rsquo;s playing strength. Settings that define the computer player&amp;rsquo;s resign behaviour. Read on to learn more.&#xA;The &amp;ldquo;Edit player&amp;rdquo; screen for computer players The background computer player Playing strength Playing strength settings Maximum memory Number of threads Pondering Pondering time Reuse subtree Thinking time Maximum games Limiting the computer&amp;rsquo;s playing strength Predefined playing strength settings Resign behaviour Resign behaviour settings Resign threshold Resign minimum number of games Predefined resign behaviour settings Mapping to Fuego parameters The &amp;ldquo;Edit player&amp;rdquo; screen for computer players Edit player screen, editing a computer player Tap the &amp;ldquo;Done&amp;rdquo; button when you have finished editing the player&amp;rsquo;s settings.</description>
+    </item>
+  </channel>
+</rss>

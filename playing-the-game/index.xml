@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playing the game on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/playing-the-game/</link>
+    <description>Recent content in Playing the game on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/playing-the-game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Start a new game</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/start-a-new-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/start-a-new-game/</guid>
+      <description>User interface elements Ruleset Handicap Advanced settings Komi Ko rule Scoring system Life &amp;amp; Death Settling rule Dispute Resolution rule Four Passes rule To start a new game, tap the Menu toolbar button, then select the &amp;ldquo;New game&amp;rdquo; menu item. This calls up the &amp;ldquo;New game&amp;rdquo; screen.&#xA;References ↕ Button reference Menu reference The &amp;ldquo;New game&amp;rdquo; screen is one of the most important screens of the app, because here you can define the characteristics of the games you want to play.</description>
+    </item>
+    <item>
+      <title>How to play</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/how-to-play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/how-to-play/</guid>
+      <description>Placing a stone The magnifying glass The computer player Computer vs. computer game Let the computer play for you Making a move for the computer Discarding moves Game information Placing a stone Placing a stone Once you have started a new game you are ready to begin playing.&#xA;Start placing a stone by touching the screen near the intersection where you want the stone to end up. The stone appears after a small delay but is not yet placed.</description>
+    </item>
+    <item>
+      <title>Scoring</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/scoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/scoring/</guid>
+      <description>Scoring systems Area scoring and territory scoring Why area scoring is the default Area scoring and territory scoring, revisited How to view the score Activating and leaving scoring mode How to activate scoring mode How to leave scoring mode Life &amp;amp; death settling Territory markup Marking dead stones Assistance with marking dead stones Marking stones in seki Inconsistent territory Scoring systems Area scoring and territory scoring When you start a new game you can choose whether you want to play according to area or territory scoring rules (sometimes also known as Chinese or Japanese rules).</description>
+    </item>
+    <item>
+      <title>End of the game</title>
+      <link>https://littlego-usermanual.herzbube.ch/playing-the-game/end-of-the-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/playing-the-game/end-of-the-game/</guid>
+      <description>Ways to end the game Resigning Ending the game by passing Resuming play Resuming play after a game has ended by passing Resuming play after three pass moves Resuming play after two pass moves Other game-ending scenarios Ways to end the game Resigning You can resign when it is your turn to play by selecting &amp;ldquo;Resign&amp;rdquo; from the menu that pops up when you tap the Menu button.&#xA;When a player resigns, Scoring mode is not activated automatically because it is clear that the resigning player has lost the game.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game organization on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/game-organization/</link>
+    <description>Recent content in Game organization on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/game-organization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game variations</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/game-variations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/game-variations/</guid>
+      <description>A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.&#xA;This manual page introduces the concept of a &amp;ldquo;game tree&amp;rdquo; to organize game variations, presents a glossary with term definitions that are important to understand the game tree concept, and then shows with numerous illustrations how the app&amp;rsquo;s tree view feature works in detail.</description>
+    </item>
+    <item>
+      <title>The current game variation</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/current-game-variation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/current-game-variation/</guid>
+      <description>The tree view indicates the currently selected game variation with a red path going through all the lines that connect the variation&amp;rsquo;s nodes.&#xA;Read the Game variations page to learn more about the tree view and game variations in general. Besides the tree view, the app&amp;rsquo;s user interface provides additiional elements to view the content of and interact with the current game variation. These UI elements are the topic of this page.</description>
+    </item>
+    <item>
+      <title>The game archive</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-organization/game-archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-organization/game-archive/</guid>
+      <description>The Archive area of the app is where you manage your saved games, or games imported from external sources. You activate the Archive area of the app via the tab bar at the bottom of the screen.&#xA;The app uses the SGF format to read and write Go games. SGF files are text files. For the app to recognize an SGF file it must have the .sgf file extension. Read the Smart Game Format (SGF) page for more technical information.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Appendix on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/appendix/</link>
+    <description>Recent content in Appendix on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/appendix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ</title>
+      <link>https://littlego-usermanual.herzbube.ch/appendix/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/appendix/faq/</guid>
+      <description>How do I change the board size? How do I start a new game? How can I pass / play a pass move? What are the functions of all those buttons? The computer is too strong / too weak, what can I do? Player influence is not displayed, or is completely wrong, what can I do? Move numbers / coordinate labels are not displayed even though they are enabled in the user preferences Markup labels are not displayed What is an &amp;ldquo;Auto-created player&amp;rdquo;?</description>
+    </item>
+    <item>
+      <title>Go rules</title>
+      <link>https://littlego-usermanual.herzbube.ch/appendix/go-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/appendix/go-rules/</guid>
+      <description>Overview Players Board Intersections Moves Liberties Stone groups Suicide rule Exception to Suicide rule No Repetition (ko) rule Life Overview This help section contains only a barebones introduction to the rules of Go. For a more thorough treatment please visit one of the many websites dedicated to the game. For instance, an excellent resource is Sensei&amp;rsquo;s Library while another more hands-on interactive tutorial is available on online-go.com.&#xA;Players The game is played by two players.</description>
+    </item>
+  </channel>
+</rss>

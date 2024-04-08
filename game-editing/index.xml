@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game editing on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/game-editing/</link>
+    <description>Recent content in Game editing on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/game-editing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Board setup</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/board-setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/board-setup/</guid>
+      <description>When you start a new game, instead of beginning to play you can switch to Board Setup mode. In this mode you can place black or white stones in any order and combination to set up the initial board before you begin to play moves. The only restriction is that the board position you thus create is legal. In practice this means that the app will not allow you to place stones that create a stone group that has no liberties.</description>
+    </item>
+    <item>
+      <title>Annotations</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/annotations/</guid>
+      <description>You can annotate every node in the game tree in several ways so that when you pass a saved game to someone else they can view the game and get useful information about the moves that were played and the positions that resulted from those moves.&#xA;Annotation user interface Page 1 Page 2 Node content view Annotaton types Short and long descriptions Position valuation Move valuation Hotspot designation Score estimate Mapping to SGF properties Annotation user interface The user interface makes the controls for viewing and editing annotations available to you in the Annotation view.</description>
+    </item>
+    <item>
+      <title>Markup</title>
+      <link>https://littlego-usermanual.herzbube.ch/game-editing/markup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/game-editing/markup/</guid>
+      <description>You can place various types of graphical elements on the board to point out noteworthy stones or figures. These graphical elements are summarily called &amp;ldquo;markup&amp;rdquo;. One typical usage is to combine markup elements with a short and/or long description annotation text (see the Annotations section of this manual) that further explains the meaning of the markup elements.&#xA;Every game tree node contains its own set of markup elements, independently from any markup that might be present in other nodes.</description>
+    </item>
+  </channel>
+</rss>

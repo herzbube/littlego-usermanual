@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagnostics on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/diagnostics/</link>
+    <description>Recent content in Diagnostics on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/diagnostics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/troubleshooting/</guid>
+      <description>Computer player making illegal moves I can/cannot play X - isn&amp;rsquo;t this against the game rules? Crash after zooming the board I cannot load a game, the game is reported to contain errors File sharing changes do not update the archive The computer player plays stupid moves during the end game Computer player making illegal moves It is possible that the app and the computer player (i.e. Fuego) disagree on when a move is legal.</description>
+    </item>
+    <item>
+      <title>Sending crash reports</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/crash-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/crash-reports/</guid>
+      <description>When the app crashes, data which can help the developer to correct the problem will be collected automatically. All collected data is stored on your device, nothing is sent without your permission. Next time you launch the app an alert will be displayed, offering you the choice to send the collected data in the form of a crash report to the developer. If you decline, no data is sent.&#xA;In the Diagnostics area of the app, you can change the settings that are related to the crash reporting service.</description>
+    </item>
+    <item>
+      <title>Reporting bugs</title>
+      <link>https://littlego-usermanual.herzbube.ch/diagnostics/bug-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/diagnostics/bug-reports/</guid>
+      <description>To report a bug, please send an email to herzbube@herzbube.ch that contains a description of the problem and, if possible, step-by-step instructions on how to reproduce it.&#xA;Bug reports without a minimal problem description are likely to be ignored. For your convenience, in the Diagnostics area of the app you will find a button labelled &amp;ldquo;Send a bug report&amp;rdquo;. Tapping the button displays a pre-filled email view that you only need to supplement with your problem description before you can send off the report.</description>
+    </item>
+  </channel>
+</rss>

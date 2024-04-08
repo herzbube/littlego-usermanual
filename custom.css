@@ -1,0 +1,10 @@
+/*
+ * The size assigned to sprites by geekdoc is usually too small for the icon
+ * sprites that are coming from Little Go. Here we assign a bigger size if the
+ * content has embedded the icon in an HTML element that uses the
+ * class "littlego-icon".
+ */
+.littlego-icon svg.gdoc-icon {
+  width: 3rem;
+  height: 3rem;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical pages on Little Go User Manual</title>
+    <link>https://littlego-usermanual.herzbube.ch/technical-pages/</link>
+    <description>Recent content in Technical pages on Little Go User Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://littlego-usermanual.herzbube.ch/technical-pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Game Format (SGF)</title>
+      <link>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</guid>
+      <description>Items listed in the Archive area of the app (see The game archive) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. External link to SGF specification.&#xA;The app internally uses a software package named SGFC (the SGF Syntax Checker &amp;amp; Converter) to load and save SGF data. External link to SGFC website.</description>
+    </item>
+    <item>
+      <title>GTP Engine</title>
+      <link>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</guid>
+      <description>The computer player in this app is powered by the open source software library Fuego (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.&#xA;In the Diagnostics area of the app there are a few items at the top of the screen that let you peek into what&amp;rsquo;s going on between GTP client (the app) and the GTP engine (Fuego).</description>
+    </item>
+  </channel>
+</rss>
