@@ -117,13 +117,13 @@ Switch back to the main Git branch:
 
 ## Create a ZIP archive
 
-Remove any previously generated ZIP archives to avoid confusion:
+Remove a previously generated ZIP archive:
 
-    rm littlego-usermanual/littlego-usermanual*.zip
+    rm littlego-usermanual.zip
 
 Create the new ZIP archive:
 
-    zip -r littlego-usermanual-<version>.zip littlego-usermanual/public/offline/*
+    zip -r littlego-usermanual.zip littlego-usermanual/public/offline/*
 
 ## Finalise steps
 
@@ -136,4 +136,4 @@ Update the GitHub repository
     git push
     git push --tags
 
-Finally, create a new release on GitHub that references the Git tag and attach `littlego-usermanual-<version>.zip` to the release.
+Finally, create a new release on GitHub that references the Git tag and attach `littlego-usermanual.zip` to the release.
