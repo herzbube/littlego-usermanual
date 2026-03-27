@@ -58,9 +58,11 @@ You can also [manually choose]({{< relref "start-a-new-game#dispute-resolution-r
 
 ## Other game-ending scenarios
 
-When you load an SGF file that you obtained from an external source you may see the app displaying that a player wins on time, or wins by forfeit. The app supports displaying these game results to properly show you what is stored in an SGF file.
+In a [game with timed play]({{< relref "timed-play" >}}), a player wins on time when their opponent runs out of time. A player may also win when their opponent forfeits the game.
 
-The app itself has no function for ending a game due to running out of time because it does not support timed play. Also the app has no concept for forfeiting games because it is not designed to be used in tournaments or similar serious environments.
+{{< hint type=note >}}
+The app itself has no function to forfeit the game, but when you load an SGF file that contains a "forfeit" game result, the app will display that a player wins by forfeit.
+{{< /hint >}}
 
 You can undo a game-ending timeout or forfeit from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button, exactly the same as you would do to undo the decision to resign. The menu items are named "Undo timeout" and "Undo forfeit", respectively.
 

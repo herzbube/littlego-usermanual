@@ -20,20 +20,16 @@ This is how the Play {{< icon "gogrid2x2" >}} area toolbar looks like on an iPho
 
 {{< img name="play-toolbar-portrait" size="origin" lazy=false >}}
 
-The toolbar has 3 areas:
+The toolbar has 2 areas:
 
 1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the mode that is currently active in the Play {{< icon "gogrid2x2" >}} area is in (e.g. Play {{< icon "gogrid2x2" >}} mode, Scoring {{< icon "scoring" >}} mode, etc.).
-1. At the toolbar center there is the [Status Text area]({{< relref "play-status-text" >}}) that shows context information about the activity that is going on at the moment. Some examples are: The current status of the ongoing game, the next action you can take, a summary score, etc.
 1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info screen]({{< relref "../other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "play-menu" >}}).
 
 ---
 
 {{< columns size=regular >}}
 
-When you hold the device in landscape orientation the user interface does not show a toolbar at the top of the screen. Instead the user interface shows the toolbar *content* in the following places:
-
-- The buttons in the toolbar's left (①) and right (③) areas are shown in a button box at the bottom-right corner of the screen, as is depicted in the next image.
-- The Status Text is displayed in the upper-left corner of the screen (not shown here).
+When you hold the device in landscape orientation the user interface does not show a toolbar at the top of the screen. Instead the user interface shows the toolbar *content* (the buttons in the toolbar's left (①) and right (②) areas) in a button box at the bottom-right corner of the screen, as is depicted in the next image.
 
 {{< hint type=note >}}
 The reason for the different landscape layout is that in landscape orientation there is not a lot of vertical screen space, so the space that *is* available is put to better use by drawing the Go board slightly larger.
@@ -67,7 +63,7 @@ The following buttons can appear in the left toolbar area while [Play {{< icon "
 | <span class="littlego-icon">{{< icon "pause" >}}</span> | Pause | This button is only shown in a computer vs. computer game. Tapping the button lets the computer player whose turn it is finish the move, then pauses the game. |
 | <span class="littlego-icon">{{< icon "continue" >}}</span> | Continue | This button is only shown in a computer vs. computer game, when the game is paused. Tapping the button lets the computer players continue with the paused game. |
 | <span class="littlego-icon">{{< icon "interrupt" >}}</span> | Interrupt | This button is shown whenever the computer player is calculating something, e.g. when it is thinking about its own move or when it tries to come up with a move suggestion for you. Tapping the button cuts short the computer player's thinking, forcing it to play or suggest the best move it has calculated so far. |
-| <span class="littlego-icon">{{< icon "scoring" >}}</span> | Scoring Mode | Tapping this button activates Scoring {{< icon "scoring" >}} mode. The button is shown only if the game has ended **and** the Play {{< icon "gogrid2x2" >}} area is in Play {{< icon "gogrid2x2" >}} mode. |
+| <span class="littlego-icon">{{< icon "scoring" >}}</span> | Scoring Mode | Tapping this button activates Scoring {{< icon "scoring" >}} mode. The button is shown only if the game has ended **and** the Play {{< icon "gogrid2x2" >}} area is in Play {{< icon "gogrid2x2" >}} mode **and** you are viewing the board position at the end of the game - these are the conditions where you most likely want to determine the game score. If the button is not shown, the Play Menu usually has a menu item that lets you activate Scoring {{< icon "scoring" >}} mode. |
 
 ### Scoring mode
 
@@ -106,11 +102,11 @@ These are the markup types that you can choose from when you tap the Select Mark
 | <span class="littlego-icon">{{< icon "circle" >}}</span> | Circle Symbol | Places a Circle symbol on the board. |
 | <span class="littlego-icon">{{< icon "square" >}}</span> | Square Symbol | Places a Square symbol on the board. |
 | <span class="littlego-icon">{{< icon "triangle" >}}</span> | Triangle Symbol | Places a Triangle symbol on the board. |
-| <span class="littlego-icon">{{< icon "cross-mark" >}}</span> | X Symbol | Places an "X" symbol on the board ("X marks the spot"). |
+| <span class="littlego-icon">{{< icon "cross-mark" >}}</span> | "X" Symbol | Places an "X" symbol on the board ("X marks the spot"). |
 | <span class="littlego-icon">{{< icon "check-mark" >}}</span> | Checkmark Symbol | Places a "Selected" symbol on the board. The style used for rendering the symbol is a checkmark. Which style is currently used for rendering the "Selected" symbols is a user preference. |
 | <span class="littlego-icon">{{< icon "dot-symbol" >}}</span> | Dot Symbol | Places a "Selected" symbol on the board. The style used for rendering the symbol is a dot. Which style is currently used for rendering the "Selected" symbols is a user preference. |
 | <span class="littlego-icon">{{< icon "number-marker" >}}</span> | Number Marker | Places a single-digit number marker on the board. |
-| <span class="littlego-icon">{{< icon "letter-marker" >}}</span> | Letter Marker | Places a letter marker on the board. Letters used are in the ranges a-z and A-Z. |
+| <span class="littlego-icon">{{< icon "letter-marker" >}}</span> | Letter Marker | Places a single-letter marker on the board. Letters used are in the ranges a-z and A-Z. |
 | <span class="littlego-icon">{{< icon "label" >}}</span> | Label | Places a text label on the board. |
 | <span class="littlego-icon">{{< icon "line" >}}</span> | Line | Places a line between two intersections on the board. |
 | <span class="littlego-icon">{{< icon "arrow" >}}</span> | Arrow | Places a line between two intersections on the board. The line is rendered with an arrow head to indicate the direction. |

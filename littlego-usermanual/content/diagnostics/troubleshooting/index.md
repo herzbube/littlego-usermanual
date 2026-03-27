@@ -27,10 +27,6 @@ The app was not designed to be a general purpose SGF file processor/editor, so i
 
 If you believe that the app should be able to load one of your SGF game files, then please email me with [a bug report]({{< relref "bug-reports" >}}) and attach the SGF file in question.
 
-## File sharing changes do not update the archive
-
-Since iOS 5, if you add or remove files via [file sharing]({{< relref "../game-organization/game-archive#file-sharing" >}}), the screen in the Archive {{< icon "archive" >}} area of the app does not update automatically. This is a known problem for which a simple workaround exists: Temporarily lock the device, then unlock it again; the list of archived games should now be up to date.
-
 ## The computer player plays stupid moves during the end game
 
 The computer player is not very good at calculating the final score on its own. One consequence of this is that you must assist in determining dead stones during scoring. Another consequence is that the computer player is not usually passing early during the end game - it stubbornly keeps on playing far longer than a human player would. If you are playing with area scoring rules, this usually does not affect the final score and thus is merely annoying. If you are playing with territory scoring rules, however, the computer player may lose a game that it would have won with area scoring rules. In some cases the computer player may even resign because its automated territory scoring calculations are incorrect.

@@ -14,6 +14,12 @@ resources:
   - name: annotations-page2-with-annotatons
     src: "annotations-page2-with-annotatons.jpg"
     title: Annotations page 2, with annotations
+  - name: annotations-page3-no-timedata
+    src: "annotations-page3-no-timedata.jpg"
+    title: Annotations page 3, without any time data
+  - name: annotations-page3-with-timedata
+    src: "annotations-page3-with-timedata.jpg"
+    title: Annotations page 3, with time data
   - name: board-position-collectionvew-cell
     src: "board-position-collectionvew-cell.jpg"
     title: Node content with symbols for annotations and hotspot
@@ -27,7 +33,7 @@ You can annotate every node in the game tree in several ways so that when you pa
 
 The user interface makes the controls for viewing and editing annotations available to you in the Annotation view. The Annotation view displays the annotation data for the game tree node that is currently selected.
 
-Because there is not enough screen space available to display all annotations at the same time, the Annotation view is split into two pages. To change from one page to the next you use a swipe-left or swipe-right gesture.
+Because there is not enough screen space available to display all annotations at the same time, the Annotation view is split into three pages. To change from one page to the next you use a swipe-left or swipe-right gesture.
 
 In the lower part of the view (highlighted in red in the page 1 illustration below) is an indicator which page of the Annotation view you are currently viewing. Instead of swiping you can tap on the page indicator to go the next or previous page.
 
@@ -86,6 +92,35 @@ Also note that now that descriptions are present the Delete {{< icon "trashcan" 
 <--->
 
 {{< img name="annotations-page2-with-annotatons" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+### Page 3
+
+{{< columns size=regular >}}
+
+Page 3 of the Annotation view displays time data stored in the game tree node. Time data indicates how much time a player has left after they made the move in the node. If they made the move in overtime, the time data may contain additional information - what exactly is shown depends on the overtime system that is in use. See the [Timed play]({{< relref "../playing-the-game/timed-play" >}}) section of this manual for details.
+
+{{< hint type=info >}}
+The current app version does not provide any means to edit time data. Such a feature will be added in one of the next app versions.
+{{< /hint >}}
+
+<--->
+
+{{< img name="annotations-page3-no-timedata" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+{{< columns size=regular >}}
+
+The illustration above shows how the page looks like when no time data is present. Here is an example illustration showing how the page looks like when some time data is present. In this case:
+
+- The player made the move during main time.
+- After making the move, the player still had 9 minutes and 47 seconds of main time left.
+
+<--->
+
+{{< img name="annotations-page3-with-timedata" size="origin" lazy=false >}}
 
 {{< /columns >}}
 

@@ -131,6 +131,10 @@ The usual equation applies: More computing time = more energy usage = less batte
 
 In addition, the "thinking time" setting also has an impact on the user experience: Usually it is desirable that the computer player should not take too long for its turn, and 10 seconds have been found to be a reasonable default value.
 
+{{< hint type=important >}}
+The "thinking time" setting has **no effect** if the game was started with "Timed play" enabled. In that case, the time remaining to the player is the basis for calculating how long the computer is allowed to think. See the [Timed play]({{< relref "../playing-the-game/timed-play" >}}) section of this manual for details.
+{{< /hint >}}
+
 ### Maximum games
 
 This setting defines how many playout games the computer is allowed to calculate before it must decide on a "best move".

@@ -74,6 +74,7 @@ Tap/click to see how the screen looks like for starting a human vs. human game, 
 1. This item lets you select the ruleset with which you want to play. Read the [Ruleset section](#ruleset) further down on this page for details.
 1. With this toggle option you choose whether or not you want to play with handicap. Read the [Handicap section](#handicap) further down on this page for details.
 1. Tapping the "Advanced settings" item pops up another screen where you can customize individual settings that are normally determined by a ruleset. Read the [Advanced Settings section](#advanced-settings) further down on this page for details.
+1. This item lets you enable timed play. In this mode players no longer have unlimited time to think about their moves but play against the clock. [Read more]({{< relref "timed-play" >}}).
 
 {{< /columns >}}
 

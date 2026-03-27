@@ -89,12 +89,6 @@ You can transfer SGF files from the archive to your macOS computer, or vice vers
 1. Click the arrow to "open" the app's entry. You should now see the SGF files that you have stored in the app on this iOS device.
 1. Use drag & drop to copy files to/from the iOS device.
 
-SGF files copied to the iOS device will not automatically show up in the app's game archive. Use any one of the following workarounds to make the files appear.
-
-- Temporarily lock the screen of your iOS device, then unlock it again.
-- Switch to a different app, then switch back to Little Go.
-- Activate the Home screen (which sends Little Go to the background), then re-activate Little Go.
-
 ## Importing SGF files from other applications
 
 If you have an email message with an SGF file attachment, you can open that message in the Mail app on your device, then tap on the file attachment. Mail will offer a selection of the applications that can process the file. You should see Little Go among those applications. When you select Little Go the file will be imported into Little Go's archive.

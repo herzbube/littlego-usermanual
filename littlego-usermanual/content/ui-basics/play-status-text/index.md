@@ -5,9 +5,6 @@ resources:
   - name: play-status-text-portrait
     src: "play-status-text-portrait.svg"
     title: Status Text location in portrait orientation
-  - name: play-status-text-landscape
-    src: "play-status-text-landscape.svg"
-    title: Status Text location in landscape orientation
 ---
 
 On the Play {{< icon "gogrid2x2" >}} area there is always a small area that shows context-related textual information about what is currently going on in the game. This textual information is called the Status Text.
@@ -16,25 +13,16 @@ On the Play {{< icon "gogrid2x2" >}} area there is always a small area that show
 
 ## Locaton on the screen
 
-The user interface shows the Status Text in different places depending on the device orientaton:
-
-{{< columns size=regular >}}
-
-#### Portrait orientation
-
-When you hold the device in portrait orientation, the Status Text is located in the center of the toolbar at the top of the screen.
+{{< columns size=small >}}
 
 {{< img name="play-status-text-portrait" size="origin" lazy=false >}}
 
 <--->
 
-#### Landscape orientaton
-
-When you hold the device in landscape orientation, the Status Text is located in the upper-left corner of the screen, right above the list of nodes of the currently selected game variation.
-
-{{< img name="play-status-text-landscape" size="origin" lazy=false >}}
+The user interface always shows the Status Text in the same location, independent of the device orientation: Near the top of the screen, right above the game board.
 
 {{< /columns >}}
+
 
 ## Play mode
 

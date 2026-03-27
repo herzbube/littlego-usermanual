@@ -11,7 +11,7 @@ Little Go is an iOS application that lets you play the game of Go on the iPhone 
 Use the main menu on the left to navigate through the app features in a structured way. As an alternative you find below the screen you see when you launch the app for the first time, annotated with some links you can follow to get a quick overview.
 
 {{< hint type=note >}}
-Because the iPhone and iPad user interfaces are very similar, or even identical, illustrations in this user guide will usually show only the iPhone user interface because it is more compact.
+Because the iPhone and iPad user interfaces are very similar, or even identical, illustrations in this user guide will usually show only the iPhone user interface because it is more compact. Also note that the illustrations were captured on a variety of iOS versions, so they may not all show the same style for screen elements.
 {{< /hint >}}
 
 {{< columns size=regular >}}
@@ -22,9 +22,9 @@ Because the iPhone and iPad user interfaces are very similar, or even identical,
 
 ### Areas of the user interface
 
-1. A toolbar with several buttons and an informative status text in the center. The buttons shown on the left frequently change depending on the current context. Follow [this link]({{< relref "ui-basics/play-toolbar" >}}) to see a list of all buttons that can appear.
-1. The Status Text in the toolbar centre shows context-related information such as whose turn it is to play. [Read more]({{< relref "ui-basics/play-status-text" >}}).
-1. This button calls up a screen with information about the current game, such as the rules that are currently in force. [Read more]({{< relref "other-features/game-info-screen" >}}).
+1. A toolbar with several buttons. The buttons shown on the left frequently change depending on the current context. The buttons shown on the right always stay the same. Follow [this link]({{< relref "ui-basics/play-toolbar" >}}) to see a list of all buttons that can appear.
+1. A Status Text that shows context-related information such as whose turn it is to play. [Read more]({{< relref "ui-basics/play-status-text" >}}).
+1. This button calls up a screen with information about the current game, such as the rules that are currently in force. Some of the information can be edited. [Read more]({{< relref "other-features/game-info-screen" >}}).
 1. This button calls up a menu with additional actions, of which the most important one probably is the action to start a new game with a different board size. Follow [this link]({{< relref "ui-basics/play-menu" >}}) to see a list of all actions that can appear in the menu.
 1. The Go board. Because no moves have been played yet it does not show any stones. Follow [this link]({{< relref "playing-the-game/how-to-play" >}}) for instructions how to place a stone and play the game. [This page]({{< relref "playing-the-game/start-a-new-game" >}}) explains how to change the board size.
 1. A few buttons for navigating back and forth between the nodes of the current game variation. Because no moves have been played yet all buttons are disabled. [Read more]({{< relref "game-organization/current-game-variation" >}}).
