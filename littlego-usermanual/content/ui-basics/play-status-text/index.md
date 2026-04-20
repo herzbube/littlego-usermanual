@@ -7,7 +7,7 @@ resources:
     title: Status Text location in portrait orientation
 ---
 
-On the Play {{< icon "gogrid2x2" >}} area there is always a small area that shows context-related textual information about what is currently going on in the game. This textual information is called the Status Text.
+On the Play {{< icon "gogrid2x2" >}} area there is always a view that shows context-related textual information about what is currently going on in the game. This textual information is called the Status Text.
 
 {{< toc >}}
 

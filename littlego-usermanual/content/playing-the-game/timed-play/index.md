@@ -26,6 +26,45 @@ resources:
   - name: timed-play-fischer-timing-settings
     src: "timed-play-fischer-timing-settings.png"
     title: Fischer Timing settings
+  - name: timed-play-steady-average-timing-settings
+    src: "timed-play-steady-average-timing-settings.png"
+    title: Steady Average Timing settings
+  - name: timed-play-total-average-timing-settings
+    src: "timed-play-total-average-timing-settings.png"
+    title: Total Average Timing settings
+  - name: timed-play-clock-views
+    src: "timed-play-clock-views.svg"
+    title: Player clocks
+  - name: timed-play-clock-views-stopped-started
+    src: "timed-play-clock-views-stopped-started.svg"
+    title: Stopped and started player clocks
+  - name: timed-play-clock-views-stopped-suspended
+    src: "timed-play-clock-views-stopped-suspended.svg"
+    title: Stopped and suspended player clocks
+  - name: timed-play-clock-views-main-time-black-clock-started
+    src: "timed-play-clock-views-main-time-black-clock-started.svg"
+    title: The black player's clock is running in Main Time
+  - name: timed-play-clock-views-main-time-white-clock-started
+    src: "timed-play-clock-views-main-time-white-clock-started.svg"
+    title: The white player's clock is running in Main Time
+  - name: timed-play-clock-views-overtime-white-clock-started
+    src: "timed-play-clock-views-overtime-white-clock-started.png"
+    title: The white player's clock is running in Overtime
+  - name: timed-play-time-settings-game-info-screen
+    src: "timed-play-time-settings-game-info-screen.svg"
+    title: Time settings in the Game Info screen
+  - name: timed-play-invalid-time-data-view
+    src: "timed-play-invalid-time-data-view.png"
+    title: Clock view showing invalid time data information
+  - name: timed-play-invalid-time-data-detail-view-reason-7
+    src: "timed-play-invalid-time-data-detail-view-reason-7.png"
+    title: Invalid time data - detail view for reason 7
+  - name: timed-play-invalid-time-data-detail-view-reason-9
+    src: "timed-play-invalid-time-data-detail-view-reason-9.png"
+    title: Invalid time data - detail view for reason 9
+  - name: timed-play-invalid-time-data-detail-view-reason-12
+    src: "timed-play-invalid-time-data-detail-view-reason-12.png"
+    title: Invalid time data - detail view for reason 12
 ---
 
 {{< toc >}}
@@ -119,7 +158,7 @@ See the [Time systems]({{< relref "#time-systems" >}}) section further down for 
 
 ## Default time settings
 
-The following illustrations shows the default time settings when you enable timed play for the first time.
+The following illustration shows the default time settings when you enable timed play for the first time.
 
 {{< columns size=regular >}}
 
@@ -132,8 +171,8 @@ The following illustrations shows the default time settings when you enable time
 1. The "Main time" slider lets you adjust how much time each player initially should have available during the Main time phase of the game. The stepper lets you fine-tune the duration.
 1. The "Use overtime" toggle option enables or disables Overtime. See the previous sections for a definition of what Overtime is.
 1. The "Time system" item displays which Overtime system is currently selected. Tapping the item calls up another screen where you can select a different Overtime system. The default, as shown in the illustration, is Canadian Timing. The available Overtime systems and their rules are explained in detail in the next section. 
-1. The "Period duration" slider lets you adjust how much time each player has to make the number of moves that is selected in the "Moves per period" item. The stepper lets you fine-tune the duration. **Note:** This setting is specific to Canadian Timing. When you select a different Overtime system, it will be replaced with a different setting.
-1. The "Moves per period" slider lets you adjust how many moves each player has to make within the time that is selected in the "Period duration" item. The stepper lets you fine-tune the number. **Note:** This setting is specific to Canadian Timing. When you select a different Overtime system, it will be replaced with a different setting.
+1. The "Period duration" slider lets you adjust how much time is given each player to make the number of moves that is selected in the "Moves per period" item. The stepper lets you fine-tune the duration. **Note:** This setting is specific to Canadian Timing. When you select a different Overtime system, the setting will be replaced with a different setting.
+1. The "Moves per period" slider lets you adjust how many moves each player has to make within the time that is selected in the "Period duration" item. The stepper lets you fine-tune the number. **Note:** This setting is specific to Canadian Timing. When you select a different Overtime system, the setting will be replaced with a different setting.
 
 {{< /columns >}}
 
@@ -161,7 +200,7 @@ For brevity's sake, the summary cannot show durations and numbers, but it shows 
 
 ### Timesystem overview
 
-The following illustrations shows the Overtime systems that the app supports, together with a few brief remarks.
+The following illustration shows the Overtime systems that the app supports, together with a brief summary of how each time system works. Details are available in subsequent sections.
 
 {{< columns size=regular >}}
 
@@ -169,13 +208,13 @@ The following illustrations shows the Overtime systems that the app supports, to
 
 <--->
 
-| Overtime system | Remarks |
+| Overtime system | Summary |
 | ---  | --- |
-| Canadian Timing | A popular time system in amateur tournaments. Also in use on Go servers, for instance KGS. |
-| Japanese Timing | This is also known as "byoyomi" (秒読み). Used both in real-world tournaments and on Go servers, for instance KGS. |
-| Fischer Timing | Named after chess player Bobby Fischer. Used both in real-world tournaments and on Go servers, for instance online-go.com.  |
+| Canadian Timing | Players must make a number of moves within a period of time. A new period begins after the player has made the moves. Unused time from the previous period is discarded. |
+| Japanese Timing | Players get a number of same-length, relatively short periods. Players use up periods when their moves take longer than one period. |
+| Fischer Timing | Players get an amount of initial time. Players must make their move within the remaining time. Players receive extra time after each move. |
 | Steady Average Timing | Similar to Canadian Timing, but allows additional moves to be made if the period time is not fully used. |
-| Total Average Timing | Similar to Canadian Timing, but adds unused period time to the time available to the player. |
+| Total Average Timing | Similar to Canadian Timing, but adds unused period time to the next period. |
 
 {{< /columns >}}
 
@@ -191,7 +230,7 @@ This is how it works:
 - The player must make a number of moves during that time period. The illustration shows 25 moves as an example.
 - If the player runs out of time before having made the required number of moves, the player loses the game.
 - If the player manages to make the required number of moves, a new period begins and the player again must make the same number of moves during that period.
-- Any unused time is discarded. In the example from the illustration, if the player made 25 minutes within 9 minutes and 30 seconds, the unused 30 seconds are discarded and the next period again starts with 10 minutes.
+- Any unused time from the previous period is discarded. In the example from the illustration, if the player made 25 moves within 9 minutes and 20 seconds, the unused 40 seconds are discarded and the next period again starts with 10 minutes.
 
 <--->
 
@@ -210,23 +249,9 @@ The illustration shows the settings that you can adjust when you select Japanese
 This is how it works:
 
 - The player gets a number of periods each of which lasts the same time. As an example, the illustration shows 30 periods, each of which lasts 1 minute.
-- If the player manages to make a move within a period, no time is deducted - when the player's next turn begins, they again start with the full period length. In the example from the illustration, if the player makes a move within 40 seconds, on their next turn they 
-- If the player takes longer than a period to make a move, one or more period is deducted.
-
-does not manage to make a move within a period, a period is deducted.
-- x
-, the  . A new period begins and the player again must make the same number of moves during that period.
-- x
-- x
-- The player must make a move during that time period. The illustration shows 25 moves as an example.
-- If the player runs out of time before having made the required number of moves, the player loses the game.
-- If the player manages to make the required number of moves, a new period begins and the player again must make the same number of moves during that period.
-- Any unused time is discarded. In the example from the illustration, if the player made 25 minutes within 9 minutes and 30 seconds, the unused 30 seconds are discarded and the next period again starts with 10 minutes.
-
-
-- one gets a number of time periods of same size (e.g. 480 one-minute periods),
-- time used for each move only deducts as many periods as fit into this time (possibly none),
-- and counting seconds is done when one's number of periods is equal or less than a certain number (typically 10). 
+- The time the player takes to make a move is broken down into period durations. Time is deducted only for fully used periods. Partially used periods are **not** deducted. In the example from the illustration, if the player takes 200 seconds to make a move, they are using up 3 periods (3 times 60 seconds). The fourth period from which only 20 seconds were used is not deducted. When the player's next turn starts, they have 27 full periods available to make their move.
+- Consequentially, when a player takes less time than a period duration to make a move, no time at all is deducted.
+- When the player has only one period left and they don't make a move within the period duration (60 seconds in the example from the illustration), the player loses the game.
 
 <--->
 
@@ -234,216 +259,460 @@ does not manage to make a move within a period, a period is deducted.
 
 {{< /columns >}}
 
-
 For more details on Japanese Timing, see [Sensei's Library](https://senseis.xmp.net/?JapaneseTiming).
 
-https://senseis.xmp.net/?Byoyomi
+{{< hint type=info >}}
+Japanese Timing is sometimes also referred to as "byoyomi" (alternate spellings: "byo-yomi", "byo yomi"), derived from the Japanese Go term 秒読み. That term, however, actually means counting aloud the player's remaining time. A player is "in byoyomi" when they only have a few seconds left and their remaining time is being counted aloud for them by the game's timekeeper.
+
+See [Sensei's Library](https://senseis.xmp.net/?Byoyomi).
+{{< /hint >}}
 
 ### Fischer Timing
 
-Fischer Timing is a time system named after Bobby Fischer. It includes the following rules:
+{{< columns size=regular >}}
 
-- one gets an amount of time (say, 5 minutes),
-- time used for each move is deducted,
-- and an extra amount of time (say, 15 seconds) is added after each move. 
+The illustration shows the settings that you can adjust when you select Fischer Timing as the Overtime sytem.
 
+This is how it works:
 
-For more details, see [Sensei's Library](https://senseis.xmp.net/?FischerTiming).
+- The player gets an initial amount of time. As an example, the illustration shows 5 minutes initial time.
+- The player must make a move within their remaining time. The time used to make the move is deducted.
+- An extra amount of time is added to the player's remaining time after each move. The illustration shows 15 seconds as an example.
+- If the player runs out of time before having made a move, the player loses the game.
+- A player's remaining time grows as long as they use less than the extra time added after each move.
+
+<--->
+
+{{< img name="timed-play-fischer-timing-settings" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+For more details on Fischer Timing, see [Sensei's Library](https://senseis.xmp.net/?FischerTiming).
+
+{{< hint type=info >}}
+Fischer Timing is named after the chess player Bobby Fischer.
+{{< /hint >}}
 
 ### Steady Average Timing
 
-Steady Average Timing is the time system where
+{{< columns size=regular >}}
 
-- one gets an initial period of time,
-- time used for each move is deducted,
-- and an extra period of time is added after exactly N moves were made in a period. 
+The illustration shows the settings that you can adjust when you select Steady Average Timing as the Overtime sytem.
 
-For more details, see [Sensei's Library](https://senseis.xmp.net/?SteadyAverageTiming).
+This is how it works:
+
+- The player gets an amount of time - the "period duration". The illustration shows 10 minutes as an example.
+- The player must make a number of moves during that time period. The illustration shows 25 moves as an example.
+- If the player runs out of time before having made the required number of moves, the player loses the game.
+- If the player manages to make the required number of moves, a new period does **not** begin immediately. Instead, the player can use the remaining time to make as many extra moves as they can fit into the remaining time. In the example from the illustration, if the player made 25 moves within 9 minutes and 20 seconds, they can use the remaining 40 seconds to make extra moves.
+- When the player has eventually used up all of the remaining time, a new period begins and the player again must make the required number of moves during that period.
+
+<--->
+
+{{< img name="timed-play-steady-average-timing-settings" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+For more details on Steady Average Timing, see [Sensei's Library](https://senseis.xmp.net/?SteadyAverageTiming).
 
 ### Total Average Timing
 
-Total Average Timing is the time system where
+{{< columns size=regular >}}
 
-- one gets an initial period of time,
-- time used for each move is deducted,
-- and an extra period of time is added after each N-th move. 
+The illustration shows the settings that you can adjust when you select Total Average Timing as the Overtime sytem.
 
-For more details, see [Sensei's Library](https://senseis.xmp.net/?TotalAverageTiming).
+This is how it works:
 
-### Comparison
+- The player gets an amount of time - the "period duration". The illustration shows 10 minutes as an example.
+- The player must make a number of moves during that time period. The illustration shows 25 moves as an example.
+- If the player runs out of time before having made the required number of moves, the player loses the game.
+- If the player manages to make the required number of moves, a new period begins and the player again must make the same number of moves during that period.
+- Any unused time from the previous period is added to the new period's duration. In the example from the illustration, if the player made 25 moves within 9 minutes and 20 seconds, the remaining 40 seconds are added to the next period duration so that the player now has 10 minutes and 40 seconds to make the next 25 moves.
 
-```
-                                                                    Round down
-                        Time periods   Duration   Number of moves   time after   Extra time
-                        <p>            <d>        <n>               <n> moves    <e>
--------------------------------------------------------------------------------------------
-Absolute Timing         1              Arbitrary  Unlimited         No           -
-Canadian Timing         1              Arbitrary  Arbitrary         Yes          -
-Japanese Timing         Arbitrary      Arbitrary  1                 Yes          -
-Steady Average Timing   1              Arbitrary  Arbitrary         No           -
-Fischer Timing          1              Arbitrary  1                 No           Arbitrary
-Total Average Timing    1              Arbitrary  Arbitrary         No           <d>
-```
+<--->
 
-- Explain how each time system works
-- Provide links to Sensei's Library
+{{< img name="timed-play-total-average-timing-settings" size="origin" lazy=false >}}
 
-## Sliders
+{{< /columns >}}
 
-- Explain minimum/maximum values of sliders
-- Explain how the time sliders are non-linear
+For more details on Total Average Timing, see [Sensei's Library](https://senseis.xmp.net/?TotalAverageTiming).
 
-## Clock views
 
-- When you start the game, the Play area shows player clocks => Screenshot with two clock views
-- The clock starts running immediately => Green color marks the clock that is running
-- Screenshot after black played a move => now the white player's clock is started
-- game info screen shows the time settings with which the game was started
+## How the sliders work
 
-## Suspending the clock
+### Minimum / maximum values
 
-- You can suspend the clock by tapping on it => screenshot with blue color. here comes the explanation about the relaxed game.
-- if you don't like this, "Tap suspends clock" can be disabled in the user preferences
-- If you don't like that the clock starts automatically, there are user preferences that allow you to control for 3 different scenarios when the clock should/should not start automatically
-- The app suspends the clock if something happens that prevents the player from playing their move
-  - send the app to the background
-  - phone call
-  - game action menu
-  - game info screen
-  - another tab
-  - move suggestion animation
-  - a play mode that is not "play"
-- auto-suspend cannot be disabled
-- auto-suspend does not occur for the computer player, because it is always ready
+The "Time settings" screen lets you select values via two types of sliders:
+
+| Slider type | Minimum value | Maximum value |
+| ---  | --- | --- |
+| Time / duration | 1 second | 12 hours |
+| Number of moves | 1 move | 1000 moves|
+
+{{< hint type=info >}}
+The maximum values supported by the app were arbitrarily chosen. If there are use cases for higher values, please report them.
+{{< /hint >}}
+
+### Non-linear sliders
+
+Time / duration sliders on the "Time settings" screen are non-linear, which means that when you move the slider around it will not always change the time / duration value in one-second increments. Here is the breakdown:
+
+| Value range | Slider increments | Examples |
+| ---  | --- | --- |
+| 1 second - 10 minutes | 1 second | 43 seconds, 6:29 minutes (6 minutes 29 seconds) |
+| 10 minutes - 6 hours | 1 minute | 27 minutes, 4:58 hours (4 hours and 58 minutes) |
+| 6 hours - 12 hours | 5 minutes | 7:40 hours (7 hours 40 minutes) |
+
+The rationale for this non-linearity is that when you are working with long durations, at some point it no longer makes much sense to have a selection with a precision / resolution of one second. For instance, it should hardly be relevant whether a period is 30 minutes long, or 30 minutes and 1 second. There is also a practical aspect: Moving a slider on an axis with 43'200 individual seconds (12 hours duration) is rather cumbersome.
+
+{{< hint type=info >}}
+The breaks at which the increments change were arbitrarily chosen at the 10 minute and the 6 hour marks. If there are use cases for different breaks, please report them.
+{{< /hint >}}
+
+## The player clocks
+
+### Location in the user interface
+
+{{< columns size=regular >}}
+
+When you start a game with timed play, the Play {{< icon "gogrid2x2" >}} area displays the clocks of both players next to the Status Text at the top of the screen, as shown in the following illustration.
+
+The black player's clock (①) is always displayed on the left hand side, while the white player's clock (②) is always displayed on the right hand side.
+
+When the game does not use timed play, these clocks are not displayed.
+
+<--->
+
+{{< img name="timed-play-clock-views" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+### Clock state
+
+{{< columns size=regular >}}
+
+Player clocks can have three states, as indicated by the color of the clock's border:
+
+- A black border (①) indicates that the clock is stopped and the player's remaining time is not counting down. During typical play, a stopped clock means that it is not that player's turn. In unexpected edge cases the app may keep the clock of the player whose turn it is in stopped state. When the game ends, the app stops both player clocks.
+- A green border (②) indicates that the clock is started and the player's remaining time is counting down every second. A player's clock can only ever be started when it is that player's turn.
+- A blue border (③) indicates that the clock is suspended and the player's remaining time is not counting down. During typical play, a suspended clock means that it is that player's turn, but a player's clock may remain suspended even after it is no longer their turn. For details see the section [Suspending the clock]({{< relref "#suspending-the-clock" >}}).
+
+<--->
+
+{{< img name="timed-play-clock-views-stopped-started" size="origin" lazy=false >}}
+
+{{< img name="timed-play-clock-views-stopped-suspended" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+### Sequence of play
+
+#### First move
+
+{{< columns size=regular >}}
+
+When the game begins, the app immediately starts the clock of the player who makes the first move.
+
+This is shown in the illustration: Black is the first to move, so the black player's clock (①) has the green border indicating that black's clock is running. In the illustration, 6 seconds have already elapsed.
+
+The white player's clock (②) has the black border indicating that white's clock is not running, and also that it is not white's turn to play. None of white's remaining time has elapsed yet.
+
+<--->
+
+{{< img name="timed-play-clock-views-main-time-black-clock-started" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+{{< hint type=note >}}
+Both clocks display the words "Main time" below the remaining time. This indicates that both players are still in the Main time phase of the game. Once a player has used up their main time, that player's clock will show Overtime information instead of the words "Main time".
+{{< /hint >}}
+
+#### Second move
+
+{{< columns size=regular >}}
+
+When a player makes their move, the app stops their clock and instead starts the clock of the player whose turn it is now.
+
+This is shown in the illustration: Black has used 14 seconds to make a move. The black player's clock (①) is now stopped, indicated by the black border.
+
+Because it is now white's turn, the white player's clock (②) has the gren border indicating that white's clock is running. In the illustration, 2 seconds have already elapsed.
+
+<--->
+
+{{< img name="timed-play-clock-views-main-time-white-clock-started" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+#### Game end
+
+The sequence of play continues as described in the previous sections until the game ends. At that time, the app stops both player clocks.
+
+#### Overtime
+
+{{< columns size=regular >}}
+
+When players reach the Overtime phase of the game, player clocks start to display information relevant to the Overtime system instead of the words "Main time".
+
+The illustration shows an example when Canadian Timing is used as the Overtime system:
+
+- Black has 9 minutes and 35 seconds left to make 22 moves.
+- White has 9 minutes and 45 seconds left to make 23 moves.
+
+<--->
+
+{{< img name="timed-play-clock-views-overtime-white-clock-started" size="origin" lazy=false >}}
+
+{{< /columns >}}
+
+{{< hint type=note >}}
+For Japanese Timing the clocks use the same notation "(&lt;n&gt;)" as for Canadian Timing, but the number in parantheses indicates the number of periods left instead of the number of moves left.
+
+For Steady Average Timing and Total Average Timing, the clocks use the same notation "(&lt;n&gt;)" as for Canadian Timing, with the same meaning.
+
+For Fischer Timing the clocks don't show any supplemental Overtime information.
+{{< /hint >}}
+
+### Suspending the clock
+
+#### Introduction
+
+The goal of this app is to let you play a timed game, but in a relaxed non-tournament, non-competitive environment where you have the freedom to suspend the clock whenever a distraction occurs, or when you choose to do so for any other reason.
+
+In some cases where it makes sense the app automatically suspends the clock.
+
+#### Manually suspending the clock
+
+You can suspend **any** clock that is started (indicated by a green border) simply by tapping on the clock. The clock's border will turn blue to indicate that the clock is now suspended. A suspended clock no longer counts down the time.
+
+{{< hint type=tip >}}
+If you play against the computer, you can also suspend the computer player's clock. The computer player remains unaware of the suspension, though, and acts as if the clock were still running.
+{{< /hint >}}
+
+To resume time keeping, simply tap the clock again. The clock's border will turn green to indicate that the clock is now running again.
+
+A manually suspended clock remains suspended indefinitely until you start it again. This means that when a player's turn ends:
+
+- The suspended clock remains suspended even though it is no longer the player's turn.
+- You cannot tap the clock to remove the suspension because a player's clock can never be started while it is not that player's turn.
+- When the player's next turn begins, their clock remains suspended, but you can now tap the clock to remove the suspension and resume time keeping.
+
+{{< hint type=info >}}
+If you don't like the manual clock suspension feature, you can turn it off in the Settings {{< icon "settings" >}} area of the app under "Timed play > Tap suspends clock".
+{{< /hint >}}
+
+#### Automatically suspending the clock
+
+The app automatically suspends the clock of a **human** player if something happens that would prevent that player from making their move. Typical scenarios are when the game board is not interactive, or is obscured, or is not visible at all.
+
+{{< hint type=tip >}}
+The app does not auto-suspend computer players' clocks, because computer players do not have to see or interact with the game board to make a move - they can always make a move.
+{{< /hint >}}
+
+Here are some scenarios for which the app auto-suspends a currently started human player clock. The list may not be complete, but it should give an idea of what the auto-suspend feature is about.
+
+| Scenario / action | Effect | Example |
+| ---  | --- | --- |
+| You tap the Menu {{< icon "menu-hamburger" >}} button. | The menu obscures the board. | |
+| You tap the Game Info {{< icon "game-info" >}} button. | The "Game Info" screen hides the board. | |
+| You select an area that is not the Play {{< icon "gogrid2x2" >}} area. | The board is no longer visible. | You select the Settings {{< icon "settings" >}} area. |
+| The Suggest Move {{< icon "computer-suggest-move" >}} animation is playing. | The board is not interactive while the animation plays. | |
+| You select a mode that is not the Play {{< icon "gogrid2x2" >}} mode. | In other modes you cannot make a move. | You select Scoring {{< icon "scoring" >}} mode. |
+| You send the app to the background. | The app is no longer available. | |
+| You receive a phone call. | The app is no longer interactive. | |
+
+{{< hint type=info >}}
+When the situation "normalizes" and the game board again becomes available for making moves, the app automatically removes the suspension, allowing the clock to resume time keeping. Example: The "Game Info" screen is dismissed and the board becomes visible again.
+{{< /hint >}}
+
+#### Suspending the clock instead of starting it automatically
+
+By default the app automatically starts a player's clock when their turn begins. If you prefer starting the clock on your own (e.g. because you are often distracted and would lose time if the clock started while you are not focused on the game), you can turn off the automatic starting of the clock in the Settings {{< icon "settings" >}} area of the app under "Timed play".
+
+There are three different settings available to disable automatically starting the clock in different scenarios:
+
+- Autostart clock when starting a new game.
+- Autostart clock when loading a game from the archive.
+- Autostart clock when turn begins.
+
+When one of these autostart settings is disabled, the app suspends the player clock instead of starting it when the matching scenario occurs.
+
+{{< hint type=tip >}}
+Computer players' clocks are not affected by these settings, because computer players cannot be "distracted" - they are always ready and can start thinking immediately when it is their turn.
+{{< /hint >}}
+
+## Time settings in the Game Info screen
+
+{{< columns size=regular >}}
+
+If you are no longer sure which time settings you chose when you started the game, you can view the settings on the "Game" tab of the ["Game Info" screen]({{< relref "../other-features/game-info-screen" >}})
+
+Expand the illustration on the right to see an example.
+
+<--->
+
+{{< expand "\"Time settings\" in the \"Game Info\" screen" >}}
+
+{{< img name="timed-play-time-settings-game-info-screen" size="origin" lazy=false >}}
+
+{{< /expand >}}
+
+{{< /columns >}}
 
 ## Running out of time
 
-- Screenshot what the Status view and the clock shows
-- Reference to game result
-- How to undo
+When a player runs out of time the game ends and that player loses, while their opponent wins, on time. The app reflects this in several ways. Some examples:
 
-## Saving and loading
+- The clock of the player who ran out of time shows "0:00".
+- The Status Text, e.g. "Black wins on time".
+- The [game result]({{< relref "game-result" >}}), e.g. "Black wins on time".
 
-- Saving the game records both the time settings with which the game was started, and the elapsed times and number of moves for each move
-- Loading the game restores these things. You cannot choose different time settings than the ones which are in the saved game.
-- If the saved game comes from an external source, the app may not understand the time settings => Custom
+You can undo the loss on time by selecting “Undo lost on time” from the menu that pops up when you tap the Menu {{< icon "menu-hamburger" >}} button. This works the same w ay as if a player had resigned and you would select the menu entry "Undo resign".
 
-## Navigating to old nodes
+In addition, the clock of the player who lost on time will be reset to the state it had when the player's turn began. In this way the player gets another chance at making a move within the time they had originally remaining.
 
-- Sets clocks to the state after the move in the node was played
-- The current time data is lost
-- Clock state started?
-- Annotation page 3 shows the time data of the player who made the move **after** the move. if no time data exists (e.g. root node) => no time data
+## Saving and loading the game to/from the archive
+
+Saving the game to the archive records both
+
+- The time settings with which the game was started, and
+- The remaining time and, if applicable, the number of moves or periods after each move.
+
+Loading a game from the archive restores these things. In general, when the app has finished loading the game, it will start the player clock running from the remaining time after the last move in the saved game was made.
+
+When you try to load a game that comes from an external source, the app may not understand the Overtime system that is recorded in the saved game. When that happens:
+
+- The app will show that the saved game uses a **custom** Overtime system, and the verbatim overtime system data that is encoded in the saved game.
+- But the app will **not** attempt to interpret any remaining time and number of moves/periods information because the app cannot know the rules of the time system. See the section [Invalid time data]({{< relref "#invalid-time-data" >}}) for details.
+
+{{< hint type=info >}}
+The reason for the potential incompatibility is that there is, unfortunately, no standardized way how Go programs are supposed to encode Overtime systems. In particular the SGF standard does not require a particular encoding format. As a result, every Go program can potentially use its own encoding scheme. This app uses the same encoding scheme as KGS and online-go.com for the Overtime systems that these platforms support (Canadian Timing, Japanese Timing, Fischer Timing).
+{{< /hint >}}
+
+## Navigating to other nodes
+
+Even when a game with timed play is ongoing, the app does not prevent you from navigating to an old node of the current game variation, or to a node from a different variation. If you're new to game variations, see the manual pages [The current game variation]({{< relref "../game-organization/current-game-variation" >}}) and [Game variations]({{< relref "../game-organization/game-variations" >}}) to learn more.
+
+When you change the node selection, the following happens:
+
+- The app discards time data of the previously selected node. In other words: The app forgets about any time that the player whose turn it is has already used.
+- The app sets both player clocks to the state after the move in the newly selected node was made.
+- The app starts the clock of the player whose turn it is now (unless something prevents the autostart, see below).
+- Page 3 of the annotation view (see [Annotations]({{< relref "../game-editing/annotations/#page-3" >}})) shows the time data of the player who made the move in the newly selected node.
+
+{{< hint type=tip >}}
+In essence, the app attempts to set players up so that the timed game play can immediately continue from the newly selected node.
+{{< /hint >}}
+
+Some of the exceptions where a player's clock is not started after the node selection changes:
+
+- The player's clock was previously manually suspended. You need to start the player clock by tapping the clock.
+- [A user preference]({{< relref "#suspending-the-clock-instead-of-starting-it-automatically" >}}) prevents the autostart. You need to start the player clock by tapping the clock.
+- The player whose turn it is now is a computer player. The computer player clock will automatically start when you tap the Computer Play {{< icon "computer-play" >}} button to let the computer play for itself.
+- The game has already ended.
 
 ## How the computer player uses its time
 
-- The normal setting is not used
-- Instead explain how main time is used (complicated), and overtime
+In a regular game, i.e. a game without timed play, the computer player's [Thinking time]({{< relref "settings/computer-player/#thinking-time" >}}) setting determines how long the computer player takes to make a move. In a game **with** timed play, however, this setting has no effect, instead the time settings chosen for the game are being used.
+
+If you wish to know more, the following sections provide an overview of the algorithms being used.
+
+{{< hint type=note >}}
+The information applies both when the computer player makes a move for itself, and when  it makes a move on behalf of a human player.
+{{< /hint >}}
+
+### Main time
+
+During the Main time phase of the game, the calculation of the time the computer player uses per move is quite complex. It works, roughly, like this:
+
+- The computer player estimates how many moves it will have to play for the entire game. The basis for this estimate is the board size, combined with the number of occupied/unoccupied intersections.
+- The computer player then divides the amount of main time that it has left by the estimated number of moves. The general result of this division is that early moves get more time than later moves, because as the amount of main time dwindles, later moves get less and less time.
+- For the first half of the game (as per the estimated number of moves), the algorithm applies an additional factor so that early moves are favoured even more heavily. Once the computer player has made half of the estimated moves, the algorithm ceases to apply the factor.
+
+Although Fuego (the computer player implementation) provides a few parameters with which to tweak the algorithm, the app currently does not expose any of them in the user interface. If and when that changes, more details about the algorithm will be made available in this manual.
+
+{{< hint type=note >}}
+The lack of details about the algorithm in this manual does not come from a desire to keep the algorithm secret - after all the source code for both Fuego and this app is freely available. The lack merely comes from the assumption that most users who read this manual will not be interested in such details.
+{{< /hint >}}
+
+### Overtime
+
+During the Overtime phase of the game, the calculation of the time the computer player uses per turn is generally much simpler than during the Main time phase, but it is different for each time system.
+
+| Time system | Time per move calculation | Remarks |
+| ---  | --- | --- |
+| Canadian Timing | Remaining time in the current period, divided by the number of moves the player is still required to make during the current period. | Assuming the computer player always uses up the entire time it has available for a move, every move gets an equal share of the period duration. This only changes if the computer player for some reason takes less time to make a move than it would have available - as a result, subsequent moves in the same period get more time. |
+| Japanese Timing | Full period duration. | Because the computer player always makes its move within the remaining time - in this case before the period duration has elapsed - the computer player will **never** make use of any periods beyond the first. This limitation, or bug if you like, in the current implementation of the app is tracked in issue 449 on GitHub ([external link](https://github.com/herzbube/littlego/issues/449)) and will be fixed in one way or another in one of the next releases of the app. |
+| Fischer Timing | However much time remains to the player. | |
+| Steady Average Timing, with one or more **required** moves remaining | Remaining time in the current period, divided by the number of moves the player is still required to make during the current period. | Same as Canadian Timing. |
+| Steady Average Timing, with no more moves required | Remaining time in the current period, multiplied by two. | Because the computer player always makes its move within the remaining time, the remaining time must be made greater than it effectively is. Doubling the remaining time allows the computer player to aggressively use all the remaining extra time of the period for a single move, which then counts as the first move of the following period. |
+| Total Average Timing | Remaining time in the current period, divided by the number of moves the player is still required to make during the current period. | Same as Canadian Timing. |
+
+{{< hint type=info title="Technical background" >}}
+Fuego (the computer player implementation) actually only understands Canadian Timing. To make the other time systems playable at all, the app makes creative use of the GTP command `time_left`.
+{{< /hint >}}
 
 ## Invalid time data
 
-- Can occur only when you load a game from an external source
-- When a custom time system is in force then time data cannot be interpreted and is considered "invalid"
-- Otherwise the app checks time data for validity
-- There are 3 levels of strictness. the default is basic; a change only applies to the next game
-- when time data in a node is not valid, this is shown in the clock view; TODO: does tapping the clock view call up the detail view?
-- annotation page 3 also has the information, plus an info button to call up a detail view
+### Overview
 
-## This and that
+When you try to load a game from the archive that comes from an external source, the app may encounter time data that it cannot interpret, or that it considers invalid.
 
-- Clock view when time exceeds maximum
+The app cannot interpret time data when the saved game contains a custom Overtime system. Custom time systems are explained above, in section [Saving and loading the game to/from the archive]({{< relref "#saving-and-loading-the-game-tofrom-the-archive" >}}).
 
-## TODO xxx notes
+When the app understands the Overtime system, it checks the time data in the saved game for validity. It does so with a certain level of strictness on which you have an influence.
 
-```
-General
+### Time data validation mode
 
-- Most of the existing screenshots should not need to be re-made because Timed Play is optional. Exceptions:
-  - Entry page where all elements are shown in one screenshot
-  - Annotation view screenshots => we now have 3 pages
-- Create a new section for "Timed play" and use screenshots with the new elements there
+You can select between three levels of strictness with which the app should check time data for validity. You find the selection in the Settings {{< icon "settings" >}} area of the app under "Timed play > Time data validation mode".
 
+{{< hint type=info >}}
+Changing the time data validation mode takes effect only when you start the next game, or load another game from the archive.
+{{< /hint >}}
 
-New game screen
+| Validation mode | Summary | Remarks |
+| ---  | --- | --- |
+| Basic (the default) | Validation is performed to detect basic problems only - problems that prevent the app from supporting timed play while a given node is selected. | Problems detected in this mode range from foundational problems with the game's time systems (e.g. a custom time system, or a time system's values exceed the maximum values supported by the app), to structural problems (e.g. time data is missing after a move was made, or refers not to the same player as the move), to foundational problems with a node's time data (e.g. negative values, or values that exceed the maximum values supported by the app). If there is a foundational problem with the game's time systems, the invalid state and invalid reason are propagated to **all nodes**. Otherwise, a node's time data is examined **only in isolation**. |
+| Normal | In addition to the validation performed in Basic mode, a number of inconsistencies between time system data and node time data are detected. | A node's time data is examined **in relation to the time system** that the time data refers to (e.g. remaining main time after a move is greater than the initial main time, or remaining number of required moves is greater than the time system value). Even if you are a casual user, you may still be interested in problems found by this mode. |
+| Strict | In addition to the validation performed in Normal mode, inconsistencies in the time data sequence are detected. | A node's time data is examined **in relation to the time data in the preceding node** (e.g. remaining main time time after a move is greater than it was after the previous move, or remaining number of required moves increases instead of decreases). This mode is likely to be of interest only if you want highly consistent time data. |
 
-- Explain all the options
-- No timed play
-- Timed play with either only main time, or only period-bsaed time system, or both
-- Main time => Sudden death
-- Period-bsaed time systems: Explain every single one of them, possibly with links to Sensei's Library
-- Time selected via slider => slider is not linear
+### Clock view shows invalid time data information
 
+{{< columns size=regular >}}
 
-Load game
+When the app finds a problem with the time data in a node, it means that the app cannot support timed play while this node is selected. Because timed play is not possible, the app hides the two player clocks and instead populates the clock view with these elements:
 
-- You can't choose a time system because in a game with timed play each move needs to have a record with time data, at least how much time is left after the move => either the saved data has that information or it does not, but if the app were to let you choose timed play for saved data without the information, it would not make sense
-- The way how the time system used is recorded is not standardized. The app understands a few encoding ways => explain which ones
-- If the app encounters an unknown time system, it will not show any time data because it does not know how to interpret
+- A numeric code identifying the problem.
+- An Info ⓘ button that you can tap to call up a detail view with more information. Below you see a few examples how that detail view can look like.
 
+<--->
 
-Timed play
+{{< img name="timed-play-invalid-time-data-view.png" size="origin" lazy=false >}}
 
-- Show the two player clocks
-- User can pause the clock of the player whose turn it is => Can be disabled in the settings
-  - The goal is to let the user play a timed game, but in a relaxed non-tournament, non-competitive environment where the user has the freedom to suspend or stop the clock whenever a distraction occurs or they choose to do so for any other reason. In some cases where it makes sense the app automatically suspends or stops the clock, e.g. when the app is sent to the background (= distraction), or when the user performs an action that would prevent them from playing a move in time, or when they change the current node so that the game situation is no longer the same.
-- The app automatically pauses the clock if the current player is human but the user is not able to play for some reason (enumerate reasons). The app does not pause the clock if it's the computer player's turn, or the computer player is generating a move on behalf of the human player (because the computer can make the move even if the board is not accessible).
-- If user selects a node, the clocks are reset to the situation at that node, i.e. to the time left after each player's most recent move. If the clock was running before the node change, it remains running but uses the new node's time data. If the clock was suspended before the node change, it remains suspended. If the clock was stopped before the node change (because the game has ended), it remains stopped. If some time was already spent in the previously selected node, that time is lost.
-- When a player loses on time, you can undo this in the "More game actions" menu. The time left is then reset to the time left after the most recent move of that player. If no move was played, then the remaining time is taken from the time system.
-- To see the current time systems, call up the "Game info" screen > tab "Game" > section "Time settings".
-- When the computer player is playing, either for itself or on behalf of a human player, it uses the following calculations to determine how much time it is allowed to use
-  - Main time: TODO describe the relatively complicated system that Fuego uses
-  - For overtime: The remaining time divided by the number of moves left to play in the current period => Make examples for each time system.
-- When a game is saved to the archive, time that has elapsed while thinking about the next move is not recorded, i.e. when the game is loaded again the clock starts running from the time that was still left when the last move was played.
+{{< /columns >}}
 
 
-When does the app suspend the clock automatically?
+{{< columns size=regular >}}
 
-- Whenever the **user** is blocked from playing a move in time
-- The app is suspended (= sent to the background)
-- The board is not visible at all, or only partially visible
-  - Game info view
-  - Game actions menu
-  - A tab that is not the Play tab
-  - Save game dialog
-  - New game dialog
-- A long-running function blocks the user from playing a move in time
-  - Computer play for me / computer give me a hint
-  - Calculate influence
-- The board is visible but in a different mode
-  - Scoring
-  - Setup
-  - Markup
-- Possibly more - check implementation
+{{< img name="timed-play-invalid-time-data-detail-view-reason-7" size="origin" lazy=false >}}
 
+<--->
 
-Invalid time data
+{{< img name="timed-play-invalid-time-data-detail-view-reason-9" size="origin" lazy=false >}}
 
-- Valid time data is required to guarantee that the app's time-related functions work properly
+<--->
 
-- When a game is loaded from the archive that comes from an external source, the data in the game file may contain inconsistencies.
-- The app detects such inconsistencies and shows them to the user when a given node is selected.
-- The user can select how thorough the app should be when it does checks. The default is "Basic".
-- If the app finds a problem with the time settings, it does not check the time data in individual nodes any more - all nodes are considered to contain invalid time data => The information shown is the same for all nodes. If the user does not want to see the same information over and over, they can disable this in the settings.
+{{< img name="timed-play-invalid-time-data-detail-view-reason-12" size="origin" lazy=false >}}
 
+{{< /columns >}}
 
-Node time data
+### Hiding the clock view
 
-- Describe that there is now a third page in the annotation view
-- Possibly say something about why we don't show an icon in the board position cell
-  - Time data is not considered special enough to show an "info" indicator,
-    so we don't check for the presence of GoNodeTimeData.
-  - In a game without timed play, no time data is expected to be present. If
-    it ***IS*** present then that is remarkable because the SGF authoring
-    program did something strange, but for the user it is hardly of any
-    interest.
-  - In a game with timed play, time data is expected to be present in
-    ***EVERY*** node that contains a move. Showing the "info" indicator
-    would therefore become meaningless and obscure the presence of things
-    that are of real interest to the user.
-  - For the same reason why we don't show an info icon, we also don't introduce a new icon, e.g. a clock icon
+As mentioned in a previous section, if the app finds a foundational problem with one of the game’s time systems, the invalid state and invalid reason are propagated to all nodes. The clock view in that case constantly shows the same invalid data information, regardless of which node you select.
 
+It can be argued that in this situation the information that the view displays has only minimal value, and that it would be better to hide the view so that the Status Text gets more screen estate - which on small devices is particularly scarce.
 
-Other
+You find the corresponding selection in the Settings {{< icon "settings" >}} area of the app under "Timed play > Hide clock view when time data validation finds a problem with one of the time systems".
 
-- Change description of fuegoMaxThinkingTime: Remark that this only has an effect if the game does not use timed play.
-```
+{{< hint type=info >}}
+When you enable the "Hide clock view" setting, the invalid time data information is still available, on page 3 of the annotation view (see [Annotations]({{< relref "../game-editing/annotations/#page-3" >}})).
+{{< /hint >}}
