@@ -213,7 +213,9 @@ The number of pass moves that you select for the Life & Death Settling rule has 
 
 - 2 pass moves: Play can be resumed to settle life & death disputes without discarding any moves.
 - 3 pass moves: The third pass move must be discarded in order to resume play. This option is used to implement the IGS ruleset.
-                
+
+Also see the [End of the game]({{< relref "end-of-the-game" >}}) page of this manual.
+
 ### Dispute Resolution rule
 
 If in the life & death settling phase players cannot agree on which stones are dead and which stones are alive, players must resume play to resolve the dispute.
@@ -222,6 +224,8 @@ The option you select for the Dispute Resolution rule decides who plays first:
 
 - Alternating play: The player who plays first is the opponent of the last player to pass.
 - Non-alternating play: Either player is allowed to play first.
+
+Also see the [End of the game]({{< relref "end-of-the-game" >}}) page of this manual.
 
 ### Four Passes rule
 
@@ -235,3 +239,5 @@ The option you select for the Four Passes rule decides what this should mean:
 {{< hint type=note >}}
 The purpose of the "End immediately" option is to avoid the situation where a game does not end because players cannot agree on which stones are dead/alive, but neither player wants to play first to start resolving the dispute.
 {{< /hint >}}
+
+Also see the [End of the game]({{< relref "end-of-the-game" >}}) page of this manual.
