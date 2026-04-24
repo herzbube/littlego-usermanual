@@ -33,10 +33,9 @@ The following menu items are always shown, regardless of which mode is currently
 
 | Name | Description |
 | ---  | ----------- |
-| Save game | Select this item to save a snapshot of the game that is currently in progress. |
-| New game | Select this item to start a new game. Before the game starts you can choose various parameters of the new game, such as the board size, the amount of komi, and so on. |
+| Save game | Select this item to save a snapshot of the game that is currently in progress. See [The game archive]({{< relref "../game-organization/game-archive" >}}) page of this manual. |
+| New game | Select this item to start a new game. Before the game starts you can choose various parameters of the new game, such as the board size, the amount of komi, and so on. See the [Start a new game]({{< relref "../playing-the-game/start-a-new-game" >}}) page of this manual. |
 | New game - Rematch | Select this item to immediately start a new game that will use the same parameters as the game that is currently in progress. This is a convenient shortcut that skips the screen where you have to select the parameters of a new game. |
-
 
 ### Mode activation
 
@@ -54,7 +53,7 @@ The menu never shows an item to activate Play {{< icon "gogrid2x2" >}} mode. Bec
 
 ### Play mode
 
-The following menu items are shown only when Play {{< icon "gogrid2x2" >}} mode is active.
+The following menu items are shown only when Play {{< icon "gogrid2x2" >}} mode is active. See the [How to play]({{< relref "../playing-the-game/how-to-play" >}}) page of this manual.
 
 | Name | Description |
 | ---  | ----------- |
@@ -69,17 +68,16 @@ The following menu items are shown only when Play {{< icon "gogrid2x2" >}} mode 
 
 ### Scoring mode
 
-The following menu items are shown only when Scoring {{< icon "scoring" >}} mode is active.
+The following menu items are shown only when Scoring {{< icon "scoring" >}} mode is active. See the [Scoring]({{< relref "../playing-the-game/scoring" >}}) page of this manual.
 
 | Name | Description |
 | ---  | ----------- |
 | Start marking as seki | Select this item to start marking stones as "in seki". The menu item is shown only 1) if marking stones currently marks them as dead, and 2) if the game has not ended due to 4 pass moves while the "Four passes" game rule is set to "End game". |
 | Start marking as dead | Select this item to start marking stones as dead stones. The menu item is shown only if marking stones currently marks them as "in seki", and 2) if the game has not ended due to 4 pass moves while the "Four passes" game rule is set to "End game". |
 
-
 ### Board setup mode
 
-The following menu items are shown only when Board setup {{< icon "board-setup" >}} mode is active.
+The following menu items are shown only when Board setup {{< icon "board-setup" >}} mode is active. See the [Board setup]({{< relref "../game-editing/board-setup" >}}) page of this manual.
 
 | Name | Description |
 | ---  | ----------- |
