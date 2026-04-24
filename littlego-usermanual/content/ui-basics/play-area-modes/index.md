@@ -9,7 +9,7 @@ At any given time the Play {{< icon "gogrid2x2" >}} area of the user interface i
 - The symbols that are shown on the board.
 - The buttons that are shown in [the toolbar]({{< relref "play-toolbar" >}}).
 - The entries that appear in [the menu]({{< relref "play-menu" >}}).
-- The information that [the status text area]({{< relref "play-status-text" >}}) displays.
+- The information that [the Status Text]({{< relref "play-status-text" >}}) displays.
 
 ## Play mode
 

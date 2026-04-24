@@ -126,7 +126,7 @@ When you switch to Markup editing {{< icon "markup" >}} mode the following user 
 1. The Play Mode {{< icon "gogrid2x2" >}} button. Tapping this button leaves Markup editing {{< icon "markup" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode.
 1. The Select Markup Type button. Tapping this button pops up a menu that lets you choose what kind of markup you want to place from now on when you interact with the board. The popup menu also contains an Eraser {{< icon "discard" >}} item which when selected lets you delete selected existing markup. The icon used for the button is variable and reflects which markup type is currently selected. In the illustration the button uses the Triangle {{< icon "triangle" >}} symbol icon which means that interacting with the board will place a Triangle symbol.
 1. The Discard all Markup {{< icon "trashcan" >}} button. This button is displayed only if there is at least one piece of markup present. Tapping the button discards **all** markup.
-1. The Status Text area shows either instructions how to place the currently selected type of markup, or continuous feedback about an ongoing interaction (e.g. while you are drawing an arrow).
+1. The Status Text shows either instructions how to place the currently selected type of markup, or continuous feedback about an ongoing interaction (e.g. while you are drawing an arrow).
 
 ## Interactions
 

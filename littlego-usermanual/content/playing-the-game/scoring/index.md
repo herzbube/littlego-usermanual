@@ -121,7 +121,7 @@ After the initial set of dead stones is determined, the board is divided up into
 
 You can now tap a stone to mark it (and its group) as being dead. Territory coloring is immediately updated to display the new state. Note that the stones you marked as being dead are displayed with a small red "x" in the center. Stones marked as dead can be "unmarked" by tapping them again, thus turning them back to alive status.
 
-Whenever you change the dead/alive state of one or more stones, the updated **total** score is displayed in the Status Text area. To view the updated **detail** score you can display the Game Info {{< icon "game-info" >}} screen.
+Whenever you change the dead/alive state of one or more stones, the updated **total** score is displayed in the Status Text. To view the updated **detail** score you can display the Game Info {{< icon "game-info" >}} screen.
 
 ### Assistance with marking dead stones
 

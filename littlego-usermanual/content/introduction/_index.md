@@ -5,7 +5,7 @@ weight: 0
 
 Little Go lets you play the game of Go on the iPhone or iPad. If you don't know the rules of Go you can find a very short introduction in the [Go rules]({{< relref "../appendix/go-rules" >}}) appendix. For a more thorough approach I recommend visiting one of the many websites dedicated to the game; my personal favourite is [Sensei's Library](https://senseis.xmp.net/).
 
-When you launch the app it displays the same area of the user interface that was last active in your previous session. Usually this is the Play {{< icon "gogrid2x2" >}} area, i.e. the area that shows the Go board. The app also restores the game as it was when you played the last time, so there is no need to manually save the game unless you want to archive it for reviewing it at a later time.
+When you launch the app it displays the same area of the user interface that was last active in your previous session. Usually this is the Play {{< icon "gogrid2x2" >}} area, i.e. the area that shows the Go board. The app also restores the game as it was when you played the last time, so there is no need to manually save the game unless you want to archive it for reviewing it at a later time, or export the game record data.
 
 If this is the very first time that you run Little Go, it will start a completely new game with these default settings:
 
@@ -23,6 +23,6 @@ The computer player built into Little Go is powered by the open source software 
 
 When a game is over you will usually want to know who has won. Little Go is not very smart about calculating a score - it relies quite heavily on your help with evaluating which stones on the board are alive and which ones are dead. The pages [End of the game]({{< relref "../playing-the-game/end-of-the-game" >}}) and [Scoring]({{< relref "../playing-the-game/scoring" >}}) have details about how the life & death settling procedure is supposed to work.
 
-When you save a game it will appear in the archive from where you can load it again at a later time, delete it, export it to another application, or transfer it to your computer. Read the page [The game archive]({{< relref "../game-organization/game-archive" >}}) for more information.
+When you save a game it will appear in the Archive {{< icon "archive" >}} area of the app from where you can load it again at a later time, delete it, export it to another application, or transfer it to your computer. Read the page [The game archive]({{< relref "../game-organization/game-archive" >}}) for more information.
 
 Finally, if you are interested in the way how Little Go and Fuego talk to each other, you should study the technical information page [GTP engine]({{< relref "../technical-pages/gtp" >}}).
