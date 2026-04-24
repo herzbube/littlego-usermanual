@@ -6,7 +6,7 @@ resources:
     title: iPhone user interface after first launch
 ---
 
-Little Go is an iOS application that lets you play the game of Go on the iPhone or iPad. This is the user manual for Little Go.
+Little Go is an iOS application that lets you play the game of Go on the iPhone or iPad. This is the user manual for Little Go. It has last been updated for version 2.1 of the app.
 
 Use the main menu on the left to navigate through the app features in a structured way. As an alternative you find below the screen you see when you launch the app for the first time, annotated with some links you can follow to get a quick overview.
 
