@@ -22,8 +22,8 @@ This is how the Play {{< icon "gogrid2x2" >}} area toolbar looks like on an iPho
 
 The toolbar has 2 areas:
 
-1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the mode that is currently active in the Play {{< icon "gogrid2x2" >}} area is in (e.g. Play {{< icon "gogrid2x2" >}} mode, Scoring {{< icon "scoring" >}} mode, etc.).
-1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info screen]({{< relref "../other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "play-menu" >}}).
+1. The left area of the toolbar shows a varying set of buttons. Which buttons are shown mainly depends on the **mode** that is currently active in the Play {{< icon "gogrid2x2" >}} area (e.g. Play {{< icon "gogrid2x2" >}} mode, Scoring {{< icon "scoring" >}} mode, etc.).
+1. The right area of the toolbar is fixed and always shows the same two buttons: One to call up the [Game Info {{< icon "game-info" >}} screen]({{< relref "../other-features/game-info-screen" >}}), the other to call up the [Play menu]({{< relref "play-menu" >}}).
 
 ---
 
@@ -47,12 +47,14 @@ The reason for the different landscape layout is that in landscape orientation t
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
-| <span class="littlego-icon">{{< icon "game-info" >}}</span> | Game Info | The button calls up the [Game Info screen]({{< relref "../other-features/game-info-screen" >}}). |
+| <span class="littlego-icon">{{< icon "game-info" >}}</span> | Game Info | The button calls up the [Game Info {{< icon "game-info" >}} screen]({{< relref "../other-features/game-info-screen" >}}). |
 | <span class="littlego-icon">{{< icon "menu-hamburger" >}}</span> | Menu | The button calls up the [Play menu]({{< relref "play-menu" >}}). |
 
 ### Play mode
 
 The following buttons can appear in the left toolbar area while [Play {{< icon "gogrid2x2" >}} mode]({{< relref "play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
+
+Also see the [How to play]({{< relref "../playing-the-game/how-to-play" >}}) page of this manual.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
@@ -69,6 +71,8 @@ The following buttons can appear in the left toolbar area while [Play {{< icon "
 
 The following buttons can appear in the left toolbar area while [Scoring {{< icon "scoring" >}} mode]({{< relref "play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
 
+Also see the [Scoring]({{< relref "../playing-the-game/scoring" >}}) page of this manual.
+
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
 | <span class="littlego-icon">{{< icon "gogrid2x2" >}}</span> | Play Mode | Tapping this button leaves Scoring {{< icon "scoring" >}} mode and instead activates Play {{< icon "gogrid2x2" >}} mode. |
@@ -77,6 +81,8 @@ The following buttons can appear in the left toolbar area while [Scoring {{< ico
 ### Board setup mode
 
 The following buttons can appear in the left toolbar area while [Board setup {{< icon "board-setup" >}} mode]({{< relref "play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
+
+Also see the [Board setup]({{< relref "../game-editing/board-setup" >}}) page of this manual.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
@@ -88,6 +94,8 @@ The following buttons can appear in the left toolbar area while [Board setup {{<
 ### Markup editing mode
 
 The following buttons can appear in the left toolbar area while [Markup editing {{< icon "markup" >}} mode]({{< relref "play-area-modes" >}}) is active in the Play {{< icon "gogrid2x2" >}} area.
+
+Also see the [Markup]({{< relref "../game-editing/markup" >}}) page of this manual.
 
 | Icon | Name | Description |
 | ---  | ---- | ----------- |
