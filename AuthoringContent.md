@@ -2,6 +2,18 @@
 
 This document contains notes on how to author content for this project.
 
+## Test site locally
+
+The following command launches a small web server built into Hugo with which you can test the online configuration of the site locally. Point your browser to the URL that Hugo prints out when you run the command.
+
+    hugo server -D --config=config/online/hugo.toml
+
+Notes:
+
+- The `-D` flag tells Hugo to include draft content.
+- Information how to test the offline configuration can be found in [ReleaseSteps.md](ReleaseSteps.md).
+
+
 ## Creating a new content file
 
 This command creates a new content file `foo.md` in section `bar`.
@@ -24,13 +36,13 @@ Especially in the case of `GIF` files the resized image file can be **a lot** la
 
 ## Screenshot files
 
-Taking a screenshot from the simulator results in a `PNG` file. To reduce the size of the Git repo, convert the screenshot to `JPG` format. Even with a high quality setting the resulting `JPG` file will take only about 25-30% of the original `PNG` file's size.
+Taking a screenshot from the simulator results in a `PNG` file. To reduce the size of the Git repo, convert the screenshot to `JPG` format and check whether the resulting `JPG` file is smaller than the `PNG` file. In the past this used to be the case even when the `JPG` file was created with a high quality setting, however lately it seems that simulators create `PNG` files with better compression, so you should always check which file is smaller.
 
 If you have ImageMagick installed you may find `script/convert-to-jpg.sh` useful: It's a little shell script that takes 1-n input files and converts them to `JPG` format with quality 95. Each converted file is placed next to its original, using the same file name but with the file extension changed to `.jpg`.
 
-Use Inkscape or some other vector graphics application to annotate the screenshot. First create a new `SVG` file, next import the `JPG` file into the `SVG` document (select the "embed" option), then use the annotation shape templates in `screenshot-annotations.svg` to make the annotations. Because web browsers know how to display `SVG` images, the resulting `SVG` file can simply be referenced from the content of the manual just like any other graphics file. The advantage of using an `SVG` image like this is that the annotations can be edited again later on. The disadvantage is that the `SVG` file will be a bit larger than the original `JPG` file, because the embedded image is stored in base64 encoding.
+Use Inkscape or some other vector graphics application to annotate the screenshot. First create a new `SVG` file, next import the `JPG` or `PNG` file into the `SVG` document (select the "embed" option), then use the annotation shape templates in `screenshot-annotations.svg` to make the annotations. Because web browsers know how to display `SVG` images, the resulting `SVG` file can simply be referenced from the content of the manual just like any other graphics file. The advantage of using an `SVG` image like this is that the annotations can be edited again later on. The disadvantage is that the `SVG` file will be a bit larger than the original `JPG` or `PNG` file, because the embedded image is stored in base64 encoding.
 
-**Note:** It is safe to delete the `JPG` file after importing the image into the `SVG` document. If you want to get hold again of the original `JPG` image later on, you can export it from Inkscape by right-clicking and selecting the "Extract image" entry from the context menu.
+**Note:** It is safe to delete the `JPG` or `PNG` file after importing the image into the `SVG` document. If you want to get hold again of the original `JPG` or `PNG` image later on, you can export it from Inkscape by right-clicking and selecting the "Extract image" entry from the context menu.
 
 ## Icons
 
@@ -100,3 +112,38 @@ The result can then be embedded into a markdown document as follows. Leave out t
   Your browser does not support the video tag.  
 </video>
 ```
+
+## Writing guidelines
+
+In general, when authoring new content follow the style you find on the already existing manual pages. When in doubt, here are some guidelines for your writings. These guidelines can also serve as a quick reference so you don't have to continuously hunt for terms.
+
+- Prefer the active voice over the passive voice. The active voice in general provides a clearer picture of what's going on, because it forces the writer to identify the subject that performs an action. The passive voice on the other hand allows omitting the actor, thus inviting less clarity.
+- Avoid "the user". Instead assume the reader is the user and address them directly with "you".
+- Use the following terms and styles to identify user interface elements. In some cases, accompany the user interface element name with a matching icon to give the reader a cue that this is a special reference.
+  - The tab bar
+  - The &lt;name&gt; &lt;icon&gt; area (refers to the content of a tab)
+  - The toolbar
+  - The &lt;name&gt; &lt;icon&gt; button (refers to a button shown in the toolbar)
+  - The "&lt;name&gt;" button (refers to a button that belongs to a specific screen, to be used when the manual discusses that screen)
+  - The Play menu
+  - The "&lt;name&gt;" menu item
+  - The Game Info &lt;icon&gt; screen
+  - The Status Text
+  - The &lt;name&gt; &lt;icon&gt; mode (refers to a mode in the Play area, e.g. Scoring mode)
+  - A &lt;name&gt; &lt;icon&gt; game (refers to a game type, e.g. a Human vs. Computer game)
+  - The "&lt;name&gt;" setting
+  - [...] in the Settings area of the app under "&lt;settings section&gt; > &lt;setting name&gt;"
+- Game terms
+  - Either "make a move" or "play a move"
+  - Side to play next
+  - Intersection
+  - Place a stone
+- Other terms
+  - Use "the app" instead of "Little Go"
+  - An area is "visible" or "not visible".
+  - A mode is "active" or "not active". It is "activated" or "deactivated".
+  - The computer makes moves "on your behalf" or "on behalf of the human player".
+  - Use "SGF file", not ".sgf file".
+  - Use double quotes ("), not single quotes (').
+  - The user "taps" or "selects" screen elements, they never "click".
+- When working with screenshots, it is often useful to provide them as SVG so that you can annotate screen elements. When you use numbers to annotate, the text can refer to the numbers with the help of numbered lists, or with adding one of the "circled digit <name>" Unicode characters (e.g. ①, which is U+2460, or "CIRCLED DIGIT ONE").
