@@ -27,9 +27,9 @@ for inputfile in "$@"; do
   fi
 done
 
-which convert >/dev/null
+which magick >/dev/null
 if test $? -ne 0; then
-  echo "command 'convert' not found in PATH"
+  echo "command 'magick' not found in PATH"
   exit 1
 fi
 
@@ -44,6 +44,6 @@ for inputfile in "$@"; do
   fi
 
   echo "converting $inputfile => $outputfile"
-  convert -quality 95 "$inputfile" "$outputfile"
+  magick -quality 95 "$inputfile" "$outputfile"
 done
 
