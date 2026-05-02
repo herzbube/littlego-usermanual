@@ -30,11 +30,23 @@ On other platforms use your familiar tools to download and extract the tarball. 
 
 ### Customize Hugo theme
 
-This project requires a bit of customization to the Hugo theme. At the moment the customization consists only of a custom CSS file which must be present in the following location:
+This project requires a bit of customization to the Hugo theme.
+
+#### CSS
+
+A custom CSS file must be present in the following location:
 
     ./littlego-usermanual/static/custom.css
 
 **Important:** When you make changes to this file some browsers require you to empty their cache & perform a manual page reload to pick up the updates (e.g. Safari) while others reload the updated file immediately (e.g. Firefox).
+
+#### Custom shortcodes
+
+After the Geekdoc theme is installed, copy custom shortcodes into the theme's `shortcodes` folder:
+
+    cp theme-customizations/shortcodes/* littlego-usermanual/themes/hugo-geekdoc/layouts/shortcodes
+
+Currently there is only a single custom shortcode, for rendering videos. [This pull request](https://github.com/thegeeklab/hugo-geekdoc/pull/1207/changes) was proposed to integrate the shortcode into Geekdoc itself. Once the pull request has been accepted, the custom shortcode can be removed from this project.
 
 ### AsciiDoctor
 

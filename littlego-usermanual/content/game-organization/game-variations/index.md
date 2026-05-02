@@ -104,6 +104,15 @@ resources:
   - name: condense-moves-condensed
     src: "condense-moves-condensed.jpg"
     title: Condensed moves
+  - name: focus-mode-scroll-to-make-visible
+    src: "focus-mode-scroll-to-make-visible.mp4"
+    title: Focus mode "Scroll to make visible"
+  - name: focus-mode-scroll-to-make-visible-centered
+    src: "focus-mode-scroll-to-make-visible-centered.mp4"
+    title: Focus mode "Scroll to make visible centered"
+  - name: focus-mode-scroll-to-center
+    src: "focus-mode-scroll-to-center.mp4"
+    title: Focus mode "Scroll to center (even if visible)"
 ---
 
 A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.
@@ -178,10 +187,9 @@ If you do not need the tree view at all you can turn it off in the Settings {{< 
 {{< img name="resize-tree-view" lazy=false >}}
 
 {{< expand "Resize animation - tap to expand" >}}
-<video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/resize-tree-view-animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+
+{{< video name="resize-tree-view-animation" type="video/mp4" preload="auto" controls="true" autoplay="true" loop="true" >}}
+
 {{< /expand >}}
 
 {{< /columns >}}
@@ -339,10 +347,7 @@ In the following animation the user can be seen to go back to move 2 after playi
 
 <--->
 
-<video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/create-new-game-variation-animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+{{< video name="create-new-game-variation-animation" type="video/MP4" preload="auto" controls="true" autoplay="true" loop="true" >}}
 
 {{< /columns >}}
 
@@ -441,10 +446,9 @@ Condition: The node tree view focus-scrolls only if the newly selected node is c
 Action: The view scrolls just enough to make the newly selected node fully visible **at one of the view's edges**.
 
 {{< expand "Animation - tap to expand" >}}
-<video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-make-visible.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+
+{{< video name="focus-mode-scroll-to-make-visible" type="video/mp4" preload="auto" controls="true" autoplay="true" loop="true" >}}
+
 {{< /expand >}}
 
 <--->
@@ -456,10 +460,9 @@ Condition: The node tree view focus-scrolls only if the newly selected node is c
 Action: The view scrolls to make the newly selected node fully visible **at the center of the view**.
 
 {{< expand "Animation - tap to expand" >}}
-<video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-make-visible-centered.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+
+{{< video name="focus-mode-scroll-to-make-visible-centered" type="video/mp4" preload="auto" controls="true" autoplay="true" loop="true" >}}
+
 {{< /expand >}}
 
 <--->
@@ -471,10 +474,9 @@ Condition: None. The node tree view always focus-scrolls, even if the newly sele
 Action: The view scrolls to show the newly selected node fully visible **at the center of the view**.
 
 {{< expand "Animation - tap to expand" >}}
-<video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-center.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+
+{{< video name="focus-mode-scroll-to-center" type="video/mp4" preload="auto" controls="true" autoplay="true" loop="true" >}}
+
 {{< /expand >}}
 
 {{< /columns >}}
