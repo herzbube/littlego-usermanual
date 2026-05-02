@@ -62,9 +62,9 @@ On other platforms use the package manager of your choice to install AsciiDoctor
 
 The last time a user manual was generated the following prerequisite versions were used:
 
-- Hugo extended 0.124.1
-- Geekdoc theme 0.45.0
-- Asciidoctor 2.0.20
+- Hugo extended 0.151.2
+- Geekdoc theme 2.0.0
+- Asciidoctor 2.0.25
 
 ## Release prep
 
