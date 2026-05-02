@@ -612,12 +612,18 @@ Some of the exceptions where a player's clock is not started after the node sele
 
 ## How the computer player uses its time
 
-In a regular game, i.e. a game without timed play, the computer player's [Thinking time]({{< relref "settings/computer-player/#thinking-time" >}}) setting determines how long the computer player takes to make a move. In a game **with** timed play, however, this setting has no effect, instead the time settings chosen for the game are being used.
+In a game **without** timed play, the computer player's [Thinking time]({{< relref "settings/computer-player/#thinking-time" >}}) setting is limiting how long the computer player may take at maximum to make a move.
+
+In a game **with** timed play, the "Thinking time" setting has no effect, instead the computer player uses the timed play settings chosen for the game as the limiting factor.
 
 If you wish to know more, the following sections provide an overview of the algorithms being used.
 
 {{< hint type=note >}}
 The information applies both when the computer player makes a move for itself, and when  it makes a move on behalf of a human player.
+{{< /hint >}}
+
+{{< hint type=note >}}
+Regardless of whether "Thinking time" or the timed play settings are used as the limiting factor, other computer player settings - notably the [Maximum games]({{< relref "settings/computer-player/#maximum-games" >}}) setting - may cause the computer player to take less time for its moves than "Thinking time" or the timed play settings would allow.
 {{< /hint >}}
 
 ### Main time
@@ -644,7 +650,7 @@ During the Overtime phase of the game, the calculation of the time the computer 
 | Japanese Timing | Full period duration. | Because the computer player always makes its move within the remaining time - in this case before the period duration has elapsed - the computer player will **never** make use of any periods beyond the first. This limitation, or bug if you like, in the current implementation of the app is tracked in issue 449 on GitHub ([external link](https://github.com/herzbube/littlego/issues/449)) and will be fixed in one way or another in one of the next releases of the app. |
 | Fischer Timing | However much time remains to the player. | |
 | Steady Average Timing, with one or more **required** moves remaining | Remaining time in the current period, divided by the number of moves the player is still required to make during the current period. | Same as Canadian Timing. |
-| Steady Average Timing, with no more moves required | Remaining time in the current period, multiplied by two. | Because the computer player always makes its move within the remaining time, the remaining time must be made greater than it effectively is. Doubling the remaining time allows the computer player to aggressively use all the remaining extra time of the period for a single move, which then counts as the first move of the following period. |
+| Steady Average Timing, with no more moves required | Remaining time in the current period, plus the available time for the first move in the next period. | Because the computer player always makes its move within the remaining time, the remaining time must be made greater than it effectively is. Adding the time available for the first move in the next period is roughly equivalent to what a human player might do, without any strategic considerations of how to better use the remaining time for extra moves. |
 | Total Average Timing | Remaining time in the current period, divided by the number of moves the player is still required to make during the current period. | Same as Canadian Timing. |
 
 {{< hint type=info title="Technical background" >}}
