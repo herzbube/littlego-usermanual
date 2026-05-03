@@ -3,7 +3,7 @@
 # ------------------------------------------------------------
 
 baseURL = '/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Little Go User Manual'
 theme = "hugo-geekdoc"
 resourceDir = 'resources/offline'
