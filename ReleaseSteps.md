@@ -46,7 +46,7 @@ After the Geekdoc theme is installed, copy custom shortcodes into the theme's `s
 
     cp theme-customizations/shortcodes/* littlego-usermanual/themes/hugo-geekdoc/layouts/shortcodes
 
-Currently there is only a single custom shortcode, for rendering videos. [This pull request](https://github.com/thegeeklab/hugo-geekdoc/pull/1207/changes) was proposed to integrate the shortcode into Geekdoc itself. Once the pull request has been accepted, the custom shortcode can be removed from this project.
+**Note:** There are currently no custom shortcodes to copy. There used to be one for rendering videos, but this has meanwhile been integrated into Geekdoc v3.1.0 ([see pull request](https://github.com/thegeeklab/hugo-geekdoc/pull/1207/changes)).
 
 ### AsciiDoctor
 
@@ -62,8 +62,8 @@ On other platforms use the package manager of your choice to install AsciiDoctor
 
 The last time a user manual was generated the following prerequisite versions were used:
 
-- Hugo extended 0.151.2
-- Geekdoc theme 2.0.0
+- Hugo extended 0.161.1
+- Geekdoc theme 4.0.0
 - Asciidoctor 2.0.25
 
 ## Release prep
@@ -113,7 +113,7 @@ Switch the Git branch:
 
 Remove the user manual from the previous release:
 
-    rm -r /tmp/littlego-usermanual /tmp/CNAME
+    rm -rf /tmp/littlego-usermanual /tmp/CNAME
     mv littlego-usermanual CNAME /tmp
     rm -r *
     mv /tmp/littlego-usermanual /tmp/CNAME .
@@ -136,7 +136,7 @@ Switch back to the main Git branch:
 Remove a previously generated ZIP archive:
 
     cd /path/to/repo
-    rm littlego-usermanual.zip
+    rm -f littlego-usermanual.zip
 
 Create the new ZIP archive:
 
