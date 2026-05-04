@@ -4,7 +4,7 @@
     <title>Other features on Little Go User Manual</title>
     <link>https://littlego-usermanual.herzbube.ch/other-features/</link>
     <description>Recent content in Other features on Little Go User Manual</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://littlego-usermanual.herzbube.ch/other-features/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,21 +12,21 @@
       <link>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://littlego-usermanual.herzbube.ch/other-features/game-info-screen/</guid>
-      <description>The Play area of the app always displays the Game Info button. Tapping the button calls up the &amp;ldquo;Game Info&amp;rdquo; screen which shows all sorts of useful information about the game that is currently in progress.&#xA;The screen uses tabs to organize the content it displays. When you call up the screen the app automatically activates the tab that was selected when the screen was open the last time.&#xA;The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Game&amp;rdquo; tab The &amp;ldquo;Board&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab The &amp;ldquo;Score&amp;rdquo; tab displays scoring information in a tabular fashion.</description>
+      <description>&lt;p&gt;The Play &lt;svg class=&#34;gdoc-icon gogrid2x2&#34;&gt;&lt;use xlink:href=&#34;#gogrid2x2&#34;&gt;&lt;/use&gt;&lt;/svg&gt; area of the app always displays the Game Info &lt;svg class=&#34;gdoc-icon game-info&#34;&gt;&lt;use xlink:href=&#34;#game-info&#34;&gt;&lt;/use&gt;&lt;/svg&gt; button. Tapping the button calls up the &amp;ldquo;Game Info&amp;rdquo; screen which shows all sorts of useful information about the game that is currently in progress.&lt;/p&gt;&#xA;&lt;p&gt;The screen uses tabs to organize the content it displays. When you call up the screen the app automatically activates the tab that was selected when the screen was open the last time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Player influence</title>
       <link>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://littlego-usermanual.herzbube.ch/other-features/player-influence/</guid>
-      <description>The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&amp;rsquo;s influence and displays an indication of that estimate.</description>
+      <description>&lt;p&gt;The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&amp;rsquo;s influence and displays an indication of that estimate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Game board extras</title>
       <link>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/</guid>
-      <description>Coordinates Move numbers Notification when computer makes a move Coordinates By default the app does not display any game board coordinates, because these consume precious screen estate that could otherwise be used for drawing a slightly larger game board. This becomes especially important when you play on a large board on a device with a smaller screen.&#xA;You can enable coordinate labels in the Settings area of the app under &amp;ldquo;Display &amp;gt; Display coordinates&amp;rdquo;.</description>
+      <description>&lt;div class=&#34;gdoc-toc gdoc-toc__level--6&#34;&gt;&#xA;      &lt;nav id=&#34;TableOfContents&#34;&gt;&#xA;  &lt;ul&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#coordinates&#34;&gt;Coordinates&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#move-numbers&#34;&gt;Move numbers&lt;/a&gt;&lt;/li&gt;&#xA;    &lt;li&gt;&lt;a href=&#34;#notification-when-computer-makes-a-move&#34;&gt;Notification when computer makes a move&lt;/a&gt;&lt;/li&gt;&#xA;  &lt;/ul&gt;&#xA;&lt;/nav&gt;&#xA;      &lt;hr /&gt;&#xA;    &lt;/div&gt;&#xA;&lt;div class=&#34;flex align-center gdoc-page__anchorwrap&#34;&gt;&#xA;    &lt;h2 id=&#34;coordinates&#34;&#xA;    &gt;&#xA;        Coordinates&#xA;    &lt;/h2&gt;&#xA;    &lt;a data-clipboard-text=&#34;https://littlego-usermanual.herzbube.ch/other-features/game-board-extras/#coordinates&#34; class=&#34;gdoc-page__anchor clip flex align-center&#34; title=&#34;Anchor to: Coordinates&#34; aria-label=&#34;Anchor to: Coordinates&#34; href=&#34;#coordinates&#34;&gt;&#xA;        &lt;svg class=&#34;gdoc-icon gdoc_link&#34;&gt;&lt;use xlink:href=&#34;#gdoc_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;By default the app does not display any game board coordinates, because these consume precious screen estate that could otherwise be used for drawing a slightly larger game board. This becomes especially important when you play on a large board on a device with a smaller screen.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Technical pages on Little Go User Manual</title>
     <link>https://littlego-usermanual.herzbube.ch/technical-pages/</link>
     <description>Recent content in Technical pages on Little Go User Manual</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://littlego-usermanual.herzbube.ch/technical-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://littlego-usermanual.herzbube.ch/technical-pages/sgf/</guid>
-      <description>Items listed in the Archive area of the app (see The game archive) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. External link to SGF specification.&#xA;The app internally uses a software package named SGFC (the SGF Syntax Checker &amp;amp; Converter) to load and save SGF data. External link to SGFC website.</description>
+      <description>&lt;p&gt;Items listed in the Archive &lt;svg class=&#34;gdoc-icon archive&#34;&gt;&lt;use xlink:href=&#34;#archive&#34;&gt;&lt;/use&gt;&lt;/svg&gt; area of the app (see &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://littlego-usermanual.herzbube.ch/game-organization/game-archive/&#34;&#xA;&gt;The game archive&lt;/a&gt;) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;https://www.red-bean.com/sgf/index.html&#34;&#xA;&gt;External link to SGF specification&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The app internally uses a software package named SGFC (the SGF Syntax Checker &amp;amp; Converter) to load and save SGF data. &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;%28https://www.red-bean.com/sgf/sgfc/%29&#34;&#xA;&gt;External link to SGFC website&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GTP Engine</title>
       <link>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://littlego-usermanual.herzbube.ch/technical-pages/gtp/</guid>
-      <description>The computer player in this app is powered by the open source software library Fuego (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.&#xA;In the Diagnostics area of the app there are a few items at the top of the screen that let you peek into what&amp;rsquo;s going on between GTP client (the app) and the GTP engine (Fuego).</description>
+      <description>&lt;p&gt;The computer player in this app is powered by the open source software library &lt;a&#xA;  class=&#34;gdoc-markdown__link&#34;&#xA;  href=&#34;http://fuego.sourceforge.net/&#34;&#xA;&gt;Fuego&lt;/a&gt; (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.&lt;/p&gt;&#xA;&lt;p&gt;In the Diagnostics &lt;svg class=&#34;gdoc-icon diagnostics&#34;&gt;&lt;use xlink:href=&#34;#diagnostics&#34;&gt;&lt;/use&gt;&lt;/svg&gt; area of the app there are a few items at the top of the screen that let you peek into what&amp;rsquo;s going on between GTP client (the app) and the GTP engine (Fuego).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

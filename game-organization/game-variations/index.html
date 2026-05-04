@@ -9,7 +9,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.161.1">
 
 
   <meta name="description" content="A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.
@@ -59,18 +59,18 @@ This manual page introduces the concept of a “game tree” to organize game va
       "@type": "TechArticle",
       "articleSection": "Game Organization",
       "name": "Game variations",
-      "url" : "https://littlego-usermanual.herzbube.ch/game-organization/game-variations/",
+      "url": "https://littlego-usermanual.herzbube.ch/game-organization/game-variations/",
       "headline": "Game variations",
       "description": "A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.\nThis manual page introduces the concept of a “game tree” to organize game variations, presents a glossary with term definitions that are important to understand the game tree concept, and then shows with numerous illustrations how the app’s tree view feature works in detail.",
-      "wordCount" : "3336",
+      "wordCount": "3377",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://littlego-usermanual.herzbube.ch/game-organization/game-variations/"
       },
-      "copyrightHolder" : "Little Go User Manual",
-      "copyrightYear" : "0001",
+      "copyrightHolder": "Little Go User Manual",
+      "copyrightYear": "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
       "dateModified": "0001-01-01T00:00:00.00Z",
@@ -90,8 +90,8 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
     
-  <script src="/js/colortheme-5cd55a83.bundle.min.js"></script>
-<script src="/js/main-09678822.bundle.min.js"></script>
+  <script src="/js/colortheme-6c1bf822.bundle.min.js"></script>
+<script src="/js/main-1b467c45.bundle.min.js"></script>
 
 <link
   rel="preload"
@@ -110,34 +110,34 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 <link
   rel="preload"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   media="all"
 />
 
 <link
   rel="preload"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   media="screen and (max-width: 45rem)"
 />
 
 <link
   rel="preload"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   media="print"
 />
 
@@ -160,6 +160,10 @@ This manual page introduces the concept of a “game tree” to organize game va
   </head>
 
   <body itemscope itemtype="https://schema.org/WebPage">
+    <div class="w-full flex justify-center">
+      <a href="#main-content" id="gdoc-to-main" class="gdoc-markdown__link">Skip to main content</a>
+    </div>
+
     
   <!-- geekdoc include: /sprites/about.svg -->
   <svg class="svg-sprite" width="0" height="0" class="hidden">
@@ -982,41 +986,44 @@ This manual page introduces the concept of a “game tree” to organize game va
     <div
       class="wrapper "
     >
-      <input type="checkbox" class="hidden" id="menu-control" />
-      <input type="checkbox" class="hidden" id="menu-header-control" />
       
       <header class="gdoc-header">
   <div class="container flex align-center justify-between">
     
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>Open Navigation</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>Close Navigation</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
+      <label for="menu-control" class="gdoc-nav__control">
+        <div tabindex="0" role="button" aria-pressed="false">
+          <input type="checkbox" class="hidden" id="menu-control" />
+
+          <svg class="gdoc-icon gdoc_menu">
+            <title>Open Navigation</title>
+            <use xlink:href="#gdoc_menu"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_arrow_back">
+            <title>Close Navigation</title>
+            <use xlink:href="#gdoc_arrow_back"></use>
+          </svg>
+        </div>
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://littlego-usermanual.herzbube.ch/">
-        <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="/brand.svg"
-            alt=""
-          />
-          <span class="gdoc-brand__title">Little Go User Manual</span>
-        </span>
+      <a class="gdoc-brand gdoc-header__link flex gap-16 align-center" href="https://littlego-usermanual.herzbube.ch/">
+        <img
+          class="gdoc-brand__img"
+          src="/brand.svg"
+          alt=""
+        />
+        <div>
+          <div class="gdoc-brand__title">Little Go User Manual</div>
+          
+        </div>
       </a>
     </div>
-    <div class="gdoc-menu-header">
+    <div class="gdoc-menu-header flex gap-16">
       <span class="gdoc-menu-header__items">
         
 
 
-        <span id="gdoc-color-theme">
+        <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
           <svg class="gdoc-icon gdoc_brightness_dark">
             <title>Toggle Dark/Light/Auto mode</title>
             <use xlink:href="#gdoc_brightness_dark"></use>
@@ -1042,23 +1049,24 @@ This manual page introduces the concept of a “game tree” to organize game va
 
         
 
+      </span>
+      <span class="gdoc-menu-header__control">
+        <label for="menu-header-control">
+          <div tabindex="0" role="button" aria-pressed="false">
+            <input type="checkbox" class="hidden" id="menu-header-control" />
 
-
-        <span class="gdoc-menu-header__control">
-          <label for="menu-header-control">
             <svg class="gdoc-icon gdoc_keyboard_arrow_right">
               <use xlink:href="#gdoc_keyboard_arrow_right"></use>
               <title>Close Menu Bar</title>
             </svg>
-          </label>
-        </span>
+
+            <svg class="gdoc-icon gdoc_keyboard_arrow_left">
+              <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+              <title>Open Menu Bar</title>
+            </svg>
+          </div>
+        </label>
       </span>
-      <label for="menu-header-control" class="gdoc-menu-header__control">
-        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
-          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-          <title>Open Menu Bar</title>
-        </svg>
-      </label>
     </div>
   </div>
 </header>
@@ -1070,7 +1078,7 @@ This manual page introduces the concept of a “game tree” to organize game va
           <aside class="gdoc-nav">
             <nav>
   
-  <div class="gdoc-search flex align-center">
+  <script defer src="/js/search-14869ba5.bundle.min.js"></script><div class="gdoc-search flex align-center">
     <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
     <input
       type="text"
@@ -1222,7 +1230,7 @@ This manual page introduces the concept of a “game tree” to organize game va
                     href="/ui-basics/tab-bar/"
                     class="gdoc-nav__entry"
                   >
-                    Tab bar at the bottom
+                    Tab bar
                   </a>
                 </span>
               
@@ -1673,6 +1681,94 @@ This manual page introduces the concept of a “game tree” to organize game va
                     class="gdoc-nav__entry"
                   >
                     End of the game
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/game-result/"
+                    class="gdoc-nav__entry"
+                  >
+                    The game result
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/timed-play/"
+                    class="gdoc-nav__entry"
+                  >
+                    Timed play
                   </a>
                 </span>
               
@@ -2943,8 +3039,10 @@ This manual page introduces the concept of a “game tree” to organize game va
 
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
+    id="main-content" tabindex="-1"
   >
     <h1>Game variations</h1>
+    
     <p>A game of Go on a phyiscal board is a linear sequence of moves. Go computer programs such as this app allow to add variations to the main line of moves, in order to explore alternate sequences of moves that in some way differ from the main line.</p>
 <p>This manual page introduces the concept of a &ldquo;game tree&rdquo; to organize game variations, presents a glossary with term definitions that are important to understand the game tree concept, and then shows with numerous illustrations how the app&rsquo;s tree view feature works in detail.</p>
 <div class="gdoc-toc gdoc-toc__level--6">
@@ -3042,99 +3140,99 @@ This manual page introduces the concept of a “game tree” to organize game va
   </div>
 
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th>Term</th>
-<th>Definition</th>
-<th>Example(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Board position</td>
-<td>The result of applying the content of a → node to the board.</td>
-<td></td>
-</tr>
-<tr>
-<td>Branch</td>
-<td>A sequence of → nodes, starting at the → child node of a → branching node and ending at a → leaf node. A branch is a partial → game variation.</td>
-<td>Branch 1: Nodes C-J. Branch 2: E-J. Branch 3: I-J. Branch 4: K-M. Branch 5: N. Branch 6: O-Q. Branch 7: Q. Branch 8: R. Branch 9: S-T.</td>
-</tr>
-<tr>
-<td>Branching node</td>
-<td>A → node where game play branches into different → game variations. A branching node is a node that has two or more → child nodes.</td>
-<td>Nodes B, D, H, P are branching nodes.</td>
-</tr>
-<tr>
-<td>Child node</td>
-<td>A successor → node of another node. The other node is the → parent node of the child node. A node with two or more child nodes is a → branching node. A node without a child node is a → leaf node.</td>
-<td>All nodes except A are child nodes.</td>
-</tr>
-<tr>
-<td>Current game variation</td>
-<td>The → game variation that is currently selected in the user interface. The current game variation is rendered with a red path.</td>
-<td>The current game variaton consists of nodes A, B, C, D, K, L and M.</td>
-</tr>
-<tr>
-<td>Current node</td>
-<td>The → node that is currently selected in the user interface. The board shows the content of the current node. The current node is rendered with a red circle.</td>
-<td>Node L is the current node.</td>
-</tr>
-<tr>
-<td>Game tree</td>
-<td>The totality of all → game variations added together. The game tree is made up of → nodes. The start of the game tree is the → root node.</td>
-<td></td>
-</tr>
-<tr>
-<td>Game variation</td>
-<td>A sequence of → nodes, starting at the → root node and ending at a → leaf node.</td>
-<td>Variation 1: Nodes A-J. Variation 2: A-N. Variation 3: A-M. Variation 4: A-Q. Variation 5: A-T. Variation 6: A-R.</td>
-</tr>
-<tr>
-<td>Leaf node</td>
-<td>A → node after which there are no further nodes. A leaf node has no → child nodes.</td>
-<td>Nodes J, M, N, Q, R and T are leaf nodes.</td>
-</tr>
-<tr>
-<td>Main line</td>
-<td>Synonym for → main variation.</td>
-<td>The main line consists of nodes A-J.</td>
-</tr>
-<tr>
-<td>Main variation</td>
-<td>The → game variation that consists of the main line of play, i.e. the game as it was actually played. The main variation is <strong>always</strong> rendered at the top of the → game tree.</td>
-<td>The main variation consists of nodes A-J.</td>
-</tr>
-<tr>
-<td>Node</td>
-<td>The basic unit of the → game tree. A node is a container for information such as the move that was played, <a
+  <thead>
+      <tr>
+          <th>Term</th>
+          <th>Definition</th>
+          <th>Example(s)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Board position</td>
+          <td>The result of applying the content of a → node to the board.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Branch</td>
+          <td>A sequence of → nodes, starting at the → child node of a → branching node and ending at a → leaf node. A branch is a partial → game variation.</td>
+          <td>Branch 1: Nodes C-J. Branch 2: E-J. Branch 3: I-J. Branch 4: K-M. Branch 5: N. Branch 6: O-Q. Branch 7: Q. Branch 8: R. Branch 9: S-T.</td>
+      </tr>
+      <tr>
+          <td>Branching node</td>
+          <td>A → node where game play branches into different → game variations. A branching node is a node that has two or more → child nodes.</td>
+          <td>Nodes B, D, H, P are branching nodes.</td>
+      </tr>
+      <tr>
+          <td>Child node</td>
+          <td>A successor → node of another node. The other node is the → parent node of the child node. A node with two or more child nodes is a → branching node. A node without a child node is a → leaf node.</td>
+          <td>All nodes except A are child nodes.</td>
+      </tr>
+      <tr>
+          <td>Current game variation</td>
+          <td>The → game variation that is currently selected in the user interface. The current game variation is rendered with a red path.</td>
+          <td>The current game variaton consists of nodes A, B, C, D, K, L and M.</td>
+      </tr>
+      <tr>
+          <td>Current node</td>
+          <td>The → node that is currently selected in the user interface. The board shows the content of the current node. The current node is rendered with a red circle.</td>
+          <td>Node L is the current node.</td>
+      </tr>
+      <tr>
+          <td>Game tree</td>
+          <td>The totality of all → game variations added together. The game tree is made up of → nodes. The start of the game tree is the → root node.</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Game variation</td>
+          <td>A sequence of → nodes, starting at the → root node and ending at a → leaf node.</td>
+          <td>Variation 1: Nodes A-J. Variation 2: A-N. Variation 3: A-M. Variation 4: A-Q. Variation 5: A-T. Variation 6: A-R.</td>
+      </tr>
+      <tr>
+          <td>Leaf node</td>
+          <td>A → node after which there are no further nodes. A leaf node has no → child nodes.</td>
+          <td>Nodes J, M, N, Q, R and T are leaf nodes.</td>
+      </tr>
+      <tr>
+          <td>Main line</td>
+          <td>Synonym for → main variation.</td>
+          <td>The main line consists of nodes A-J.</td>
+      </tr>
+      <tr>
+          <td>Main variation</td>
+          <td>The → game variation that consists of the main line of play, i.e. the game as it was actually played. The main variation is <strong>always</strong> rendered at the top of the → game tree.</td>
+          <td>The main variation consists of nodes A-J.</td>
+      </tr>
+      <tr>
+          <td>Node</td>
+          <td>The basic unit of the → game tree. A node is a container for information such as the move that was played, <a
   class="gdoc-markdown__link"
   href="/game-editing/annotations/"
 >annotations</a> explaining the node content, or <a
   class="gdoc-markdown__link"
   href="/game-editing/annotations/"
 >markup</a> to be drawn on the board to highlight a stone or group of stones.</td>
-<td></td>
-</tr>
-<tr>
-<td>Parent node</td>
-<td>The predecessor → node of another node. The only node that does not have a parent node is the → root node. All nodes except → leaf nodes are parent nodes.</td>
-<td>All nodes except the leaf nodes J, M, N, Q, R and T are parent nodes.</td>
-</tr>
-<tr>
-<td>Root node</td>
-<td>The → node located at the root of the → game tree. The root node represents the start of the game. Instead of a move it contains information such as komi, handicap or <a
+          <td></td>
+      </tr>
+      <tr>
+          <td>Parent node</td>
+          <td>The predecessor → node of another node. The only node that does not have a parent node is the → root node. All nodes except → leaf nodes are parent nodes.</td>
+          <td>All nodes except the leaf nodes J, M, N, Q, R and T are parent nodes.</td>
+      </tr>
+      <tr>
+          <td>Root node</td>
+          <td>The → node located at the root of the → game tree. The root node represents the start of the game. Instead of a move it contains information such as komi, handicap or <a
   class="gdoc-markdown__link"
   href="/game-editing/board-setup/"
 >board setup</a>.</td>
-<td>Node A is the root node.</td>
-</tr>
-<tr>
-<td>Sibling node</td>
-<td>A → child node that shares a common → parent node with another child node.</td>
-<td>Nodes C, O, R are siblings. Nodes E and K are siblings. Nodes Q and S are siblings. Nodes I and N are siblings.</td>
-</tr>
-</tbody>
+          <td>Node A is the root node.</td>
+      </tr>
+      <tr>
+          <td>Sibling node</td>
+          <td>A → child node that shares a common → parent node with another child node.</td>
+          <td>Nodes C, O, R are siblings. Nodes E and K are siblings. Nodes Q and S are siblings. Nodes I and N are siblings.</td>
+      </tr>
+  </tbody>
 </table> </div>
 <div class="flex align-center gdoc-page__anchorwrap">
     <h2 id="the-tree-view"
@@ -3177,7 +3275,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>The tree view shares the available vertical space with the game board and possibly some other views. Just above the tree view there is a small translucent bar (outlined in the illustraton with a red rectangle) that you can tap and drag up or down to resize the tree view.</p>
 <p>If you do not need the tree view at all you can turn it off in the Settings <svg class="gdoc-icon settings"><use xlink:href="#settings"></use></svg> user interface area under &ldquo;Tree view &gt; Display tree view&rdquo;.</p>
@@ -3198,16 +3296,23 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 <div class="gdoc-expand">
-  <label class="gdoc-expand__head flex justify-between" for="4cd009ce-2">
+  <label class="gdoc-expand__head flex justify-between" for="2ceb9bdb-2">
     <span>Resize animation - tap to expand</span>
     <span>↕</span>
   </label>
-  <input id="4cd009ce-2" type="checkbox" class="gdoc-expand__control hidden" />
+  <input id="2ceb9bdb-2" type="checkbox" class="gdoc-expand__control hidden" />
   <div class="gdoc-markdown--nested gdoc-expand__content">
-    <video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/resize-tree-view-animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+      <div class="flex justify-center">
+    <figure class="gdoc-markdown__figure">
+      <video preload="auto" controls autoplay loop>
+        <source src="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/resize-tree-view-animation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+        <figcaption>
+          Resize animation
+        </figcaption>
+    </figure>
+  </div>
   </div>
 </div>
 </div>
@@ -3227,7 +3332,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       This is how the <strong>diagonal</strong> branching style looks like. It is the default style because it results in a compact rendering of the game tree with as few rows as possible.</div>
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
@@ -3252,11 +3357,12 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>This is how the <strong>right-angle</strong> branching style looks like.</p>
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">The illustraton shows exactly the same game tree as the previous illustraton for the diagonal branching style.</div>
 </blockquote>
 <p>The advantage of this style is that if there are many branches close to each other it can result in a game tree that is more easily readable. The drawback is that the game tree can take up a lot more vertical space than the diagonal branching style.</p>
@@ -3301,7 +3407,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>As can be seen in the next illustration, the tree view displays a header with numbers at the top. This is used to number the nodes in the game tree, indicating their distance from the root node. The root node therefore has node number 0 (zero).</p>
 <p>As long as the game tree is shown in its default tabular fashion, the node number can also be understood as the table column number.</p>
@@ -3328,20 +3434,18 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">In a game tree where all nodes contain a move, the node number and the move number are the same.</div>
 </blockquote>
 
 
 
 
-
-
 <blockquote class="gdoc-hint tip">
-  <div class="gdoc-hint__title flex align-center"><i class="fa tip" title="Tip"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa tip"></i>
+      <span>Tip</span></div>
   <div class="gdoc-hint__text">The header with node numbers remains visible at all times, even when you scroll the tree view downwards.</div>
 </blockquote>
 
@@ -3357,7 +3461,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>At any given time one of the variations in the game tree is selected, and one of the nodes within that game variation is selected. The tree view uses the color red to indicate the current selection:</p>
 <ul>
@@ -3388,7 +3492,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
@@ -3445,10 +3549,9 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-
-
 <blockquote class="gdoc-hint tip">
-  <div class="gdoc-hint__title flex align-center"><i class="fa tip" title="Tip"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa tip"></i>
+      <span>Tip</span></div>
   <div class="gdoc-hint__text">You can tap on a node to make it the currently selected node. If the currently selected game variation does not contain the newly selected node, then the first game variation that contains the node becomes the currently selected game variation.</div>
 </blockquote>
 
@@ -3471,15 +3574,15 @@ This manual page introduces the concept of a “game tree” to organize game va
 </ul>
 <p>The following table documents all the possible symbols and their meanings.</p>
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th>Symbol</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><div class="flex justify-center">
+  <thead>
+      <tr>
+          <th>Symbol</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-komi.jpg">
         <picture>
@@ -3492,10 +3595,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A root node that contains a komi value greater than zero. The node does not contain setup, annotations or markup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A root node that contains a komi value greater than zero. The node does not contain setup, annotations or markup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-handicap.jpg">
         <picture>
@@ -3508,10 +3611,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A root node that contains a handicap value greater than zero. The node does not contain setup, annotations or markup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A root node that contains a handicap value greater than zero. The node does not contain setup, annotations or markup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-handicap-komi.jpg">
         <picture>
@@ -3524,10 +3627,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A root node that contains both a handicap and a komi value greater than zero. The node does not contain setup, annotations or markup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A root node that contains both a handicap and a komi value greater than zero. The node does not contain setup, annotations or markup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-root.jpg">
         <picture>
@@ -3540,10 +3643,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A plain root node without handicap, komi or any other content.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A plain root node without handicap, komi or any other content.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-move-black.jpg">
         <picture>
@@ -3556,10 +3659,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains a black move. In addition the node may contain annotations and/or markup, but no setup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains a black move. In addition the node may contain annotations and/or markup, but no setup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-move-white.jpg">
         <picture>
@@ -3572,10 +3675,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains a white move. In addition the node may contain annotations and/or markup, but no setup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains a white move. In addition the node may contain annotations and/or markup, but no setup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-annotation.jpg">
         <picture>
@@ -3588,10 +3691,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains annotations. The node does not contain a move, setup or markup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains annotations. The node does not contain a move, setup or markup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-markup.jpg">
         <picture>
@@ -3604,10 +3707,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains markup. The node does not contain a move, setup or annotations.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains markup. The node does not contain a move, setup or annotations.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-annotation-markup.jpg">
         <picture>
@@ -3620,10 +3723,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains both annotations and markup. The node does not contain a move or setup.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains both annotations and markup. The node does not contain a move or setup.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-black.jpg">
         <picture>
@@ -3636,10 +3739,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains black setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains black setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-white.jpg">
         <picture>
@@ -3652,10 +3755,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains white setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains white setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-clear.jpg">
         <picture>
@@ -3668,10 +3771,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-black-white.jpg">
         <picture>
@@ -3684,10 +3787,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains black and white setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains black and white setup stones. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-black-clear.jpg">
         <picture>
@@ -3700,10 +3803,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains black setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains black setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-white-clear.jpg">
         <picture>
@@ -3716,10 +3819,10 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains white setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-<tr>
-<td><div class="flex justify-center">
+          <td>A node that contains white setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+      <tr>
+          <td><div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/node-symbol-setup-black-white-clear.jpg">
         <picture>
@@ -3732,17 +3835,16 @@ This manual page introduces the concept of a “game tree” to organize game va
     </figure>
   </div>
 </td>
-<td>A node that contains black and white setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
-</tr>
-</tbody>
+          <td>A node that contains black and white setup stones and also clears setup stones from a previous node. In addition the node may contain annotations and/or markup, but no move.</td>
+      </tr>
+  </tbody>
 </table> </div>
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text"><p>The app currently does not support creating the following nodes:</p>
 <ul>
 <li>A node that contains only annotations and/or markup but no move.</li>
@@ -3765,30 +3867,37 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>To create a game variation you first have to go back in the main line to a node that contains an older move. When you make a move now, the app creates a new game variation with the move you just made as the first move of the branch that deviates from the main line.</p>
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">By default new game variations are inserted below the current game variation. You can change the location in the Settings <svg class="gdoc-icon settings"><use xlink:href="#settings"></use></svg> user interface area under &ldquo;Game variations &gt; New game variation insert position&rdquo;.</div>
 </blockquote>
 <p>In the following animation the user can be seen to go back to move 2 after playing move 4. When the user then plays a new move a new game variation is inserted with the new move being move 3. Another game variation is created when the user goes back to the root node and plays a move there.</p>
 </div>
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
-      <video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/create-new-game-variation-animation.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+        <div class="flex justify-center">
+    <figure class="gdoc-markdown__figure">
+      <video preload="auto" controls autoplay loop>
+        <source src="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/create-new-game-variation-animation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+        <figcaption>
+          Creating a new game variation
+        </figcaption>
+    </figure>
+  </div>
 </div>
 </div>
-
-
 
 
 
 
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text"><p>If you do not want to play with game variations you can turn the feature off in the Settings <svg class="gdoc-icon settings"><use xlink:href="#settings"></use></svg> user interface area under &ldquo;Game variations &gt; Move creates new game variation when future nodes exist&rdquo;.</p>
 <p>When the setting is disabled the app instead discards future nodes in the current game variation and replaces them with the new move.</p>
 </div>
@@ -3817,7 +3926,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
@@ -3864,12 +3973,11 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Node numbering notes"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Node numbering notes</span></div>
   <div class="gdoc-hint__text"><p>When move nodes are aligned their node number within the game variation does not change. The consequence is that when the &ldquo;Align moves&rdquo; setting is enabled node numbering takes place only for the current game variation.</p>
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       The following illustration shows that in game variation 2 the node with move number 1 still has node number 3 (compare to original illustration without move alignment).</div>
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
@@ -3906,7 +4014,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
@@ -3952,10 +4060,9 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Node numbering notes"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Node numbering notes</span></div>
   <div class="gdoc-hint__text"><p>When move nodes are condensed the horizontal positioning of nodes can greatly vary and it is no longer possible to uniformly number nodes across all game variations in a tabular fashion. The consequence is that when the &ldquo;Condense moves&rdquo; setting is enabled node numbering takes place only for the current game variation.</p>
 <p>In addition, the node number of a condensed move node takes up more space than the node it is numbering. This becomes more evident when node numbers have 2, 3 or even 4 digits. Because of this there are gaps in numbering consecutive condensed move nodes, as can be seen above in the second illustration.</p>
 </div>
@@ -3979,7 +4086,7 @@ This manual page introduces the concept of a “game tree” to organize game va
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <div class="flex align-center gdoc-page__anchorwrap">
     <h4 id="focus-mode-scroll-to-make-visible"
@@ -3993,16 +4100,23 @@ This manual page introduces the concept of a “game tree” to organize game va
 <p>Condition: The node tree view focus-scrolls only if the newly selected node is currently not visible, or only partially visible.</p>
 <p>Action: The view scrolls just enough to make the newly selected node fully visible <strong>at one of the view&rsquo;s edges</strong>.</p>
 <div class="gdoc-expand">
-  <label class="gdoc-expand__head flex justify-between" for="0f735d53-0">
+  <label class="gdoc-expand__head flex justify-between" for="933b41ad-0">
     <span>Animation - tap to expand</span>
     <span>↕</span>
   </label>
-  <input id="0f735d53-0" type="checkbox" class="gdoc-expand__control hidden" />
+  <input id="933b41ad-0" type="checkbox" class="gdoc-expand__control hidden" />
   <div class="gdoc-markdown--nested gdoc-expand__content">
-    <video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-make-visible.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+      <div class="flex justify-center">
+    <figure class="gdoc-markdown__figure">
+      <video preload="auto" controls autoplay loop>
+        <source src="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/focus-mode-scroll-to-make-visible.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+        <figcaption>
+          Focus mode &#34;Scroll to make visible&#34;
+        </figcaption>
+    </figure>
+  </div>
   </div>
 </div>
 </div>
@@ -4019,16 +4133,23 @@ This manual page introduces the concept of a “game tree” to organize game va
 <p>Condition: The node tree view focus-scrolls only if the newly selected node is currently not visible, or only partially visible.</p>
 <p>Action: The view scrolls to make the newly selected node fully visible <strong>at the center of the view</strong>.</p>
 <div class="gdoc-expand">
-  <label class="gdoc-expand__head flex justify-between" for="2f833192-1">
+  <label class="gdoc-expand__head flex justify-between" for="82115c4b-1">
     <span>Animation - tap to expand</span>
     <span>↕</span>
   </label>
-  <input id="2f833192-1" type="checkbox" class="gdoc-expand__control hidden" />
+  <input id="82115c4b-1" type="checkbox" class="gdoc-expand__control hidden" />
   <div class="gdoc-markdown--nested gdoc-expand__content">
-    <video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-make-visible-centered.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+      <div class="flex justify-center">
+    <figure class="gdoc-markdown__figure">
+      <video preload="auto" controls autoplay loop>
+        <source src="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/focus-mode-scroll-to-make-visible-centered.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+        <figcaption>
+          Focus mode &#34;Scroll to make visible centered&#34;
+        </figcaption>
+    </figure>
+  </div>
   </div>
 </div>
 </div>
@@ -4045,16 +4166,23 @@ This manual page introduces the concept of a “game tree” to organize game va
 <p>Condition: None. The node tree view always focus-scrolls, even if the newly selected node is already fully visible.</p>
 <p>Action: The view scrolls to show the newly selected node fully visible <strong>at the center of the view</strong>.</p>
 <div class="gdoc-expand">
-  <label class="gdoc-expand__head flex justify-between" for="2a3c4c77-2">
+  <label class="gdoc-expand__head flex justify-between" for="3aca5f32-2">
     <span>Animation - tap to expand</span>
     <span>↕</span>
   </label>
-  <input id="2a3c4c77-2" type="checkbox" class="gdoc-expand__control hidden" />
+  <input id="3aca5f32-2" type="checkbox" class="gdoc-expand__control hidden" />
   <div class="gdoc-markdown--nested gdoc-expand__content">
-    <video width=100% controls autoplay loop style="margin: 1%">
-  <source src="game-variations/focus-mode-scroll-to-center.mp4" type="video/mp4">
-  Your browser does not support the video tag.  
-</video>
+      <div class="flex justify-center">
+    <figure class="gdoc-markdown__figure">
+      <video preload="auto" controls autoplay loop>
+        <source src="https://littlego-usermanual.herzbube.ch/game-organization/game-variations/focus-mode-scroll-to-center.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+        <figcaption>
+          Focus mode &#34;Scroll to center (even if visible)&#34;
+        </figcaption>
+    </figure>
+  </div>
   </div>
 </div>
 </div>
@@ -4389,6 +4517,72 @@ This manual page introduces the concept of a “game tree” to organize game va
   
 
   
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
   
     
 
@@ -5483,7 +5677,5 @@ This manual page introduces the concept of a “game tree” to organize game va
     </div>
 
     
-  <script defer src="/js/search-95c697e2.bundle.min.js"></script>
-
   </body>
 </html>

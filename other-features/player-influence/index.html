@@ -9,7 +9,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.161.1">
 
 
   <meta name="description" content="The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&rsquo;s influence and displays an indication of that estimate." />
@@ -56,18 +56,18 @@
       "@type": "TechArticle",
       "articleSection": "Other Features",
       "name": "Player influence",
-      "url" : "https://littlego-usermanual.herzbube.ch/other-features/player-influence/",
+      "url": "https://littlego-usermanual.herzbube.ch/other-features/player-influence/",
       "headline": "Player influence",
       "description": "The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player’s influence and displays an indication of that estimate.",
-      "wordCount" : "837",
+      "wordCount": "839",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://littlego-usermanual.herzbube.ch/other-features/player-influence/"
       },
-      "copyrightHolder" : "Little Go User Manual",
-      "copyrightYear" : "0001",
+      "copyrightHolder": "Little Go User Manual",
+      "copyrightYear": "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
       "dateModified": "0001-01-01T00:00:00.00Z",
@@ -87,8 +87,8 @@
 
 
     
-  <script src="/js/colortheme-5cd55a83.bundle.min.js"></script>
-<script src="/js/main-09678822.bundle.min.js"></script>
+  <script src="/js/colortheme-6c1bf822.bundle.min.js"></script>
+<script src="/js/main-1b467c45.bundle.min.js"></script>
 
 <link
   rel="preload"
@@ -107,34 +107,34 @@
 
 <link
   rel="preload"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   media="all"
 />
 
 <link
   rel="preload"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   media="screen and (max-width: 45rem)"
 />
 
 <link
   rel="preload"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   media="print"
 />
 
@@ -157,6 +157,10 @@
   </head>
 
   <body itemscope itemtype="https://schema.org/WebPage">
+    <div class="w-full flex justify-center">
+      <a href="#main-content" id="gdoc-to-main" class="gdoc-markdown__link">Skip to main content</a>
+    </div>
+
     
   <!-- geekdoc include: /sprites/about.svg -->
   <svg class="svg-sprite" width="0" height="0" class="hidden">
@@ -979,41 +983,44 @@
     <div
       class="wrapper "
     >
-      <input type="checkbox" class="hidden" id="menu-control" />
-      <input type="checkbox" class="hidden" id="menu-header-control" />
       
       <header class="gdoc-header">
   <div class="container flex align-center justify-between">
     
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>Open Navigation</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>Close Navigation</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
+      <label for="menu-control" class="gdoc-nav__control">
+        <div tabindex="0" role="button" aria-pressed="false">
+          <input type="checkbox" class="hidden" id="menu-control" />
+
+          <svg class="gdoc-icon gdoc_menu">
+            <title>Open Navigation</title>
+            <use xlink:href="#gdoc_menu"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_arrow_back">
+            <title>Close Navigation</title>
+            <use xlink:href="#gdoc_arrow_back"></use>
+          </svg>
+        </div>
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://littlego-usermanual.herzbube.ch/">
-        <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="/brand.svg"
-            alt=""
-          />
-          <span class="gdoc-brand__title">Little Go User Manual</span>
-        </span>
+      <a class="gdoc-brand gdoc-header__link flex gap-16 align-center" href="https://littlego-usermanual.herzbube.ch/">
+        <img
+          class="gdoc-brand__img"
+          src="/brand.svg"
+          alt=""
+        />
+        <div>
+          <div class="gdoc-brand__title">Little Go User Manual</div>
+          
+        </div>
       </a>
     </div>
-    <div class="gdoc-menu-header">
+    <div class="gdoc-menu-header flex gap-16">
       <span class="gdoc-menu-header__items">
         
 
 
-        <span id="gdoc-color-theme">
+        <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
           <svg class="gdoc-icon gdoc_brightness_dark">
             <title>Toggle Dark/Light/Auto mode</title>
             <use xlink:href="#gdoc_brightness_dark"></use>
@@ -1039,23 +1046,24 @@
 
         
 
+      </span>
+      <span class="gdoc-menu-header__control">
+        <label for="menu-header-control">
+          <div tabindex="0" role="button" aria-pressed="false">
+            <input type="checkbox" class="hidden" id="menu-header-control" />
 
-
-        <span class="gdoc-menu-header__control">
-          <label for="menu-header-control">
             <svg class="gdoc-icon gdoc_keyboard_arrow_right">
               <use xlink:href="#gdoc_keyboard_arrow_right"></use>
               <title>Close Menu Bar</title>
             </svg>
-          </label>
-        </span>
+
+            <svg class="gdoc-icon gdoc_keyboard_arrow_left">
+              <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+              <title>Open Menu Bar</title>
+            </svg>
+          </div>
+        </label>
       </span>
-      <label for="menu-header-control" class="gdoc-menu-header__control">
-        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
-          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-          <title>Open Menu Bar</title>
-        </svg>
-      </label>
     </div>
   </div>
 </header>
@@ -1067,7 +1075,7 @@
           <aside class="gdoc-nav">
             <nav>
   
-  <div class="gdoc-search flex align-center">
+  <script defer src="/js/search-14869ba5.bundle.min.js"></script><div class="gdoc-search flex align-center">
     <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
     <input
       type="text"
@@ -1219,7 +1227,7 @@
                     href="/ui-basics/tab-bar/"
                     class="gdoc-nav__entry"
                   >
-                    Tab bar at the bottom
+                    Tab bar
                   </a>
                 </span>
               
@@ -1670,6 +1678,94 @@
                     class="gdoc-nav__entry"
                   >
                     End of the game
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/game-result/"
+                    class="gdoc-nav__entry"
+                  >
+                    The game result
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/timed-play/"
+                    class="gdoc-nav__entry"
+                  >
+                    Timed play
                   </a>
                 </span>
               
@@ -2940,8 +3036,10 @@
 
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
+    id="main-content" tabindex="-1"
   >
     <h1>Player influence</h1>
+    
     <p>The goal of the game is to gain control over as much territory on the board as possible. At the beginnng of a game none of the players has yet full control over any territory, but by placing more and more of their stones they start to exert influence over some areas. The app has a feature that, when enabled, tries to estimate both player&rsquo;s influence and displays an indication of that estimate.</p>
 <p>Displaying player influence is disabled by default. You can enable it in the Settings <svg class="gdoc-icon settings"><use xlink:href="#settings"></use></svg> area of the app under &ldquo;Display &gt; Display player influence&rdquo;.</p>
 <div class="gdoc-toc gdoc-toc__level--6">
@@ -2968,11 +3066,12 @@
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>When the setting is turned on, most intersections on the board will start to show black and white squares of varying size. The <strong>color</strong> of the square indicates which player has more influence on that intersection, while the <strong>size</strong> of the square indicates the degree of influence that player has (the larger the square the more influence a player has). By looking at the influence squares on the entire board you can quickly estimate which parts of the board will end up being owned by which player.</p>
 <blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa important"></i>
+      <span>Important</span></div>
   <div class="gdoc-hint__text">Player influence is subjective - it is determined by what the computer player &ldquo;sees&rdquo; or &ldquo;thinks&rdquo;. Therefore, if you play against a weak computer player, the player influence being displayed may well be inaccurate, simply because the computer player in its weakness has missed a particularly good move. Even with a strong computer player, you should always take player influence with a grain of salt. <a
   class="gdoc-markdown__link"
   href="#technical-background"
@@ -3026,10 +3125,9 @@
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">The menu item is not shown when player influence cannot be re-calculated (e.g. during Scoring <svg class="gdoc-icon scoring"><use xlink:href="#scoring"></use></svg> mode) or, obviously, if the &ldquo;Display player influence&rdquo; setting is disabled.</div>
 </blockquote>
 
@@ -3388,6 +3486,72 @@
   
 
   
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
   
     
 
@@ -4482,7 +4646,5 @@
     </div>
 
     
-  <script defer src="/js/search-95c697e2.bundle.min.js"></script>
-
   </body>
 </html>

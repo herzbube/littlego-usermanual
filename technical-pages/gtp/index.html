@@ -9,7 +9,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.161.1">
 
 
   <meta name="description" content="The computer player in this app is powered by the open source software library Fuego (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.
@@ -59,18 +59,18 @@ In the Diagnostics area of the app there are a few items at the top of the scree
       "@type": "TechArticle",
       "articleSection": "Technical Pages",
       "name": "GTP Engine",
-      "url" : "https://littlego-usermanual.herzbube.ch/technical-pages/gtp/",
+      "url": "https://littlego-usermanual.herzbube.ch/technical-pages/gtp/",
       "headline": "GTP Engine",
       "description": "The computer player in this app is powered by the open source software library Fuego (external link). Behind the scenes the app and Fuego talk to each other via GTP - the Go Text Protocol. In the GTP context, Fuego is called the GTP engine, while the app is the GTP client.\nIn the Diagnostics area of the app there are a few items at the top of the screen that let you peek into what’s going on between GTP client (the app) and the GTP engine (Fuego).",
-      "wordCount" : "709",
+      "wordCount": "711",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://littlego-usermanual.herzbube.ch/technical-pages/gtp/"
       },
-      "copyrightHolder" : "Little Go User Manual",
-      "copyrightYear" : "0001",
+      "copyrightHolder": "Little Go User Manual",
+      "copyrightYear": "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
       "dateModified": "0001-01-01T00:00:00.00Z",
@@ -90,8 +90,8 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
 
     
-  <script src="/js/colortheme-5cd55a83.bundle.min.js"></script>
-<script src="/js/main-09678822.bundle.min.js"></script>
+  <script src="/js/colortheme-6c1bf822.bundle.min.js"></script>
+<script src="/js/main-1b467c45.bundle.min.js"></script>
 
 <link
   rel="preload"
@@ -110,34 +110,34 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
 <link
   rel="preload"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   media="all"
 />
 
 <link
   rel="preload"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   media="screen and (max-width: 45rem)"
 />
 
 <link
   rel="preload"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   media="print"
 />
 
@@ -160,6 +160,10 @@ In the Diagnostics area of the app there are a few items at the top of the scree
   </head>
 
   <body itemscope itemtype="https://schema.org/WebPage">
+    <div class="w-full flex justify-center">
+      <a href="#main-content" id="gdoc-to-main" class="gdoc-markdown__link">Skip to main content</a>
+    </div>
+
     
   <!-- geekdoc include: /sprites/about.svg -->
   <svg class="svg-sprite" width="0" height="0" class="hidden">
@@ -982,41 +986,44 @@ In the Diagnostics area of the app there are a few items at the top of the scree
     <div
       class="wrapper "
     >
-      <input type="checkbox" class="hidden" id="menu-control" />
-      <input type="checkbox" class="hidden" id="menu-header-control" />
       
       <header class="gdoc-header">
   <div class="container flex align-center justify-between">
     
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>Open Navigation</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>Close Navigation</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
+      <label for="menu-control" class="gdoc-nav__control">
+        <div tabindex="0" role="button" aria-pressed="false">
+          <input type="checkbox" class="hidden" id="menu-control" />
+
+          <svg class="gdoc-icon gdoc_menu">
+            <title>Open Navigation</title>
+            <use xlink:href="#gdoc_menu"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_arrow_back">
+            <title>Close Navigation</title>
+            <use xlink:href="#gdoc_arrow_back"></use>
+          </svg>
+        </div>
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://littlego-usermanual.herzbube.ch/">
-        <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="/brand.svg"
-            alt=""
-          />
-          <span class="gdoc-brand__title">Little Go User Manual</span>
-        </span>
+      <a class="gdoc-brand gdoc-header__link flex gap-16 align-center" href="https://littlego-usermanual.herzbube.ch/">
+        <img
+          class="gdoc-brand__img"
+          src="/brand.svg"
+          alt=""
+        />
+        <div>
+          <div class="gdoc-brand__title">Little Go User Manual</div>
+          
+        </div>
       </a>
     </div>
-    <div class="gdoc-menu-header">
+    <div class="gdoc-menu-header flex gap-16">
       <span class="gdoc-menu-header__items">
         
 
 
-        <span id="gdoc-color-theme">
+        <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
           <svg class="gdoc-icon gdoc_brightness_dark">
             <title>Toggle Dark/Light/Auto mode</title>
             <use xlink:href="#gdoc_brightness_dark"></use>
@@ -1042,23 +1049,24 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
         
 
+      </span>
+      <span class="gdoc-menu-header__control">
+        <label for="menu-header-control">
+          <div tabindex="0" role="button" aria-pressed="false">
+            <input type="checkbox" class="hidden" id="menu-header-control" />
 
-
-        <span class="gdoc-menu-header__control">
-          <label for="menu-header-control">
             <svg class="gdoc-icon gdoc_keyboard_arrow_right">
               <use xlink:href="#gdoc_keyboard_arrow_right"></use>
               <title>Close Menu Bar</title>
             </svg>
-          </label>
-        </span>
+
+            <svg class="gdoc-icon gdoc_keyboard_arrow_left">
+              <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+              <title>Open Menu Bar</title>
+            </svg>
+          </div>
+        </label>
       </span>
-      <label for="menu-header-control" class="gdoc-menu-header__control">
-        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
-          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-          <title>Open Menu Bar</title>
-        </svg>
-      </label>
     </div>
   </div>
 </header>
@@ -1070,7 +1078,7 @@ In the Diagnostics area of the app there are a few items at the top of the scree
           <aside class="gdoc-nav">
             <nav>
   
-  <div class="gdoc-search flex align-center">
+  <script defer src="/js/search-14869ba5.bundle.min.js"></script><div class="gdoc-search flex align-center">
     <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
     <input
       type="text"
@@ -1222,7 +1230,7 @@ In the Diagnostics area of the app there are a few items at the top of the scree
                     href="/ui-basics/tab-bar/"
                     class="gdoc-nav__entry"
                   >
-                    Tab bar at the bottom
+                    Tab bar
                   </a>
                 </span>
               
@@ -1673,6 +1681,94 @@ In the Diagnostics area of the app there are a few items at the top of the scree
                     class="gdoc-nav__entry"
                   >
                     End of the game
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/game-result/"
+                    class="gdoc-nav__entry"
+                  >
+                    The game result
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/timed-play/"
+                    class="gdoc-nav__entry"
+                  >
+                    Timed play
                   </a>
                 </span>
               
@@ -2943,8 +3039,10 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
+    id="main-content" tabindex="-1"
   >
     <h1>GTP Engine</h1>
+    
     <p>The computer player in this app is powered by the open source software library <a
   class="gdoc-markdown__link"
   href="http://fuego.sourceforge.net/"
@@ -2953,14 +3051,15 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>The &ldquo;GTP log&rdquo; item calls up <a
   class="gdoc-markdown__link"
   href="#gtp-log"
 >a screen</a> where you can observe the flow of communication between GTP client and engine. You can even interfere with it by injecting your own GTP commands.</p>
 <blockquote class="gdoc-hint warning">
-  <div class="gdoc-hint__title flex align-center"><i class="fa warning" title="Warning"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa warning"></i>
+      <span>Warning</span></div>
   <div class="gdoc-hint__text">Be careful not to disrupt normal operations! If things go badly you may need to force-quit the app and, in the worst case, you may even lose the game that is currently in progress. Games saved in the archive are never affected by GTP commands, though.</div>
 </blockquote>
 <p>The &ldquo;GTP commands&rdquo; item calls up a screen where you can <a
@@ -2975,10 +3074,10 @@ In the Diagnostics area of the app there are a few items at the top of the scree
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hub33c048a808fe329ab3f17daf68f133c_56176_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hub33c048a808fe329ab3f17daf68f133c_56176_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hu_8794a1f424ef3b2b.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hu_90796b65fbac0935.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hub33c048a808fe329ab3f17daf68f133c_56176_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp_hu_3ff88867e886aca8.jpg"
               alt="GTP-related items in the Diagnostics area of the app"
           />
         </picture>
@@ -3003,7 +3102,7 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>The &ldquo;GTP log&rdquo; screen displays the last 100 GTP commands sent, and the responses received. The log size can be changed in the Diagnostics <svg class="gdoc-icon diagnostics"><use xlink:href="#diagnostics"></use></svg> area of the app under &ldquo;Settings &gt; GTP log size&rdquo;.</p>
 <p>Commands are listed in the order in which they were submitted by the GTP client. The most recent command appears at the bottom of the log. The log is dynamically updated when a new GTP command/response is submitted to or received from the GTP engine. You can empty the log in the Diagnostics <svg class="gdoc-icon diagnostics"><use xlink:href="#diagnostics"></use></svg> area of the app under &ldquo;Settings &gt; Clear GTP log&rdquo;.</p>
@@ -3025,10 +3124,10 @@ In the Diagnostics area of the app there are a few items at the top of the scree
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hub33c048a808fe329ab3f17daf68f133c_159844_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hub33c048a808fe329ab3f17daf68f133c_159844_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hu_d318397e94bed513.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hu_8622fe1c17dd270.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hub33c048a808fe329ab3f17daf68f133c_159844_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/gtp/gtp-log_hu_7bb11486cb78acd1.jpg"
               alt="GTP Log screen"
           />
         </picture>
@@ -3065,10 +3164,9 @@ In the Diagnostics area of the app there are a few items at the top of the scree
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">Commands are submitted in the &ldquo;GTP log&rdquo; screen.</div>
 </blockquote>
 
@@ -3403,6 +3501,72 @@ In the Diagnostics area of the app there are a few items at the top of the scree
   
 
   
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
   
     
 
@@ -4497,7 +4661,5 @@ In the Diagnostics area of the app there are a few items at the top of the scree
     </div>
 
     
-  <script defer src="/js/search-95c697e2.bundle.min.js"></script>
-
   </body>
 </html>

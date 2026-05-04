@@ -9,7 +9,7 @@
 <meta name="referrer" content="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="color-scheme" content="light dark" />
-<meta name="generator" content="Hugo 0.124.1">
+<meta name="generator" content="Hugo 0.161.1">
 
 
   <meta name="description" content="Items listed in the Archive area of the app (see The game archive) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. External link to SGF specification.
@@ -59,18 +59,18 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       "@type": "TechArticle",
       "articleSection": "Technical Pages",
       "name": "Smart Game Format (SGF)",
-      "url" : "https://littlego-usermanual.herzbube.ch/technical-pages/sgf/",
+      "url": "https://littlego-usermanual.herzbube.ch/technical-pages/sgf/",
       "headline": "Smart Game Format (SGF)",
       "description": "Items listed in the Archive area of the app (see The game archive) are games saved in the Smart Game Format, which is generally abbreviated to SGF. The format is decades old and widely used to store and transfer Go games between computer systems. External link to SGF specification.\nThe app internally uses a software package named SGFC (the SGF Syntax Checker \u0026 Converter) to load and save SGF data. External link to SGFC website.",
-      "wordCount" : "2619",
+      "wordCount": "2623",
       "inLanguage": "en",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": "https://littlego-usermanual.herzbube.ch/technical-pages/sgf/"
       },
-      "copyrightHolder" : "Little Go User Manual",
-      "copyrightYear" : "0001",
+      "copyrightHolder": "Little Go User Manual",
+      "copyrightYear": "0001",
       "dateCreated": "0001-01-01T00:00:00.00Z",
       "datePublished": "0001-01-01T00:00:00.00Z",
       "dateModified": "0001-01-01T00:00:00.00Z",
@@ -90,8 +90,8 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 
     
-  <script src="/js/colortheme-5cd55a83.bundle.min.js"></script>
-<script src="/js/main-09678822.bundle.min.js"></script>
+  <script src="/js/colortheme-6c1bf822.bundle.min.js"></script>
+<script src="/js/main-1b467c45.bundle.min.js"></script>
 
 <link
   rel="preload"
@@ -110,34 +110,34 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 <link
   rel="preload"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/main-a559ecaa.min.css"
+  href="/main-ce430795.min.css"
   media="all"
 />
 
 <link
   rel="preload"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/mobile-79ddc617.min.css"
+  href="/mobile-7885c8a8.min.css"
   media="screen and (max-width: 45rem)"
 />
 
 <link
   rel="preload"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   as="style"
 />
 <link
   rel="stylesheet"
-  href="/print-735ccc12.min.css"
+  href="/print-72068949.min.css"
   media="print"
 />
 
@@ -160,6 +160,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
   </head>
 
   <body itemscope itemtype="https://schema.org/WebPage">
+    <div class="w-full flex justify-center">
+      <a href="#main-content" id="gdoc-to-main" class="gdoc-markdown__link">Skip to main content</a>
+    </div>
+
     
   <!-- geekdoc include: /sprites/about.svg -->
   <svg class="svg-sprite" width="0" height="0" class="hidden">
@@ -982,41 +986,44 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
     <div
       class="wrapper "
     >
-      <input type="checkbox" class="hidden" id="menu-control" />
-      <input type="checkbox" class="hidden" id="menu-header-control" />
       
       <header class="gdoc-header">
   <div class="container flex align-center justify-between">
     
-      <label for="menu-control" class="gdoc-nav__control" tabindex="0">
-        <svg class="gdoc-icon gdoc_menu">
-          <title>Open Navigation</title>
-          <use xlink:href="#gdoc_menu"></use>
-        </svg>
-        <svg class="gdoc-icon gdoc_arrow_back">
-          <title>Close Navigation</title>
-          <use xlink:href="#gdoc_arrow_back"></use>
-        </svg>
+      <label for="menu-control" class="gdoc-nav__control">
+        <div tabindex="0" role="button" aria-pressed="false">
+          <input type="checkbox" class="hidden" id="menu-control" />
+
+          <svg class="gdoc-icon gdoc_menu">
+            <title>Open Navigation</title>
+            <use xlink:href="#gdoc_menu"></use>
+          </svg>
+          <svg class="gdoc-icon gdoc_arrow_back">
+            <title>Close Navigation</title>
+            <use xlink:href="#gdoc_arrow_back"></use>
+          </svg>
+        </div>
       </label>
     
     <div>
-      <a class="gdoc-brand gdoc-header__link" href="https://littlego-usermanual.herzbube.ch/">
-        <span class="flex align-center">
-          <img
-            class="gdoc-brand__img"
-            src="/brand.svg"
-            alt=""
-          />
-          <span class="gdoc-brand__title">Little Go User Manual</span>
-        </span>
+      <a class="gdoc-brand gdoc-header__link flex gap-16 align-center" href="https://littlego-usermanual.herzbube.ch/">
+        <img
+          class="gdoc-brand__img"
+          src="/brand.svg"
+          alt=""
+        />
+        <div>
+          <div class="gdoc-brand__title">Little Go User Manual</div>
+          
+        </div>
       </a>
     </div>
-    <div class="gdoc-menu-header">
+    <div class="gdoc-menu-header flex gap-16">
       <span class="gdoc-menu-header__items">
         
 
 
-        <span id="gdoc-color-theme">
+        <span id="gdoc-color-theme" tabindex="0" role="button" aria-pressed="false">
           <svg class="gdoc-icon gdoc_brightness_dark">
             <title>Toggle Dark/Light/Auto mode</title>
             <use xlink:href="#gdoc_brightness_dark"></use>
@@ -1042,23 +1049,24 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
         
 
+      </span>
+      <span class="gdoc-menu-header__control">
+        <label for="menu-header-control">
+          <div tabindex="0" role="button" aria-pressed="false">
+            <input type="checkbox" class="hidden" id="menu-header-control" />
 
-
-        <span class="gdoc-menu-header__control">
-          <label for="menu-header-control">
             <svg class="gdoc-icon gdoc_keyboard_arrow_right">
               <use xlink:href="#gdoc_keyboard_arrow_right"></use>
               <title>Close Menu Bar</title>
             </svg>
-          </label>
-        </span>
+
+            <svg class="gdoc-icon gdoc_keyboard_arrow_left">
+              <use xlink:href="#gdoc_keyboard_arrow_left"></use>
+              <title>Open Menu Bar</title>
+            </svg>
+          </div>
+        </label>
       </span>
-      <label for="menu-header-control" class="gdoc-menu-header__control">
-        <svg class="gdoc-icon gdoc_keyboard_arrow_left">
-          <use xlink:href="#gdoc_keyboard_arrow_left"></use>
-          <title>Open Menu Bar</title>
-        </svg>
-      </label>
     </div>
   </div>
 </header>
@@ -1070,7 +1078,7 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
           <aside class="gdoc-nav">
             <nav>
   
-  <div class="gdoc-search flex align-center">
+  <script defer src="/js/search-14869ba5.bundle.min.js"></script><div class="gdoc-search flex align-center">
     <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
     <input
       type="text"
@@ -1222,7 +1230,7 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
                     href="/ui-basics/tab-bar/"
                     class="gdoc-nav__entry"
                   >
-                    Tab bar at the bottom
+                    Tab bar
                   </a>
                 </span>
               
@@ -1673,6 +1681,94 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
                     class="gdoc-nav__entry"
                   >
                     End of the game
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/game-result/"
+                    class="gdoc-nav__entry"
+                  >
+                    The game result
+                  </a>
+                </span>
+              
+              
+            </label>
+
+            
+          </li>
+        
+      
+    
+      
+
+      
+        
+      
+
+      
+        
+          
+          
+          
+          
+          
+          
+
+
+          <li>
+            <input
+              type="checkbox"
+              
+                class="hidden"
+              
+            />
+            <label
+              
+            >
+              
+                <span class="flex">
+                  <a
+                    href="/playing-the-game/timed-play/"
+                    class="gdoc-nav__entry"
+                  >
+                    Timed play
                   </a>
                 </span>
               
@@ -2943,8 +3039,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
   <article
     class="gdoc-markdown gdoc-markdown__align--left"
+    id="main-content" tabindex="-1"
   >
     <h1>Smart Game Format (SGF)</h1>
+    
     <p>Items listed in the Archive <svg class="gdoc-icon archive"><use xlink:href="#archive"></use></svg> area of the app (see <a
   class="gdoc-markdown__link"
   href="/game-organization/game-archive/"
@@ -3056,7 +3154,7 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>Near the top of the screen is a section titled &ldquo;Load result&rdquo;. This shows you at a glance a summary of the messages generated by SGFC when it parsed the SGF data.</p>
 <p>Ideally the load result is &ldquo;0 warnings, 0 errors&rdquo;, which means that SGFC did not find any issues with the SGF data.</p>
@@ -3068,10 +3166,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hub33c048a808fe329ab3f17daf68f133c_21467_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hub33c048a808fe329ab3f17daf68f133c_21467_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hu_a0b0203634908ff4.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hu_4bdb4d60b2bfce9f.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hub33c048a808fe329ab3f17daf68f133c_21467_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-zero-warnings-and-errors_hu_c6ea02e4b860612f.jpg"
               alt="Load result with zero warnings and errors"
           />
         </picture>
@@ -3086,10 +3184,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hub33c048a808fe329ab3f17daf68f133c_19464_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hub33c048a808fe329ab3f17daf68f133c_19464_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hu_849202437c03cf19.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hu_e6e810b740d54123.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hub33c048a808fe329ab3f17daf68f133c_19464_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-warning-and-zero-errors_hu_c40b8d724335d9b9.jpg"
               alt="Load result with 1 warning and 0 errors"
           />
         </picture>
@@ -3104,10 +3202,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hub33c048a808fe329ab3f17daf68f133c_18219_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hub33c048a808fe329ab3f17daf68f133c_18219_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hu_8c96b2cc4d837876.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hu_89202dd5799f4739.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hub33c048a808fe329ab3f17daf68f133c_18219_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-one-fatal-error_hu_b13baec168996dca.jpg"
               alt="Load result with a fatal error"
           />
         </picture>
@@ -3124,17 +3222,17 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <div class="flex justify-center">
     <figure class="gdoc-markdown__figure">
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hub33c048a808fe329ab3f17daf68f133c_93504_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hub33c048a808fe329ab3f17daf68f133c_93504_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hu_6695c1c9ce3d5e77.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hu_134e1e9e51dbe988.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hub33c048a808fe329ab3f17daf68f133c_93504_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/load-result-details_hu_27b63714275357f1.jpg"
               alt="Load result details, listing all messages generated by SGFC"
           />
         </picture>
@@ -3151,10 +3249,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hub33c048a808fe329ab3f17daf68f133c_194851_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hub33c048a808fe329ab3f17daf68f133c_194851_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hu_33c0e339dd0d18b0.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hu_d30da40296fe59ff.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hub33c048a808fe329ab3f17daf68f133c_194851_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/message-details_hu_8c1ce8704dd7a71d.jpg"
               alt="Message details, showing low-level message data"
           />
         </picture>
@@ -3180,7 +3278,7 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>To let you deal with situations where you are unable to load an SGF file from an external source, the app offers various settings that influence the way how SGF data is processed when you load a game from the archive. The next sections on this page discuss the details of these settings.</p>
 <p>You find the settings in the Settings <svg class="gdoc-icon settings"><use xlink:href="#settings"></use></svg> area of the app under &ldquo;Smart Game Format (SGF)&rdquo;.</p>
@@ -3191,10 +3289,10 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hub33c048a808fe329ab3f17daf68f133c_84858_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hub33c048a808fe329ab3f17daf68f133c_84858_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hu_1fb6fbe397161268.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hu_641dfd9f1554cdef.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hub33c048a808fe329ab3f17daf68f133c_84858_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/sgf-settings_hu_76d74443d3fad997.jpg"
               alt="Smart Game Format (SGF) settings screen"
           />
         </picture>
@@ -3232,66 +3330,65 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">The default (and recommended) syntax checking level is Medium. It strikes a balance between indicating almost all SGFC messages (except some of the most common and trivial warnings) and still allowing most SGF files to be loaded (except those with critical SGFC messages).</div>
 </blockquote>
 
 <p>The following table shows how each syntax checking level maps to the individual settings.</p>
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th></th>
-<th>Minimal</th>
-<th>Medium</th>
-<th>Strict</th>
-<th>Maximum</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a
+  <thead>
+      <tr>
+          <th></th>
+          <th>Minimal</th>
+          <th>Medium</th>
+          <th>Strict</th>
+          <th>Maximum</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a
   class="gdoc-markdown__link"
   href="#load-success-type"
 >Load success type</a></td>
-<td>With critical warnings/errors</td>
-<td>No critical warnings/errors</td>
-<td>No warnings/errors</td>
-<td>No warnings/errors</td>
-</tr>
-<tr>
-<td><a
+          <td>With critical warnings/errors</td>
+          <td>No critical warnings/errors</td>
+          <td>No warnings/errors</td>
+          <td>No warnings/errors</td>
+      </tr>
+      <tr>
+          <td><a
   class="gdoc-markdown__link"
   href="#restrictive-checking"
 >Restrictive checking</a></td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td><a
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+      </tr>
+      <tr>
+          <td><a
   class="gdoc-markdown__link"
   href="#disable-all-warning-messages"
 >Disable all warning messages</a></td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td><a
+          <td>Yes</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+      </tr>
+      <tr>
+          <td><a
   class="gdoc-markdown__link"
   href="#disabled-messages"
 >Disabled messages</a></td>
-<td>17, 40, 55, 19, 60</td>
-<td>17, 40, 55, 19, 60</td>
-<td>17, 40, 55, 19, 60</td>
-<td>None</td>
-</tr>
-</tbody>
+          <td>17, 40, 55, 19, 60</td>
+          <td>17, 40, 55, 19, 60</td>
+          <td>17, 40, 55, 19, 60</td>
+          <td>None</td>
+      </tr>
+  </tbody>
 </table> </div>
 <div class="flex align-center gdoc-page__anchorwrap">
     <h3 id="load-success-type"
@@ -3305,26 +3402,26 @@ The app internally uses a software package named SGFC (the SGF Syntax Checker &a
 <p>This setting defines what kinds of warning and/or error messages may be present
 for the app to still accept SGF data and load it.</p>
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>No warnings/errors</td>
-<td>This is the strictest setting. The app only loads SGF data if the data is fully SGF conformant and there are no warnings or errors whatsoever.</td>
-</tr>
-<tr>
-<td>No critical warnings/errors</td>
-<td>This is a moderate setting and the recommended default. The app is allowed to load SGF data for which there are <em>some</em> warnings and/or errors, as long as they are not critical. SGF data with critical warnings and/or errors still cannot be loaded.</td>
-</tr>
-<tr>
-<td>With critical warnings/errors</td>
-<td>This is the most relaxed setting. It allows the app to load SGF data even if the SGF data has severe problems and there are critical warnings and/or errors.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Setting</th>
+          <th>Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>No warnings/errors</td>
+          <td>This is the strictest setting. The app only loads SGF data if the data is fully SGF conformant and there are no warnings or errors whatsoever.</td>
+      </tr>
+      <tr>
+          <td>No critical warnings/errors</td>
+          <td>This is a moderate setting and the recommended default. The app is allowed to load SGF data for which there are <em>some</em> warnings and/or errors, as long as they are not critical. SGF data with critical warnings and/or errors still cannot be loaded.</td>
+      </tr>
+      <tr>
+          <td>With critical warnings/errors</td>
+          <td>This is the most relaxed setting. It allows the app to load SGF data even if the SGF data has severe problems and there are critical warnings and/or errors.</td>
+      </tr>
+  </tbody>
 </table> </div>
 <div class="flex align-center gdoc-page__anchorwrap">
     <h4 id="force-loading-sgf-data"
@@ -3338,11 +3435,12 @@ for the app to still accept SGF data and load it.</p>
 
 
 
-<div class="gdoc-columns gdoc-columns--regular flex flex-gap flex-mobile-column">
+<div class="gdoc-columns gdoc-columns--regular flex gap-16 flex-mobile-column">
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
       <p>When you tap an archive item and the currently selected load success type causes the loading of SGF data to fail you will see an item &ldquo;No games available&rdquo;. Below that item there is a &ldquo;Force loading&rdquo; button that you can tap to override the app&rsquo;s decision to not load the SGF data.</p>
 <blockquote class="gdoc-hint important">
-  <div class="gdoc-hint__title flex align-center"><i class="fa important" title="Important"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa important"></i>
+      <span>Important</span></div>
   <div class="gdoc-hint__text">Fatal errors always cause the loading of SGF data to fail. SGF data with a fatal error cannot be force-loaded because it is broken in some fundamental way and cannot be parsed.</div>
 </blockquote></div>
     <div class="gdoc-columns__content gdoc-markdown--nested flex-even">
@@ -3351,10 +3449,10 @@ for the app to still accept SGF data and load it.</p>
       <a class="gdoc-markdown__link--raw" href="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading.jpg">
         <picture>
             <source
-                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hub33c048a808fe329ab3f17daf68f133c_104657_600x0_resize_q75_box.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hub33c048a808fe329ab3f17daf68f133c_104657_1200x0_resize_q75_box.jpg 1200w" sizes="100vw"
+                srcset="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hu_3cc7c5c2a43371e9.jpg 600w, https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hu_30856486f94d0fd4.jpg 1200w" sizes="100vw"
             />
           <img
-                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hub33c048a808fe329ab3f17daf68f133c_104657_1800x0_resize_q75_box.jpg"
+                src="https://littlego-usermanual.herzbube.ch/technical-pages/sgf/force-loading_hu_728664c0ab3bdfb.jpg"
               alt="Force loading an SGF file"
           />
         </picture>
@@ -3398,10 +3496,9 @@ for the app to still accept SGF data and load it.</p>
 
 
 
-
-
 <blockquote class="gdoc-hint warning">
-  <div class="gdoc-hint__title flex align-center"><i class="fa warning" title="Warning"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa warning"></i>
+      <span>Warning</span></div>
   <div class="gdoc-hint__text">This setting is somewhat dangerous as it blanks out many useful messages and even avoids warnings that are indicators for critical problems in the SGF data. Therefore enable this option only with care!</div>
 </blockquote>
 
@@ -3424,40 +3521,40 @@ for the app to still accept SGF data and load it.</p>
 >SGFC documentation</a> (external link).</p>
 <p>The app curates a short list of messages that are disabled by default. Here is the list with the reasons why the messages are disabled:</p>
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th>Message ID</th>
-<th>Message meaning</th>
-<th>Disable reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>17</td>
-<td>The SGF data contains an empty property value.</td>
-<td>In addition to warning about it, SGFC automatically deletes the property because without value it has no meaning. This kind of problem is harmless enough to ignore it.</td>
-</tr>
-<tr>
-<td>19</td>
-<td>The SGF data contains one or more games that are not Go games.</td>
-<td>This problem does not need to be reported as a message because the app automatically ignores all non-Go SGF data. In the extreme case that a valid SGF file does not contain any Go games at all, the app simply shows &ldquo;No games available&rdquo; on the &ldquo;View archive content&rdquo; screen.</td>
-</tr>
-<tr>
-<td>40</td>
-<td>The SGF data contains a property that is not defined in the version of the SGF standard denoted by the FF property in the SGF data.</td>
-<td>This inconsistency commonly occurs because the SGF data does not contain the FF property at all, which implies version 1 of the SGF standard, but in reality the SGF data contains version 4 standard properties. Seeing that the most recent version of the SGF standard, version 4, was published decades ago (in 1999) it seems safe to assume that modern-day SGF generating applications actually want to write version 4 SGF data but just forgot to include the FF[4] property.</td>
-</tr>
-<tr>
-<td>55</td>
-<td>The SGF data contains an empty node.</td>
-<td>Empty nodes are not a problem and can simply be ignored, which is why this message is disabled.</td>
-</tr>
-<tr>
-<td>60</td>
-<td>The SGF data contains more than one game tree.</td>
-<td>This problem does not need to be reported as a message because the app automatically presents all game trees to the user for loading on the &ldquo;View archive content&rdquo; screen (sections titled &ldquo;Game &lt;n&gt;&rdquo;), so there is no danger in surplus game trees beyond the first being skipped over.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Message ID</th>
+          <th>Message meaning</th>
+          <th>Disable reason</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>17</td>
+          <td>The SGF data contains an empty property value.</td>
+          <td>In addition to warning about it, SGFC automatically deletes the property because without value it has no meaning. This kind of problem is harmless enough to ignore it.</td>
+      </tr>
+      <tr>
+          <td>19</td>
+          <td>The SGF data contains one or more games that are not Go games.</td>
+          <td>This problem does not need to be reported as a message because the app automatically ignores all non-Go SGF data. In the extreme case that a valid SGF file does not contain any Go games at all, the app simply shows &ldquo;No games available&rdquo; on the &ldquo;View archive content&rdquo; screen.</td>
+      </tr>
+      <tr>
+          <td>40</td>
+          <td>The SGF data contains a property that is not defined in the version of the SGF standard denoted by the FF property in the SGF data.</td>
+          <td>This inconsistency commonly occurs because the SGF data does not contain the FF property at all, which implies version 1 of the SGF standard, but in reality the SGF data contains version 4 standard properties. Seeing that the most recent version of the SGF standard, version 4, was published decades ago (in 1999) it seems safe to assume that modern-day SGF generating applications actually want to write version 4 SGF data but just forgot to include the FF[4] property.</td>
+      </tr>
+      <tr>
+          <td>55</td>
+          <td>The SGF data contains an empty node.</td>
+          <td>Empty nodes are not a problem and can simply be ignored, which is why this message is disabled.</td>
+      </tr>
+      <tr>
+          <td>60</td>
+          <td>The SGF data contains more than one game tree.</td>
+          <td>This problem does not need to be reported as a message because the app automatically presents all game trees to the user for loading on the &ldquo;View archive content&rdquo; screen (sections titled &ldquo;Game &lt;n&gt;&rdquo;), so there is no danger in surplus game trees beyond the first being skipped over.</td>
+      </tr>
+  </tbody>
 </table> </div>
 <div class="flex align-center gdoc-page__anchorwrap">
     <h2 id="text-encoding-settings"
@@ -3482,44 +3579,43 @@ for the app to still accept SGF data and load it.</p>
 <p>This setting defines how the text encoding should be determined with which to
 interpret SGF data when it is loaded.</p>
 <div class="table-wrap"> <table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Single encoding</td>
-<td>This mode means that the SGF data is examined for CA properties that specify the text encoding to use. The first CA property that is found is used. If no CA property is found the <a
+  <thead>
+      <tr>
+          <th>Setting</th>
+          <th>Description</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Single encoding</td>
+          <td>This mode means that the SGF data is examined for CA properties that specify the text encoding to use. The first CA property that is found is used. If no CA property is found the <a
   class="gdoc-markdown__link"
   href="#default-encoding"
 >default text encoding</a> is used. All game trees in the entire SGF data are interpreted with the single text encoding that has been determined in this way.</td>
-<td></td>
-</tr>
-<tr>
-<td>Multiple enncodings</td>
-<td>This mode means that each game tree in the SGF data is interpreted separately with its own text encoding. If a game tree has a CA property the text encoding specified by that property is used. If a game tree has no CA property the <a
+          <td></td>
+      </tr>
+      <tr>
+          <td>Multiple enncodings</td>
+          <td>This mode means that each game tree in the SGF data is interpreted separately with its own text encoding. If a game tree has a CA property the text encoding specified by that property is used. If a game tree has no CA property the <a
   class="gdoc-markdown__link"
   href="#default-encoding"
 >default text encoding</a> is used.</td>
-<td></td>
-</tr>
-<tr>
-<td>Try both modes</td>
-<td>This setting means that the app first attempts to load the SGF data with the &ldquo;Single encoding&rdquo; mode. If this fails with a fatal error the app makes a second attempt with the &ldquo;Multiple encodings&rdquo; mode. This setting is intended to be used when most of the time you work with SGF data that contains a single encoding (i.e. &ldquo;Single encoding&rdquo; mode works fine), but occasionally you also work with SGF data that contains multiple encodings (i.e. &ldquo;Single encoding&rdquo; mode fails with a fatal error) and you don&rsquo;t want to go to the settings screen every time to switch between the two modes.</td>
-<td></td>
-</tr>
-</tbody>
+          <td></td>
+      </tr>
+      <tr>
+          <td>Try both modes</td>
+          <td>This setting means that the app first attempts to load the SGF data with the &ldquo;Single encoding&rdquo; mode. If this fails with a fatal error the app makes a second attempt with the &ldquo;Multiple encodings&rdquo; mode. This setting is intended to be used when most of the time you work with SGF data that contains a single encoding (i.e. &ldquo;Single encoding&rdquo; mode works fine), but occasionally you also work with SGF data that contains multiple encodings (i.e. &ldquo;Single encoding&rdquo; mode fails with a fatal error) and you don&rsquo;t want to go to the settings screen every time to switch between the two modes.</td>
+          <td></td>
+      </tr>
+  </tbody>
 </table> </div>
 
 
 
-
-
 <blockquote class="gdoc-hint note">
-  <div class="gdoc-hint__title flex align-center"><i class="fa note" title="Note"></i></div>
+  <div class="gdoc-hint__title flex gap-8 align-center"><i class="fa note"></i>
+      <span>Note</span></div>
   <div class="gdoc-hint__text">The &ldquo;Single encoding&rdquo; mode has the special property that it allows SGF data to be read that begins with a Unicode byte-order mark (BOM). If a BOM is found the BOM instead of the first CA property determines the text encoding to use. This is the <strong>ONLY</strong> way how UTF-16 or UTF-32 encoded SGF data can be loaded.</div>
 </blockquote>
 
@@ -3898,6 +3994,72 @@ interpret SGF data when it is loaded.</p>
   
 
   
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
+  
+    
+
+    
+      
+    
+
+    
+      
+      
+
+      
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+          
+        
+
+        
+        
+      
+    
+
   
     
 
@@ -4992,7 +5154,5 @@ interpret SGF data when it is loaded.</p>
     </div>
 
     
-  <script defer src="/js/search-95c697e2.bundle.min.js"></script>
-
   </body>
 </html>
